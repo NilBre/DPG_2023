@@ -152,7 +152,7 @@
 %Autor
 \author[N.Breer]{Nils Breer*, Sophie Hollitt, Johannes Albrecht}
 %Lehrstuhl/Fakultät
-\institute{Technische Universität Dortmund, Fakultät Physik}
+\institute{TU Dortmund, Fakultät Physik}
 %Titelgrafik muss ich einfueren!!!
 %\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
 \date{08.03.2023}
@@ -160,11 +160,18 @@
 \begin{document}
 \maketitle
 
-\begin{frame}\frametitle{Overview}
+\begin{frame}\frametitle{Overview and Motivation}
+$\textbf{Motivation}$
+  \begin{itemize}
+    \item $\bullet$\, Studying permormance of different alignments on run 256145 data
+    \item \to\, unexpected different results!
+    \item \to\, analysis of individual quarters
+  \end{itemize}
+$\textbf{Overview}$
   \begin{itemize}
     \item $\bullet$\, The SciFi Detector Upgrade
     \item $\bullet$\, Alignment how to
-    \item $\bullet$\, Analysis of SciFi quarters
+    \item $\bullet$\, Analysis of SciFi quarters in different alignment versions
   \end{itemize}
 \end{frame}
 
@@ -237,7 +244,7 @@
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
         \centering
-        \includegraphics[width=\columnwidth]{logos/kalman.png}
+        \includegraphics[width=0.9\textwidth]{logos/kalman.png}
         \caption{Alignment with Kalman Filter.}
       \end{figure}
     \end{column}
@@ -256,32 +263,26 @@
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
         \item V1:
-        \begin{itemize}
-          \item use full length Modules
-          \item alignable degrees of freedom: Tx Rz (x translation, rotation around z \to beam pipe axis)
-        \end{itemize}
+        \item use full length Modules
+        \item alignable degrees of freedom: Tx Rz (x translation, rotation around z \to beam pipe axis)
       \end{itemize}
     \end{column}
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
         \item $\text{low} \mu$:
-        \begin{itemize}
-          \item use half modules
-          \item uses VELO alignment on run 256145 data
-          \item $\mu =$ look it up
-        \end{itemize}
+        \item use half modules
+        \item uses VELO alignment on run 256145 data
+        \item $\mu =$ look it up
       \end{itemize}
     \end{column}
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
         \item V2:
-        \begin{itemize}
-          \item newest alignment version
-          \item half modules (top half and bottom half)
-          \item uses newest time alignment
-          \item utilizes VELO alignment from run 256145
-          \item $\mu \approx 2.26$ (value taken from run database)
-        \end{itemize}
+        \item newest alignment version
+        \item half modules (top half and bottom half)
+        \item uses newest time alignment
+        \item utilizes VELO alignment from run 256145
+        \item $\mu \approx 2.26$ (value taken from run database)
       \end{itemize}
     \end{column}
   \end{columns}
@@ -294,6 +295,24 @@
     \item $\bullet$\, v2 alignment shows improvements from v1 alignment but not across the whole SciFi
     \item $\bullet$\, find and resolve possible issues is easier
   \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Hit distribution per quarter in V1 and V2 alignment}
+  \begin{itemize}
+    \item $\bullet$\, V1(left)- and V2(right) alignment on 20000 events with run 256145 data
+    \item $\bullet$\, C-side: negative x direction, A-side: positive x
+    \item $\bullet$\, plotted is x-coordinate against number of hits in each quarter coded by colour.
+    \item $\bullet$\, 9 minimum hits per quarter (solid lines), minimum hits (dashed lines)
+  \end{itemize}
+  \begin{figure}
+    \subfloat[V1 alignment]{%
+      \includegraphics[width=0.45\textwidth]{compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf}%
+    }
+    \subfloat[V2 alignment]{%
+      \includegraphics[width=0.45\textwidth]{compareHitNums/DataSeedsTupled_node_X_All_run256145_V2.pdf}%
+    }
+    % \caption{Hits on tracks in x-direction with run 256145 data on 20000 events using 9 minimum hits against 11 minimum hits.}
+  \end{figure}
 \end{frame}
 
 \begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 0}
@@ -369,43 +388,116 @@
   \end{columns}
 \end{frame}
 
-% \begin{frame}\frametitle{}
-%   \begin{columns}
-%     \begin{column}[c]{0.48\textwidth}
-%       \begin{figure}
-%         \centering
-%         \includegraphics[width=0.9\textwidth]{.pdf}
-%         \caption{node X vs node Y vor v2 alignment.}
-%       \end{figure}
-%     \end{column}
-%     \begin{column}{0.48\textwidth}
-%       \begin{figure}
-%         \includegraphics[width=0.9\textwidth]{.pdf}
-%         \caption{node X vs node Y on Minbias, MagDown sample}
-%       \end{figure}
-%     \end{column}
-%   \end{columns}
-% \end{frame}
-%
-% \begin{frame}\frametitle{}
-%   \begin{columns}
-%     \begin{column}[c]{0.48\textwidth}
-%       \begin{figure}
-%         \centering
-%         \includegraphics[width=0.9\textwidth]{2023-feb-07/combining_2D_nodeXY_v2.pdf}
-%         \caption{node X vs node Y vor v2 alignment.}
-%       \end{figure}
-%     \end{column}
-%     \begin{column}{0.48\textwidth}
-%       \begin{figure}
-%         \includegraphics[width=0.9\textwidth]{2023-feb-07/nodeXY_MC.pdf}
-%         \caption{node X vs node Y on Minbias, MagDown sample}
-%       \end{figure}
-%     \end{column}
-%   \end{columns}
-% \end{frame}
+\begin{frame}\frametitle{$\Chi^2$ against $\phi$ angle distribution in V2 alignment}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf}
+        \caption{$\Chi^2$ against $\phi$ distribution for each quarter for V2 alignment.}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, $\Chi^2$ against $\phi$ distribution for each quarter in V2
+        \item $\bullet$\, information of layers are combined for each quarter
+        \begin{itemize}
+          \item \to\, information of problematic layer in given quarter hidden
+        \end{itemize}
+        \item $\bullet$\, aim: flat distribution across all angles
+        \item $\bullet$\, A-side quarters (Q1: blue, Q3: black) quite flat
+        \item $\bullet$\, C-side quarters (Q0: green, Q2: red) have small $\Chi^2$ around 0
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
 
+\begin{frame}\frametitle{Track residuals in bottom half SciFi quarters}
+  \begin{itemize}
+    \item $\bullet$\, left: Quarter 0, right: Quarter 1
+    \item $\bullet$\, use cuts on LayerID to extract information about each layer
+    % \item $\bullet$\,
+  \end{itemize}
+  \begin{figure}
+    \subfloat[Quarter 0]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q0_allLayers.pdf}%
+    }
+    \subfloat[Quarter 1]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q1_allLayers.pdf}%
+    }
+  \end{figure}
+\end{frame}
 
+\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
+  \begin{itemize}
+    \item $\bullet$\, left: Quarter 2, right: Quarter 3
+    \item $\bullet$\, use cuts on LayerID to extract information about each layer
+    % \item $\bullet$\,
+  \end{itemize}
+  \begin{figure}
+    \subfloat[Quarter 2]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q0_allLayers.pdf}%
+    }
+    \subfloat[Quarter 3]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q1_allLayers.pdf}%
+    }
+  \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Conclusion}
+    \begin{columns}
+      \begin{column}[c]{0.48\textwidth}
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf}
+          \caption{mean Residual per layer weighted with quarter hits.}
+        \end{figure}
+      \end{column}
+      \begin{column}{0.48\textwidth}
+        \begin{itemize}
+          \item mean residual per quarter weighted: $
+              \bar{Res_{Q}} = \sum_{\text{layer}, \text{quarter}} \frac{\text{hits quarter of layer}}{\text{hits layer}}$
+          \item goal: residual around 0 per layer
+          \item V2: quite good except second C-frame in T2
+          \item V1: everywhere worse than V2
+          \item low $\mu$: quite ok except for back T2
+        \end{itemize}
+      \end{column}
+    \end{columns}
+  \to\, V2 best performing alignment version for now, but still uses half modules
+  \to\, long modules as in the physical SciFi preferred in the long run
+\end{frame}
+
+\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
+  \begin{itemize}
+    \item $\bullet$\, V1: left, V2, right
+    \item $\bullet$\, Hits on tracks as XY distribution resembling SciFi Layers
+    \item $\bullet$\, C-side: negative x, A-side: positive x
+    \item $\bullet$\, information of all layers are combined for each quarter \to\, hard to see whats going on
+  \end{itemize}
+  \begin{figure}
+    \subfloat[Quarter 2]{%
+      \includegraphics[width=0.45\textwidth]{tuples_out/combining_2D_nodeXY_v1.pdf}%
+    }
+    \subfloat[Quarter 3]{%
+      \includegraphics[width=0.45\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
+    }
+  \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
+  \begin{itemize}
+    \item $\bullet$\, V1: left, V2, right
+  \end{itemize}
+  \begin{figure}
+    \subfloat[Quarter 2]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf}%
+    }
+    \subfloat[Quarter 3]{%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf}%
+    }
+  \end{figure}
+\end{frame}
 
 \begin{frame}\frametitle{Conclusion}
   \begin{itemize}

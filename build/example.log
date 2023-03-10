@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  9 MAR 2023 17:50
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  10 MAR 2023 21:02
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -909,11 +909,11 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            hyphenation	
 (polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            righthyphenmin	2 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
@@ -2678,11 +2678,11 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            hyphenation	
 (polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            righthyphenmin	2 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
@@ -2972,8 +2972,16 @@ File: logos/tu.pdf Graphic file (type pdf)
 Package luatex.def Info: logos/tu.pdf  used on input line 160.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) in paragraph at lines 160--160
- [][]  
+warning  (file logos/lhcb-logo-0121.pdf) (pdf inclusion): PDF inclusion: found P
+DF version '1.6', but at most version '1.5' allowed
+<logos/lhcb-logo-0121.pdf, id=14, 1422.63495pt x 853.58298pt>
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 160.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) in paragraph at lines 160--160
+ [][][]  
  []
 
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
@@ -2992,14 +3000,18 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 161.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 161.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [1{/home/nils/.local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./logos/tu.pdf>]
+<./logos/tu.pdf><./logos/lhcb-logo-0121.pdf>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -3012,143 +3024,165 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 169.
+(microtype)             (new value: 12.0pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/8.64'
-(microtype)             (new value: 8.64pt) on input line 169.
+(microtype)             (new value: 8.64pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/6.96'
-(microtype)             (new value: 6.96pt) on input line 169.
+(microtype)             (new value: 6.96pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 169.
+(microtype)             (new value: 12.0pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/8.64'
-(microtype)             (new value: 8.64pt) on input line 169.
+(microtype)             (new value: 8.64pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/6.96'
-(microtype)             (new value: 6.96pt) on input line 169.
+(microtype)             (new value: 6.96pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 169.
+(microtype)             (new value: 12.0pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/8.64'
-(microtype)             (new value: 8.64pt) on input line 169.
+(microtype)             (new value: 8.64pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6.96'
-(microtype)             (new value: 6.96pt) on input line 169.
+(microtype)             (new value: 6.96pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 169.
+(microtype)             (new value: 12.0pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/8.64'
-(microtype)             (new value: 8.64pt) on input line 169.
+(microtype)             (new value: 8.64pt) on input line 176.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/6.96'
-(microtype)             (new value: 6.96pt) on input line 169.
+(microtype)             (new value: 6.96pt) on input line 176.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 10.07172pt on input line 176.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 7.33495pt on input line 176.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 5.9087pt on input line 176.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 169.
+Package luatex.def Info: logos/tu.pdf  used on input line 176.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 176.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [2
 
 ]
-<logos/LHCb.png, id=33, 480.29437pt x 330.48468pt>
+<logos/LHCb.png, id=43, 480.29437pt x 330.48468pt>
 File: logos/LHCb.png Graphic file (type png)
 <use logos/LHCb.png>
-Package luatex.def Info: logos/LHCb.png  used on input line 196.
+Package luatex.def Info: logos/LHCb.png  used on input line 203.
 (luatex.def)             Requested size: 132.67372pt x 91.2895pt.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 9.29602pt on input line 196.
+(Font)              scaled to size 9.29602pt on input line 203.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 8.48953pt on input line 196.
-<logos/lumi_lhcb.png, id=35, 313.9228pt x 172.39406pt>
+(Font)              scaled to size 8.48953pt on input line 203.
+<logos/lumi_lhcb.png, id=45, 313.9228pt x 172.39406pt>
 File: logos/lumi_lhcb.png Graphic file (type png)
 <use logos/lumi_lhcb.png>
-Package luatex.def Info: logos/lumi_lhcb.png  used on input line 196.
+Package luatex.def Info: logos/lumi_lhcb.png  used on input line 203.
 (luatex.def)             Requested size: 132.67372pt x 72.85745pt.
 
-Overfull \vbox (33.26973pt too high) detected at line 196
+Overfull \vbox (33.26973pt too high) detected at line 203
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 196.
+Package luatex.def Info: logos/tu.pdf  used on input line 203.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 203.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [3
 
 <./logos/LHCb.png><./logos/lumi_lhcb.png>]
-<logos/scifi.png, id=46, 464.4853pt x 417.81094pt>
+<logos/scifi.png, id=56, 464.4853pt x 417.81094pt>
 File: logos/scifi.png Graphic file (type png)
 <use logos/scifi.png>
-Package luatex.def Info: logos/scifi.png  used on input line 218.
+Package luatex.def Info: logos/scifi.png  used on input line 225.
 (luatex.def)             Requested size: 183.70256pt x 165.24709pt.
 
-Overfull \vbox (24.56985pt too high) detected at line 218
+Overfull \vbox (24.56985pt too high) detected at line 225
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 218.
+Package luatex.def Info: logos/tu.pdf  used on input line 225.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 225.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [4
 
 <./logos/scifi.png>] (./detector.tex)
-Overfull \vbox (1.0015pt too high) detected at line 233
+Overfull \vbox (1.0015pt too high) detected at line 240
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 233.
+Package luatex.def Info: logos/tu.pdf  used on input line 240.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 240.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [5
 
 ]
-<logos/kalman.png, id=58, 268.00125pt x 332.74312pt>
+<logos/kalman.png, id=68, 268.00125pt x 332.74312pt>
 File: logos/kalman.png Graphic file (type png)
 <use logos/kalman.png>
-Package luatex.def Info: logos/kalman.png  used on input line 252.
-(luatex.def)             Requested size: 204.11534pt x 253.4205pt.
+Package luatex.def Info: logos/kalman.png  used on input line 259.
+(luatex.def)             Requested size: 183.70256pt x 228.07997pt.
 
-Overfull \vbox (99.14326pt too high) detected at line 252
+Overfull \vbox (73.80273pt too high) detected at line 259
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 252.
+Package luatex.def Info: logos/tu.pdf  used on input line 259.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 259.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [6
 
 <./logos/kalman.png>]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 7.33495pt on input line 288.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.9087pt on input line 288.
-
-Overfull \vbox (16.51845pt too high) detected at line 288
- []
-
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 288.
+Package luatex.def Info: logos/tu.pdf  used on input line 289.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 289.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [7
@@ -3156,194 +3190,482 @@ Overfull \hbox (1.05684pt too wide) has occurred while \output is active
 ]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 297.
+Package luatex.def Info: logos/tu.pdf  used on input line 298.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 298.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [8
 
 ]
-<2023-mar-9-DPG/chi2_per_ndof_Q0.pdf, id=78, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf  used on input lin
-e 316.
-(luatex.def)             Requested size: 183.70256pt x 127.97765pt.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 9.22552pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 6.74011pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 5.05508pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 9.22635pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.74072pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.05554pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 9.22452pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.73938pt on input line 316.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.05453pt on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/10.95'
+<compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf, id=87, 569.12625pt
+ x 414.54875pt>
+File: compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf Graphic file (
+type pdf)
+<use compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf>
+Package luatex.def Info: compareHitNums/DataSeedsTupled_node_X_All_run256145_V1
+.pdf  used on input line 316.
+(luatex.def)             Requested size: 191.35854pt x 139.38231pt.
+<compareHitNums/DataSeedsTupled_node_X_All_run256145_V2.pdf, id=88, 569.12625pt
+ x 414.54875pt>
+File: compareHitNums/DataSeedsTupled_node_X_All_run256145_V2.pdf Graphic file (
+type pdf)
+<use compareHitNums/DataSeedsTupled_node_X_All_run256145_V2.pdf>
+Package luatex.def Info: compareHitNums/DataSeedsTupled_node_X_All_run256145_V2
+.pdf  used on input line 316.
+(luatex.def)             Requested size: 191.35854pt x 139.38231pt.
 
-(microtype)             (new value: 10.95pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/10.95'
-
-(microtype)             (new value: 10.95pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/10.95'
-
-(microtype)             (new value: 10.95pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/10.95'
-
-(microtype)             (new value: 10.95pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 316.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 316.
-<2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf, id=79, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf  used on inp
-ut line 316.
-(luatex.def)             Requested size: 183.70256pt x 127.97765pt.
-
-Overfull \vbox (3.88884pt too high) detected at line 316
+Overfull \vbox (40.5935pt too high) detected at line 316
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 316.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 316.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [9
 
-<./2023-mar-9-DPG/chi2_per_ndof_Q0.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q0.
-pdf>]
-<2023-mar-9-DPG/chi2_per_ndof_Q1.pdf, id=173, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf  used on input lin
-e 334.
+<./compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf><./compareHitNums/
+DataSeedsTupled_node_X_All_run256145_V2.pdf>]
+<2023-mar-9-DPG/chi2_per_ndof_Q0.pdf, id=182, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q0.pdf  used on input lin
+e 335.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
-<2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf, id=174, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf  used on inp
-ut line 334.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 9.22552pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 6.74011pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 5.05508pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 9.22635pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 6.74072pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.05554pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 9.22452pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 6.73938pt on input line 335.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.05453pt on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/10.95'
+
+(microtype)             (new value: 10.95pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/8'
+(microtype)             (new value: 8.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/6'
+(microtype)             (new value: 6.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/10.95'
+
+(microtype)             (new value: 10.95pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/8'
+(microtype)             (new value: 8.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/6'
+(microtype)             (new value: 6.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/10.95'
+
+(microtype)             (new value: 10.95pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/8'
+(microtype)             (new value: 8.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6'
+(microtype)             (new value: 6.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/10.95'
+
+(microtype)             (new value: 10.95pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/8'
+(microtype)             (new value: 8.0pt) on input line 335.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/6'
+(microtype)             (new value: 6.0pt) on input line 335.
+<2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf, id=183, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf  used on inp
+ut line 335.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
+
+Overfull \vbox (3.88884pt too high) detected at line 335
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 334.
+Package luatex.def Info: logos/tu.pdf  used on input line 335.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 335.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [10
 
-<./2023-mar-9-DPG/chi2_per_ndof_Q1.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q1.
+<./2023-mar-9-DPG/chi2_per_ndof_Q0.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q0.
 pdf>]
-<2023-mar-9-DPG/chi2_per_ndof_Q2.pdf, id=269, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf  used on input lin
-e 352.
+<2023-mar-9-DPG/chi2_per_ndof_Q1.pdf, id=278, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q1.pdf  used on input lin
+e 353.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
-<2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf, id=270, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf  used on inp
-ut line 352.
+<2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf, id=279, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf  used on inp
+ut line 353.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 352.
+Package luatex.def Info: logos/tu.pdf  used on input line 353.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 353.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [11
 
-<./2023-mar-9-DPG/chi2_per_ndof_Q2.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q2.
+<./2023-mar-9-DPG/chi2_per_ndof_Q1.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q1.
 pdf>]
-<2023-mar-9-DPG/chi2_per_ndof_Q3.pdf, id=365, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf  used on input lin
-e 370.
+<2023-mar-9-DPG/chi2_per_ndof_Q2.pdf, id=374, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q2.pdf  used on input lin
+e 371.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
-<2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf, id=366, 569.12625pt x 396.48125pt>
-File: 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf Graphic file (type pdf)
-<use 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf  used on inp
-ut line 370.
+<2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf, id=375, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf  used on inp
+ut line 371.
 (luatex.def)             Requested size: 183.70256pt x 127.97765pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 370.
+Package luatex.def Info: logos/tu.pdf  used on input line 371.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 371.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [12
 
-<./2023-mar-9-DPG/chi2_per_ndof_Q3.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q3.
+<./2023-mar-9-DPG/chi2_per_ndof_Q2.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q2.
 pdf>]
+<2023-mar-9-DPG/chi2_per_ndof_Q3.pdf, id=470, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/chi2_per_ndof_Q3.pdf  used on input lin
+e 389.
+(luatex.def)             Requested size: 183.70256pt x 127.97765pt.
+<2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf, id=471, 569.12625pt x 396.48125pt>
+File: 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf Graphic file (type pdf)
+<use 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf  used on inp
+ut line 389.
+(luatex.def)             Requested size: 183.70256pt x 127.97765pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 414.
+Package luatex.def Info: logos/tu.pdf  used on input line 389.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 389.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
 [13
 
+<./2023-mar-9-DPG/chi2_per_ndof_Q3.pdf><./2023-mar-9-DPG/RMSResidualQuarters_Q3.
+pdf>]
+<compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf, id=565, 569.12625pt x
+ 396.48125pt>
+File: compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf Graphic file (typ
+e pdf)
+<use compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf>
+Package luatex.def Info: compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pd
+f  used on input line 413.
+(luatex.def)             Requested size: 183.70256pt x 127.97765pt.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 12.13219pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 8.42514pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 5.8976pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 12.13329pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 8.4259pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.89813pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 12.13087pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 8.42422pt on input line 413.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.89696pt on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/10'
+(microtype)             (new value: 10.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/7'
+(microtype)             (new value: 7.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/10'
+(microtype)             (new value: 10.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/7'
+(microtype)             (new value: 7.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/10'
+(microtype)             (new value: 10.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/7'
+(microtype)             (new value: 7.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/10'
+(microtype)             (new value: 10.0pt) on input line 413.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/7'
+(microtype)             (new value: 7.0pt) on input line 413.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 413.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 413.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[14
+
+<./compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf>]
+<2023-feb-07/mean_residuals_Q0_allLayers.pdf, id=615, 462.528pt x 346.896pt>
+File: 2023-feb-07/mean_residuals_Q0_allLayers.pdf Graphic file (type pdf)
+<use 2023-feb-07/mean_residuals_Q0_allLayers.pdf>
+Package luatex.def Info: 2023-feb-07/mean_residuals_Q0_allLayers.pdf  used on i
+nput line 429.
+(luatex.def)             Requested size: 191.35854pt x 143.5198pt.
+<2023-feb-07/mean_residuals_Q1_allLayers.pdf, id=616, 462.528pt x 346.896pt>
+File: 2023-feb-07/mean_residuals_Q1_allLayers.pdf Graphic file (type pdf)
+<use 2023-feb-07/mean_residuals_Q1_allLayers.pdf>
+Package luatex.def Info: 2023-feb-07/mean_residuals_Q1_allLayers.pdf  used on i
+nput line 429.
+(luatex.def)             Requested size: 191.35854pt x 143.5198pt.
+
+Overfull \vbox (15.72081pt too high) detected at line 429
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 429.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 429.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[15
+
+<./2023-feb-07/mean_residuals_Q0_allLayers.pdf><./2023-feb-07/mean_residuals_Q1_
+allLayers.pdf>]
+File: 2023-feb-07/mean_residuals_Q0_allLayers.pdf Graphic file (type pdf)
+<use 2023-feb-07/mean_residuals_Q0_allLayers.pdf>
+Package luatex.def Info: 2023-feb-07/mean_residuals_Q0_allLayers.pdf  used on i
+nput line 445.
+(luatex.def)             Requested size: 191.35854pt x 143.5198pt.
+File: 2023-feb-07/mean_residuals_Q1_allLayers.pdf Graphic file (type pdf)
+<use 2023-feb-07/mean_residuals_Q1_allLayers.pdf>
+Package luatex.def Info: 2023-feb-07/mean_residuals_Q1_allLayers.pdf  used on i
+nput line 445.
+(luatex.def)             Requested size: 191.35854pt x 143.5198pt.
+
+Overfull \vbox (15.72081pt too high) detected at line 445
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 445.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 445.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[16
+
+]
+<2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf, id=723, 462.528pt x 346.
+896pt>
+File: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf Graphic file (type p
+df)
+<use 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf>
+Package luatex.def Info: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf  
+used on input line 469.
+(luatex.def)             Requested size: 183.70256pt x 137.77669pt.
+
+Overfull \vbox (19.90556pt too high) detected at line 469
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 469.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 469.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[17
+
+<./2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf>]
+<tuples_out/combining_2D_nodeXY_v1.pdf, id=779, 569.12625pt x 558.085pt>
+File: tuples_out/combining_2D_nodeXY_v1.pdf Graphic file (type pdf)
+<use tuples_out/combining_2D_nodeXY_v1.pdf>
+Package luatex.def Info: tuples_out/combining_2D_nodeXY_v1.pdf  used on input l
+ine 486.
+(luatex.def)             Requested size: 191.35854pt x 187.64302pt.
+<tuples_out/combining_2D_nodeXY_v2.pdf, id=780, 569.12625pt x 558.085pt>
+File: tuples_out/combining_2D_nodeXY_v2.pdf Graphic file (type pdf)
+<use tuples_out/combining_2D_nodeXY_v2.pdf>
+Package luatex.def Info: tuples_out/combining_2D_nodeXY_v2.pdf  used on input l
+ine 486.
+(luatex.def)             Requested size: 191.35854pt x 187.64302pt.
+
+Overfull \vbox (88.85422pt too high) detected at line 486
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 486.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 486.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[18
+
+<./tuples_out/combining_2D_nodeXY_v1.pdf><./tuples_out/combining_2D_nodeXY_v2.pd
+f>]
+<2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf, id=874, 569.12625pt x 558.085pt>
+File: 2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf Graphic file (type pdf)
+<use 2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf>
+Package luatex.def Info: 2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf  used on inpu
+t line 500.
+(luatex.def)             Requested size: 191.35854pt x 187.64302pt.
+<2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf, id=875, 569.12625pt x 558.085pt>
+File: 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf Graphic file (type pdf)
+<use 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf>
+Package luatex.def Info: 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf  used on inpu
+t line 500.
+(luatex.def)             Requested size: 191.35854pt x 187.64302pt.
+
+Overfull \vbox (45.35422pt too high) detected at line 500
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 500.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 500.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[19
+
+<./2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf><./2023-feb-07/v2_layers/2D_nodeXY_v
+2_7.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 506.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 506.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
+ []
+
+[20
+
 ]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 10.11017pt on input line 421.
+(Font)              scaled to size 10.11017pt on input line 513.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 421.
+Package luatex.def Info: logos/tu.pdf  used on input line 513.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 513.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
-Overfull \hbox (1.05684pt too wide) has occurred while \output is active
- [][]  
+Overfull \hbox (38.98007pt too wide) has occurred while \output is active
+ [][][]  
  []
 
-[14
+[21
 
 ]
 \tf@nav=\write6
@@ -3416,31 +3738,31 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 73804 strings out of 477811
+ 74213 strings out of 477811
  125016,3417909 words of node,token memory allocated
- 4918 words of node memory still in use:
-   42 hlist, 9 vlist, 5 rule, 24 disc, 8 local_par, 8 math, 117 glue, 44 kern, 4
-2 penalty, 4 margin_kern, 273 glyph, 92 attribute, 77 glue_spec, 92 attribute_li
+ 4770 words of node memory still in use:
+   48 hlist, 9 vlist, 6 rule, 19 disc, 8 local_par, 8 math, 118 glue, 42 kern, 4
+2 penalty, 4 margin_kern, 247 glyph, 97 attribute, 77 glue_spec, 97 attribute_li
 st, 4 write, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_action, 20 pdf_colorstack, 
-1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:10,2:1584,3:1342,4:239,5:262,6:64,7:2034,8:64,9:707,10:14,11:1
-57
- 91957 multiletter control sequences out of 65536+600000
- 152 fonts using 46428839 bytes
+2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:10,2:1594,3:1348,4:239,5:392,6:64,7:1967,8:64,9:721,10:19,11:1
+49
+ 92106 multiletter control sequences out of 65536+600000
+ 187 fonts using 53327783 bytes
  128i,18n,144p,1003b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraMono-R
-egular.otf>{/home/nils/.local/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/M
-nSymbolA.enc}</home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fi
-ramath/FiraMath-Regular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/ope
-ntype/public/firamath/FiraMath-Regular.otf>{/home/nils/.local/texlive/2021/texmf
+egular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira
+math/FiraMath-Regular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opent
+ype/public/firamath/FiraMath-Regular.otf>{/home/nils/.local/texlive/2021/texmf-d
+ist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/nils/.local/texlive/2021/texmf
 -dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}</home/nils/.local/texlive/2021/tex
 mf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/nils/.local/texliv
 e/2021/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/nils/.loc
 al/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb>
-Output written on example.pdf (14 pages, 642706 bytes).
+Output written on example.pdf (21 pages, 1152551 bytes).
 
-PDF statistics: 519 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 29 named destinations out of 1000 (max. 131072)
+PDF statistics: 1031 PDF objects out of 1200 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 43 named destinations out of 1000 (max. 131072)
  36 words of extra memory for PDF output out of 10000 (max. 100000000)
 
