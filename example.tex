@@ -175,7 +175,7 @@ $\textbf{Overview}$
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{The Scintillating Fibre Tracker}
+\begin{frame}\frametitle{The LHCb detector upgrade}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
@@ -244,7 +244,7 @@ $\textbf{Overview}$
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
         \centering
-        \includegraphics[width=0.9\textwidth]{logos/kalman.png}
+        \includegraphics[width=0.7\textwidth]{logos/kalman.png}
         \caption{Alignment with Kalman Filter.}
       \end{figure}
     \end{column}
@@ -263,26 +263,27 @@ $\textbf{Overview}$
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
         \item V1:
-        \item use full length Modules
-        \item alignable degrees of freedom: Tx Rz (x translation, rotation around z \to beam pipe axis)
+        \item $\bullet$\, use full length modules
+        \item $\bullet$\, alignable degrees of freedom: Tx Rz (x translation, rotation around z \to beam pipe axis)
       \end{itemize}
     \end{column}
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
-        \item $\text{low} \mu$:
-        \item use half modules
-        \item uses VELO alignment on run 256145 data
-        \item $\mu =$ look it up
+        \item low $\mu$:
+        \item $\bullet$\, uses half modules
+        \item $\bullet$\, uses VELO alignment on run 256145 data
+        \item $\bullet$\, Tx Rz
       \end{itemize}
     \end{column}
     \begin{column}[c]{0.33\textwidth}
       \begin{itemize}
         \item V2:
-        \item newest alignment version
-        \item half modules (top half and bottom half)
-        \item uses newest time alignment
-        \item utilizes VELO alignment from run 256145
-        \item $\mu \approx 2.26$ (value taken from run database)
+        \item $\bullet$\, newest alignment version
+        \item $\bullet$\, half modules (top half and bottom half)
+        \item $\bullet$\, uses newest time alignment
+        \item $\bullet$\, utilizes VELO alignment from run 256145
+        \item $\bullet$\, used for HLT2 reprocessing
+        \item $\bullet$\, $\mu \approx 2.26$ (run database)
       \end{itemize}
     \end{column}
   \end{columns}
@@ -291,7 +292,7 @@ $\textbf{Overview}$
 \begin{frame}\frametitle{Why analyse the quarters separately?}
   \begin{itemize}
     \item $\bullet$\, perfomance in each quarter might be very different from one another
-    \item $\bullet$\, \to $\chi^2$ per layer might be different from $\chi^2$ per quarter
+    \item $\bullet$\, \to $\chi^2$ per quarter can provide more insights about the performance in each detector part
     \item $\bullet$\, v2 alignment shows improvements from v1 alignment but not across the whole SciFi
     \item $\bullet$\, find and resolve possible issues is easier
   \end{itemize}
@@ -436,20 +437,20 @@ $\textbf{Overview}$
   \end{itemize}
   \begin{figure}
     \subfloat[Quarter 2]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q0_allLayers.pdf}%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q2_allLayers.pdf}%
     }
     \subfloat[Quarter 3]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q1_allLayers.pdf}%
+      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q3_allLayers.pdf}%
     }
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Conclusion}
+\begin{frame}\frametitle{Weighted residuals for V2 alignment}
     \begin{columns}
       \begin{column}[c]{0.48\textwidth}
         \begin{figure}
           \centering
-          \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf}
+          \includegraphics[width=0.7\textwidth]{2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf}
           \caption{mean Residual per layer weighted with quarter hits.}
         \end{figure}
       \end{column}
@@ -468,7 +469,7 @@ $\textbf{Overview}$
   \to\, long modules as in the physical SciFi preferred in the long run
 \end{frame}
 
-\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
+\begin{frame}\frametitle{Track hits comparison of alignment versions}
   \begin{itemize}
     \item $\bullet$\, V1: left, V2, right
     \item $\bullet$\, Hits on tracks as XY distribution resembling SciFi Layers
@@ -476,32 +477,59 @@ $\textbf{Overview}$
     \item $\bullet$\, information of all layers are combined for each quarter \to\, hard to see whats going on
   \end{itemize}
   \begin{figure}
-    \subfloat[Quarter 2]{%
-      \includegraphics[width=0.45\textwidth]{tuples_out/combining_2D_nodeXY_v1.pdf}%
+    \subfloat[V1]{%
+      \includegraphics[width=0.35\textwidth]{tuples_out/combining_2D_nodeXY_v1.pdf}%
     }
-    \subfloat[Quarter 3]{%
-      \includegraphics[width=0.45\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
+    \subfloat[V2]{%
+      \includegraphics[width=0.35\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
     }
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
+\begin{frame}\frametitle{Track hits in V2 alignment}
   \begin{itemize}
-    \item $\bullet$\, V1: left, V2, right
+    \item $\bullet$\, T2X2 showed worst performance on C-side
+    \item $\bullet$\, SciFi clusters and seed tracks are nicely distributed \to the issue at the long tracks in the alignment
+    \item $\bullet$\, hypothesis: some parts are out of alignment using the current survey
+    \item \to\, reduction in GoodLongTracks and hits for that part
+    \item \to\, Difference in Q0: some parts blocking tracks from going through a module and pushing them into a different ones.
   \end{itemize}
   \begin{figure}
-    \subfloat[Quarter 2]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf}%
+    \subfloat[]{%
+      \includegraphics[width=0.24\textwidth]{2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf}%
     }
-    \subfloat[Quarter 3]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf}%
+    \subfloat[]{%
+      \includegraphics[width=0.24\textwidth]{2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf}%
     }
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Conclusion}
+\begin{frame}\frametitle{New Q0 positions in T2X2 layer}
   \begin{itemize}
-    \item $\bullet$\, text
+    \item $\bullet$\, changes based on V2 alignment positions
+    \item $\bullet$\, manually scan rotations/positions of T2X2Q0 and register alignment tracks
+    \item $\bullet$\, Upcoming:
+    \begin{itemize}
+      \item $\bullet$\, Test these starting condition in alignment + compare to current survey
+      \item $\bullet$\, More investigation for T2X2Q2 as well
+    \end{itemize}
+  \end{itemize}
+  \begin{figure}
+    \subfloat[]{%
+      \includegraphics[width=0.3\textwidth]{2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf}%
+    }
+    \subfloat[]{%
+      \includegraphics[width=0.3\textwidth]{2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pdf}%
+    }
+  \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Summary}
+  \begin{itemize}
+    \item $\bullet$\, Through analysing different alignment versions irregularities were found
+    \item $\bullet$\, Complications seem to come parts of the SciFi being too far out of alignment
+    \item $\bullet$\, Issues only on the C-side; A-side showed a big improvement
+    \item $\bullet$\, An improvement of the alignment track hits in T2X2Q0 was achieved but further investigation is needed for top half
   \end{itemize}
 \end{frame}
 
