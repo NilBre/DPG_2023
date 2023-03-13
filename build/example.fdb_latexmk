@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/example"] 1678478514 "build/example.bcf" "build/example.bbl" "build/example" 1678634687
-  "build/example.bcf" 1678634686 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
+["biber build/example"] 1678744018 "build/example.bcf" "build/example.bbl" "build/example" 1678748013
+  "build/example.bcf" 1678748012 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
   (generated)
   "build/example.bbl"
   "build/example.blg"
-["lualatex"] 1678634672 "example.tex" "build/example.pdf" "example" 1678634687
+["lualatex"] 1678747998 "example.tex" "build/example.pdf" "example" 1678748013
   "/etc/fonts/conf.d/10-antialias.conf" 1586167782 225 3629dcc380ac8c5b0306febc33b5667b ""
   "/etc/fonts/conf.d/10-hinting-slight.conf" 1586167782 696 690acea9572bf68b0ef975636002e4f3 ""
   "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf" 1586167782 2228 7bf8b372085774e6cbdae99235624440 ""
@@ -571,8 +571,8 @@
   "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1646737616 123506 62723ec6172dea317a18fec2ce07f3c0 ""
   "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc" 1646737616 123936 dc040e51e6277b124cf6fc1187e7c939 ""
   "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1657530145 123989 4f3b5e033e4edafa19c71c9510a17cdc ""
-  "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua" 1678634686 14433 75de4dae690e103f416875c73e0b931e "lualatex"
-  "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1678634686 7417 a61b5e00d96567fa5b572d22e8747493 "lualatex"
+  "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua" 1678748012 14433 75de4dae690e103f416875c73e0b931e "lualatex"
+  "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1678748012 7417 a61b5e00d96567fa5b572d22e8747493 "lualatex"
   "/home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1678272008 1219062 050ea92d65a716b18d9675f82a5f0415 ""
   "/home/nils/.local/texlive/2021/texmf-var/tex/generic/config/language.dat.lua" 1644097462 17745 7d542c06defa20bf59071cb47dc3d345 ""
   "/home/nils/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644097551 4555510 f2cb939b2e6bec524b98c695bc199369 ""
@@ -593,21 +593,20 @@
   "2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pdf" 1678379996 59561 598bee543e0ba8bf98fd7082499f2cd5 ""
   "2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf" 1678379996 16050 9cd5972557558c24cc05f190c7da8246 ""
   "beamerthemetudo.sty" 1678440584 6411 d136485f5dfeeb15246ecbd2c54a910c ""
-  "build/example.aux" 1678634686 4112 960600c358536d4dd56b027cd46dd7ab "lualatex"
-  "build/example.bbl" 1678478516 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
-  "build/example.nav" 1678634686 2225 c1c5afbecb67aec0ba53ac1043f451e4 "lualatex"
-  "build/example.run.xml" 1678634686 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
+  "build/example.aux" 1678748012 4112 960600c358536d4dd56b027cd46dd7ab "lualatex"
+  "build/example.bbl" 1678744020 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
+  "build/example.nav" 1678748012 2225 c1c5afbecb67aec0ba53ac1043f451e4 "lualatex"
+  "build/example.run.xml" 1678748012 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
   "compareHitNums/DataSeedsTupled_node_X_All_run256145_V1.pdf" 1678379997 21346 732b205fa08d1d585c69b991f76b0056 ""
   "compareHitNums/DataSeedsTupled_node_X_All_run256145_V2.pdf" 1678379997 21056 c84230d8e61dcae96a7f341934f9d6c0 ""
   "compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf" 1678379997 18577 8268897ae10e605573cf235e784485b7 ""
   "detector.tex" 1678379942 3783 dcef878c459cdca470fd78f64d38e251 ""
-  "example.tex" 1678634670 20171 dac3bb00f0fce0633fde9a4fb4b390c6 ""
-  "logos/LHCb.png" 1678379997 116556 4f4aae875b7efdd0db142cc68ca64c45 ""
+  "example.tex" 1678747996 20172 861a1b0d48ff58d5317a506b98a0d27c ""
   "logos/kalman.png" 1678379997 33370 2f5354ef8dbc1ac0bf856f3057cba882 ""
   "logos/lhcb-logo-0121.pdf" 1678439872 104353 f9d9e5eb0e4b05f864dd0d5a1113d6fd ""
-  "logos/lumi_lhcb.png" 1678379997 95126 19f28fb5bc198537122f702e48e9aca1 ""
   "logos/scifi.png" 1678379997 269320 592d6b1ffed263ee6c5f668358ae6308 ""
   "logos/tu.pdf" 1678379997 13157 1c5905f8a3419899042add57a2182b18 ""
+  "objects.tex" 1678745608 3448 44cf360b4ae5f3e47339cfa48b303087 ""
   "tuples_out/combining_2D_nodeXY_v1.pdf" 1678379998 89295 435f236dc8721a7dac80d0a3c67ca4fc ""
   "tuples_out/combining_2D_nodeXY_v2.pdf" 1678379998 120437 3b2c7d02babeffe43611c0a0f790a400 ""
   (generated)
