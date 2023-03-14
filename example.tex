@@ -204,12 +204,12 @@ $\textbf{Overview}$
       \begin{itemize}
         \item $\bullet$\, Long modules have the full height of the SciFi
         \item $\bullet$\, Half modules only span across one quarter
-        \item $\bullet$\, each layer is divided into two halves labeled as A-side and C-side
+        \item $\bullet$\, layers are divided into two halves commonly labeled as A-side and C-side
         \begin{itemize}
           \item $\bullet$\, A-side: side from which the cavern is accessed
           \item $\bullet$\, C-side: side of the cryogenic lab
         \end{itemize}
-        \item $\bullet$\, each layer can be described with four quarters, two per half layer
+        \item $\bullet$\, each layer can be split into four quarters, two per half layer
       \end{itemize}
     \end{column}
   \end{columns}
@@ -224,7 +224,31 @@ $\textbf{Overview}$
       \begin{itemize}
         \item $\bullet$\, top: ideal detector, bottom: physical detector
         \item $\bullet$\, Surveys are used to find the rotation and position of each detector component
-        \item $\bullet$\, Are used as starting positions for software alignment (this talk!)
+        \item $\bullet$\, Are used as starting positions for software alignment
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{The survey: what is it and the different types}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, measure distance of some points on the detector with a laser
+        \item $\bullet$\, \to\, relative angles and positions between points are compared to simulation
+      \end{itemize}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{logos/survey.png}
+        % \caption{}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+          \item $\bullet$\, 3 types:
+          \item $\bullet$\, BCAM survey: over time, the BCAM monitors the positions of reference points on each layer
+          \item $\bullet$\, module survey: performed inside assebly hall using reflective stickers keeping track of all positions
+          \item $\bullet$\, layer survey: performed in the cavern on the layer in the front in closed state (both halves together)
       \end{itemize}
     \end{column}
   \end{columns}
@@ -241,9 +265,11 @@ $\textbf{Overview}$
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
+        \item $\bullet$\, Use survey information as starting point
         \item $\bullet$\, Minimise $\chi^2$ with respect to the track parameters for the track fit
         \item $\bullet$\, Minimise $\chi^2$ with respect to the alignment parameters $\alpha$ during the alignment
         \item $\bullet$\, Update the alignment constants $\alpha$ and repeat until convergence criterium for $\chi^2$ is reached
+        \item $\bullet$\, validate alignment quality using $\chi^2$
       \end{itemize}
     \end{column}
   \end{columns}
@@ -287,6 +313,7 @@ $\textbf{Overview}$
     \item $\bullet$\, v2 alignment shows improvements from v1 alignment but not across the whole SciFi
     \item $\bullet$\, find and resolve possible issues is easier
   \end{itemize}
+  \to\, data from run 256145 is being used because at this point the current best alignment version v2 was in use
 \end{frame}
 
 \begin{frame}\frametitle{Hit distribution per quarter in V1 and V2 alignment}
@@ -307,135 +334,24 @@ $\textbf{Overview}$
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 0}
-  This hints that something is not right in Q0
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/chi2_per_ndof_Q0.pdf}
-        \caption{track $\chi^2$ per dof comparing each alignment for Quarter 0.}
-      \end{figure}
-    \end{column}
-    \begin{column}{0.48\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf}
-        \caption{Residual in each module for each alignment in Quarter 0.}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 1}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/chi2_per_ndof_Q1.pdf}
-        \caption{track $\chi^2$ per dof comparing each alignment for Quarter 1.}
-      \end{figure}
-    \end{column}
-    \begin{column}{0.48\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/RMSResidualQuarters_Q1.pdf}
-        \caption{Residual in each module for each alignment in Quarter 1.}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 2}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/chi2_per_ndof_Q2.pdf}
-        \caption{track $\chi^2$ per dof comparing each alignment for Quarter 2.}
-      \end{figure}
-    \end{column}
-    \begin{column}{0.48\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/RMSResidualQuarters_Q2.pdf}
-        \caption{Residual in each module for each alignment in Quarter 2.}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 3}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/chi2_per_ndof_Q3.pdf}
-        \caption{track $\chi^2$ per dof comparing each alignment for Quarter 3.}
-      \end{figure}
-    \end{column}
-    \begin{column}{0.48\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/RMSResidualQuarters_Q3.pdf}
-        \caption{Residual in each module for each alignment in Quarter 3.}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{$\Chi^2$ against $\phi$ angle distribution in V2 alignment}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.9\textwidth]{compareHitNums/chi2ProbVsPhi_RMSResidualQuarters_v2.pdf}
-        \caption{$\Chi^2$ against $\phi$ distribution for each quarter for V2 alignment.}
-      \end{figure}
-    \end{column}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, $\Chi^2$ against $\phi$ distribution for each quarter in V2
-        \item $\bullet$\, information of layers are combined for each quarter
-        \begin{itemize}
-          \item \to\, information of problematic layer in given quarter hidden
-        \end{itemize}
-        \item $\bullet$\, aim: flat distribution across all angles
-        \item $\bullet$\, A-side quarters (Q1: blue, Q3: black) quite flat
-        \item $\bullet$\, C-side quarters (Q0: green, Q2: red) have small $\Chi^2$ around 0
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Track residuals in bottom half SciFi quarters}
-  \begin{itemize}
-    \item $\bullet$\, V1: Q0 quite bad residual in T2X2 as seen in previous plots
-    \item $\bullet$\, V1: T2X1 and T2U overshooting because of photogrammetry
-    \item $\bullet$\, V2: nice in Q1, Q0 still some differences in T2
-    % \item $\bullet$\,
-  \end{itemize}
-  \begin{figure}
-    \subfloat[Quarter 0]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q0_allLayers.pdf}%
-    }
-    \subfloat[Quarter 1]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q1_allLayers.pdf}%
-    }
-  \end{figure}
-\end{frame}
-
-\begin{frame}\frametitle{Track residuals in top half SciFi quarters}
-  \begin{itemize}
-    \item $\bullet$\, Q2: quite bad performance overall; V2 not as bad
-    \item $\bullet$\, Q3: V2 performs quite well; oder alignments far worse
-    % \item $\bullet$\,
-  \end{itemize}
-  \begin{figure}
-    \subfloat[Quarter 2]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q2_allLayers.pdf}%
-    }
-    \subfloat[Quarter 3]{%
-      \includegraphics[width=0.45\textwidth]{2023-feb-07/mean_residuals_Q3_allLayers.pdf}%
-    }
-  \end{figure}
-\end{frame}
+% \begin{frame}\frametitle{Summary of Metrics from alignments in Quarter 0}
+%   This hints that something is not right in Q0
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       \begin{figure}
+%         \centering
+%         \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/chi2_per_ndof_Q0.pdf}
+%         \caption{track $\chi^2$ per dof comparing each alignment for Quarter 0.}
+%       \end{figure}
+%     \end{column}
+%     \begin{column}{0.48\textwidth}
+%       \begin{figure}
+%         \includegraphics[width=0.9\textwidth]{2023-mar-9-DPG/RMSResidualQuarters_Q0.pdf}
+%         \caption{Residual in each module for each alignment in Quarter 0.}
+%       \end{figure}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
 \begin{frame}\frametitle{Weighted residuals for V2 alignment}
     \begin{columns}
@@ -449,7 +365,7 @@ $\textbf{Overview}$
       \begin{column}{0.48\textwidth}
         \begin{itemize}
           \item mean residual per quarter weighted: $
-              \overline{\text{Res}_{Q}} = \sum_{\text{layer}, \text{quarter}} \frac{\text{hits quarter of layer}}{\text{hits layer}}$
+              \overline{\text{Res}_{L}} = \sum_{\text{layer}, \text{quarter}} \frac{\text{hits quarter of layer}}{\text{hits layer}}$
           \item goal: residual around 0 per layer
           \item V2: quite good except second C-frame in T2
           \item V1: everywhere worse than V2
@@ -462,38 +378,25 @@ $\textbf{Overview}$
 \end{frame}
 
 \begin{frame}\frametitle{Track hits comparison of alignment versions}
-  \begin{itemize}
-    \item $\bullet$\, V1: left, V2, right
-    \item $\bullet$\, Hits on tracks as XY distribution resembling SciFi Layers
-    \item $\bullet$\, C-side: negative x, A-side: positive x
-    \item $\bullet$\, information of all layers are combined for each quarter \to\, hard to see whats going on
-  \end{itemize}
-  \begin{figure}
-    \subfloat[V1]{%
-      \includegraphics[width=0.35\textwidth]{tuples_out/combining_2D_nodeXY_v1.pdf}%
-    }
-    \subfloat[V2]{%
-      \includegraphics[width=0.35\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
-    }
-  \end{figure}
-\end{frame}
-
-\begin{frame}\frametitle{Track hits in V2 alignment}
-  \begin{itemize}
-    \item $\bullet$\, T2X2 showed worst performance on C-side
-    \item $\bullet$\, SciFi clusters and seed tracks are nicely distributed \to the issue at the long tracks in the alignment
-    \item $\bullet$\, hypothesis: some parts are out of alignment using the current survey
-    \item \to\, reduction in GoodLongTracks and hits for that part
-    \item \to\, Difference in Q0: some parts blocking tracks from going through a module and pushing them into a different ones.
-  \end{itemize}
-  \begin{figure}
-    \subfloat[]{%
-      \includegraphics[width=0.24\textwidth]{2023-feb-07/v1_layers/2D_nodeXY_v1_7.pdf}%
-    }
-    \subfloat[]{%
-      \includegraphics[width=0.24\textwidth]{2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf}%
-    }
-  \end{figure}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, V2 alignment with run 256145 data
+        \item $\bullet$\, Hits on tracks as X-Y distribution with all layer information used
+        \item $\bullet$\, C-side: negative x, A-side: positive x
+        \item $\bullet$\, quite homogenous distribution of tracks throughout the whole A-side
+        \item $\bullet$\, C-side tracks are not filled into the most outer modules
+        \item $\bullet$\, information of all layers per quarter added on top of each other
+        \item $\bullet$\, \to\, track distribution becomes clear when looking at the worst performing layer: T2X2
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
+      \end{figure}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{New Q0 positions in T2X2 layer}
@@ -518,10 +421,11 @@ $\textbf{Overview}$
 
 \begin{frame}\frametitle{Summary}
   \begin{itemize}
-    \item $\bullet$\, Analysis of alignment versions discovered poor performing C-side; especially Q0
-    \item $\bullet$\, Source of complications: parts of the SciFi being too far out of alignment
+    \item $\bullet$\, Trying to solve a puzzle with tracking alignment regarding C-side especially Quarter 0
+    \item $\bullet$\, Source of complications: parts of the SciFi being too far out of alignment to be corrected
+    \item $\bullet$\, \to\, An improvement of the alignment track hits in T2X2Q0 was achieved which results in more tracks in additional modules. Further investigation needed.
     \item $\bullet$\, A-side showed an improvement from V1 to V2
-    \item $\bullet$\, An improvement of the alignment track hits in T2X2Q0 was achieved but further investigation is needed for top half
+    \item $\bullet$\, Next steps: adding changes into the survey and running alignments on the new configuration
   \end{itemize}
 \end{frame}
 
