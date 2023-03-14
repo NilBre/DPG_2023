@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  14 MAR 2023 16:27
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  14 MAR 2023 16:47
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -910,11 +910,11 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            hyphenation	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	 on input line 10
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -2679,11 +2679,11 @@ LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            hyphenation	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	 on input line 22
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
@@ -3257,15 +3257,15 @@ File: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf Graphic file (type p
 df)
 <use 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf>
 Package luatex.def Info: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf  
-used on input line 378.
+used on input line 377.
 (luatex.def)             Requested size: 142.88011pt x 107.16083pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 378.
+Package luatex.def Info: logos/tu.pdf  used on input line 377.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 378.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 377.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
 Overfull \hbox (38.98007pt too wide) has occurred while \output is active
@@ -3279,19 +3279,19 @@ Overfull \hbox (38.98007pt too wide) has occurred while \output is active
 File: tuples_out/combining_2D_nodeXY_v2.pdf Graphic file (type pdf)
 <use tuples_out/combining_2D_nodeXY_v2.pdf>
 Package luatex.def Info: tuples_out/combining_2D_nodeXY_v2.pdf  used on input l
-ine 400.
+ine 399.
 (luatex.def)             Requested size: 183.70256pt x 180.1407pt.
 
-Overfull \vbox (18.701pt too high) detected at line 400
+Overfull \vbox (4.2112pt too high) detected at line 399
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 400.
+Package luatex.def Info: logos/tu.pdf  used on input line 399.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 400.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 399.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
 Overfull \hbox (38.98007pt too wide) has occurred while \output is active
@@ -3305,27 +3305,27 @@ Overfull \hbox (38.98007pt too wide) has occurred while \output is active
 File: 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf Graphic file (type pdf)
 <use 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf>
 Package luatex.def Info: 2023-feb-07/v2_layers/2D_nodeXY_v2_7.pdf  used on inpu
-t line 420.
-(luatex.def)             Requested size: 127.57451pt x 125.09534pt.
+t line 416.
+(luatex.def)             Requested size: 119.06781pt x 116.75848pt.
 <2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pdf, id=290, 569.12625pt x
  558.085pt>
 File: 2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pdf Graphic file (typ
 e pdf)
 <use 2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pdf>
 Package luatex.def Info: 2023-mar-9-DPG/extendedVars/2D_nodeXY_quartermean_7.pd
-f  used on input line 420.
-(luatex.def)             Requested size: 127.57451pt x 125.09534pt.
+f  used on input line 416.
+(luatex.def)             Requested size: 119.06781pt x 116.75848pt.
 
-Overfull \vbox (40.80653pt too high) detected at line 420
+Overfull \vbox (44.99332pt too high) detected at line 416
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 420.
+Package luatex.def Info: logos/tu.pdf  used on input line 416.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 420.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 416.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
 Overfull \hbox (38.98007pt too wide) has occurred while \output is active
@@ -3338,11 +3338,11 @@ Overfull \hbox (38.98007pt too wide) has occurred while \output is active
 deXY_quartermean_7.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 430.
+Package luatex.def Info: logos/tu.pdf  used on input line 428.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 430.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 428.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
 Overfull \hbox (38.98007pt too wide) has occurred while \output is active
@@ -3353,18 +3353,18 @@ Overfull \hbox (38.98007pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 10.11017pt on input line 437.
+(Font)              scaled to size 10.11017pt on input line 436.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 437.
+Package luatex.def Info: logos/tu.pdf  used on input line 436.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 437.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 436.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 
 Overfull \hbox (38.98007pt too wide) has occurred while \output is active
@@ -3446,15 +3446,15 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 Here is how much of LuaTeX's memory you used:
  73843 strings out of 477811
  125016,3417909 words of node,token memory allocated
- 4770 words of node memory still in use:
-   48 hlist, 9 vlist, 6 rule, 19 disc, 8 local_par, 8 math, 118 glue, 42 kern, 4
-2 penalty, 4 margin_kern, 247 glyph, 97 attribute, 77 glue_spec, 97 attribute_li
-st, 4 write, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_action, 20 pdf_colorstack, 
-2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:10,2:2759,3:1348,4:244,5:411,6:67,7:2421,8:64,9:823,10:19,11:1
-82
+ 5657 words of node memory still in use:
+   52 hlist, 9 vlist, 6 rule, 19 disc, 9 local_par, 12 math, 150 glue, 43 kern, 
+55 penalty, 5 margin_kern, 311 glyph, 113 attribute, 77 glue_spec, 113 attribute
+_list, 4 write, 3 pdf_start_link, 3 pdf_end_link, 3 pdf_action, 24 pdf_colorstac
+k, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:10,2:2727,3:1334,4:239,5:456,6:65,7:2321,8:63,9:819,10:21,11:1
+91
  91903 multiletter control sequences out of 65536+600000
- 125 fonts using 44070343 bytes
+ 125 fonts using 44070519 bytes
  128i,18n,144p,1003b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraMono-R
 egular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira
@@ -3465,10 +3465,10 @@ ist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/home/nils/.local/texlive/2021/texmf
 mf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/nils/.local/texliv
 e/2021/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/nils/.loc
 al/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb>
-Output written on example.pdf (15 pages, 781375 bytes).
+Output written on example.pdf (15 pages, 781876 bytes).
 
-PDF statistics: 443 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
+PDF statistics: 444 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  31 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
