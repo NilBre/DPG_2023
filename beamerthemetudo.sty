@@ -67,14 +67,19 @@
   ]{headline}%
     \includegraphics[height=\headerheight]{logos/tu.pdf}%
     \includegraphics[height=\headerheight]{logos/lhcb-logo-0121.pdf}%
+    \includegraphics[height=\headerheight]{logos/FSP_LHCb_Lang_Farbig.png}%
+    \includegraphics[height=\headerheight]{logos/bmbf.png}%
   \end{beamercolorbox}%
   \begin{beamercolorbox}[
     wd=0.65\paperwidth,
     ht=\headerheight,
     leftskip=1em,
     rightskip=\beamer@rightmargin,
-  ]{headline}%
-  \usebeamerfont{institute in head/foot}\hfill\insertshortinstitute[respectlinebreaks]
+  ]
+  {headline}%
+  \usebeamerfont{institute in head/foot}
+  \hfill
+  % \insertshortinstitute[respectlinebreaks]
   \end{beamercolorbox}%
   \vskip2ex%
   \ifnum\insertframenumber=1%
