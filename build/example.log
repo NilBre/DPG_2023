@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  21 MAR 2023 13:14
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  11 APR 2023 08:38
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -873,12 +873,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
-(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 10
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            hyphenation	 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -2702,12 +2702,12 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
-(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 22
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            hyphenation	 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
@@ -2993,28 +2993,41 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 177.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<logos/blanco.png, id=50, 35.13126pt x 67.25125pt>
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 177.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 
 warning  (file logos/lhcb-logo-0121.pdf) (pdf inclusion): PDF inclusion: found P
 DF version '1.6', but at most version '1.5' allowed
-<logos/lhcb-logo-0121.pdf, id=50, 1422.63495pt x 853.58298pt>
+<logos/lhcb-logo-0121.pdf, id=51, 1422.63495pt x 853.58298pt>
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
 Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 177.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-<logos/FSP_LHCb_Lang_Farbig.png, id=51, 289.08pt x 71.5473pt>
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 177.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
+<logos/FSP_LHCb_Lang_Farbig.png, id=52, 289.08pt x 71.5473pt>
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
 Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 177
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-<logos/bmbf.png, id=52, 518.6878pt x 259.7203pt>
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 177.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
+<logos/bmbf.png, id=53, 518.6878pt x 259.7203pt>
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
 Package luatex.def Info: logos/bmbf.png  used on input line 177.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) in paragraph at lines 177--177
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) in paragraph at lines 177--177
+ [][][][][][][][]  
  []
 
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
@@ -3035,36 +3048,50 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 178.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 178.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
 Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 178.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 178.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
 Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 178
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 178.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
 Package luatex.def Info: logos/bmbf.png  used on input line 178.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./logos/t
-u.pdf><./logos/lhcb-logo-0121.pdf><./logos/FSP_LHCb_Lang_Farbig.png><./logos/bmb
-f.png>]
+u.pdf><./logos/blanco.png><./logos/lhcb-logo-0121.pdf><./logos/FSP_LHCb_Lang_Far
+big.png><./logos/bmbf.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/12'
@@ -3103,28 +3130,40 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 195.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 195.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
 Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 195.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 195.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
 Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 195
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 195.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
 Package luatex.def Info: logos/bmbf.png  used on input line 195.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [2
 
 ]
-<logos/dataflow.png, id=82, 871.255pt x 161.60374pt>
+<logos/dataflow.png, id=84, 871.255pt x 161.60374pt>
 File: logos/dataflow.png Graphic file (type png)
 <use logos/dataflow.png>
 Package luatex.def Info: logos/dataflow.png  used on input line 211.
@@ -3133,82 +3172,123 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 211.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 211.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
 Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 211.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 211.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
 Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 211
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 211.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
 Package luatex.def Info: logos/bmbf.png  used on input line 211.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [3
 
 <./logos/dataflow.png>]
-<logos/upgrade_lhcb.png, id=90, 367.3725pt x 207.02344pt>
+<logos/upgrade_lhcb.png, id=92, 367.3725pt x 207.02344pt>
 File: logos/upgrade_lhcb.png Graphic file (type png)
 <use logos/upgrade_lhcb.png>
-Package luatex.def Info: logos/upgrade_lhcb.png  used on input line 229.
-(luatex.def)             Requested size: 255.14903pt x 143.78452pt.
+Package luatex.def Info: logos/upgrade_lhcb.png  used on input line 231.
+(luatex.def)             Requested size: 204.11534pt x 115.02571pt.
+<track.png, id=93, 432.61626pt x 304.13625pt>
+File: track.png Graphic file (type png)
+<use track.png>
+Package luatex.def Info: track.png  used on input line 231.
+(luatex.def)             Requested size: 102.05766pt x 71.74582pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 229.
+Package luatex.def Info: logos/tu.pdf  used on input line 231.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 231.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 229.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 231.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 231.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 229
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 231
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 231.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 229.
+Package luatex.def Info: logos/bmbf.png  used on input line 231.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [4
 
-<./logos/upgrade_lhcb.png>]
-<logos/scifi.png, id=96, 464.4853pt x 417.81094pt>
+<./logos/upgrade_lhcb.png><./track.png>]
+<logos/scifi.png, id=100, 464.4853pt x 417.81094pt>
 File: logos/scifi.png Graphic file (type png)
 <use logos/scifi.png>
-Package luatex.def Info: logos/scifi.png  used on input line 248.
+Package luatex.def Info: logos/scifi.png  used on input line 250.
 (luatex.def)             Requested size: 183.70256pt x 165.24709pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 248.
+Package luatex.def Info: logos/tu.pdf  used on input line 250.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 250.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 248.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 250.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 250.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 248
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 250
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 250.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 248.
+Package luatex.def Info: logos/bmbf.png  used on input line 250.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [5
@@ -3216,24 +3296,36 @@ Overfull \hbox (176.40254pt too wide) has occurred while \output is active
 <./logos/scifi.png>] (./objects.tex)
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 256.
+Package luatex.def Info: logos/tu.pdf  used on input line 258.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 258.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 256.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 258.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 258.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 256
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 258
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 258.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 256.
+Package luatex.def Info: logos/bmbf.png  used on input line 258.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [6
@@ -3241,302 +3333,361 @@ Overfull \hbox (176.40254pt too wide) has occurred while \output is active
 ] (./detector.tex)
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 272.
+Package luatex.def Info: logos/tu.pdf  used on input line 274.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 274.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 272.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 274.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 274.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 272
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 274
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 274.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 272.
+Package luatex.def Info: logos/bmbf.png  used on input line 274.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [7
 
 ]
-<logos/survey.png, id=114, 328.97906pt x 197.98969pt>
+<logos/survey.png, id=118, 328.97906pt x 197.98969pt>
 File: logos/survey.png Graphic file (type png)
 <use logos/survey.png>
-Package luatex.def Info: logos/survey.png  used on input line 295.
+Package luatex.def Info: logos/survey.png  used on input line 297.
 (luatex.def)             Requested size: 204.11534pt x 122.84598pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 295.
+Package luatex.def Info: logos/tu.pdf  used on input line 297.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 297.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 295.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 297.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 297.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 295
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 297
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 297.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 295.
+Package luatex.def Info: logos/bmbf.png  used on input line 297.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [8
 
 <./logos/survey.png>]
-<logos/kalman.png, id=121, 268.00125pt x 332.74312pt>
+<logos/kalman.png, id=125, 268.00125pt x 332.74312pt>
 File: logos/kalman.png Graphic file (type png)
 <use logos/kalman.png>
-Package luatex.def Info: logos/kalman.png  used on input line 319.
+Package luatex.def Info: logos/kalman.png  used on input line 321.
 (luatex.def)             Requested size: 122.46863pt x 152.05331pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 319.
+Package luatex.def Info: logos/tu.pdf  used on input line 321.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 321.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 319.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 321.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 321.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 319
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 321
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 321.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 319.
+Package luatex.def Info: logos/bmbf.png  used on input line 321.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [9
 
 <./logos/kalman.png>]
 <logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pdf, id
-=129, 569.12625pt x 396.48125pt>
+=133, 569.12625pt x 396.48125pt>
 File: logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pd
 f Graphic file (type pdf)
 <use logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pdf
 >
 Package luatex.def Info: logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLo
-ng_chi2_per_ndof.pdf  used on input line 342.
+ng_chi2_per_ndof.pdf  used on input line 345.
 (luatex.def)             Requested size: 140.33131pt x 97.75885pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 342.
+Package luatex.def Info: logos/tu.pdf  used on input line 345.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 345.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 342.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 345.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 345.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 342
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 345
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 345.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 342.
+Package luatex.def Info: logos/bmbf.png  used on input line 345.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [10
 
 <./logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pdf>]
-<logos/v1_v2.png, id=179, 755.07094pt x 255.20343pt>
+<logos/v1_v2.png, id=183, 755.07094pt x 255.20343pt>
 File: logos/v1_v2.png Graphic file (type png)
 <use logos/v1_v2.png>
-Package luatex.def Info: logos/v1_v2.png  used on input line 359.
+Package luatex.def Info: logos/v1_v2.png  used on input line 362.
 (luatex.def)             Requested size: 340.19655pt x 114.98067pt.
 
-Overfull \vbox (10.3028pt too high) detected at line 359
+Overfull \vbox (10.3028pt too high) detected at line 362
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 359.
+Package luatex.def Info: logos/tu.pdf  used on input line 362.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 362.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 359.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 362.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 362.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 359
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 362
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 362.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 359.
+Package luatex.def Info: logos/bmbf.png  used on input line 362.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [11
 
 <./logos/v1_v2.png>]
-<2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf, id=187, 462.528pt x 346.
-896pt>
-File: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf Graphic file (type p
-df)
-<use 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf>
-Package luatex.def Info: 2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf  
-used on input line 392.
-(luatex.def)             Requested size: 183.70256pt x 137.77669pt.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 7.33495pt on input line 392.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.9087pt on input line 392.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 10.07172pt on input line 423.
+<logos/nodeXY_MC.pdf, id=191, 569.12625pt x 558.085pt>
+File: logos/nodeXY_MC.pdf Graphic file (type pdf)
+<use logos/nodeXY_MC.pdf>
+Package luatex.def Info: logos/nodeXY_MC.pdf  used on input line 423.
+(luatex.def)             Requested size: 122.47044pt x 120.08812pt.
+<tuples_out/combining_2D_nodeXY_v2.pdf, id=192, 569.12625pt x 558.085pt>
+File: tuples_out/combining_2D_nodeXY_v2.pdf Graphic file (type pdf)
+<use tuples_out/combining_2D_nodeXY_v2.pdf>
+Package luatex.def Info: tuples_out/combining_2D_nodeXY_v2.pdf  used on input l
+ine 423.
+(luatex.def)             Requested size: 122.47044pt x 120.08812pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 392.
+Package luatex.def Info: logos/tu.pdf  used on input line 423.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 423.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 392.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 423.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 423.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 392
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 423
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 423.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 392.
+Package luatex.def Info: logos/bmbf.png  used on input line 423.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [12
 
-<./2023-mar-9-DPG/meanResidual_AlignTracks_weighted.pdf>]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 10.07172pt on input line 420.
-<logos/nodeXY_MC.pdf, id=243, 569.12625pt x 558.085pt>
-File: logos/nodeXY_MC.pdf Graphic file (type pdf)
-<use logos/nodeXY_MC.pdf>
-Package luatex.def Info: logos/nodeXY_MC.pdf  used on input line 420.
-(luatex.def)             Requested size: 122.47044pt x 120.08812pt.
-<tuples_out/combining_2D_nodeXY_v2.pdf, id=244, 569.12625pt x 558.085pt>
-File: tuples_out/combining_2D_nodeXY_v2.pdf Graphic file (type pdf)
-<use tuples_out/combining_2D_nodeXY_v2.pdf>
-Package luatex.def Info: tuples_out/combining_2D_nodeXY_v2.pdf  used on input l
-ine 420.
-(luatex.def)             Requested size: 122.47044pt x 120.08812pt.
+<./logos/nodeXY_MC.pdf><./tuples_out/combining_2D_nodeXY_v2.pdf>]
+<logos/2D_nodeXY_v2_7_left.pdf, id=287, 569.12625pt x 558.085pt>
+File: logos/2D_nodeXY_v2_7_left.pdf Graphic file (type pdf)
+<use logos/2D_nodeXY_v2_7_left.pdf>
+Package luatex.def Info: logos/2D_nodeXY_v2_7_left.pdf  used on input line 452.
+
+(luatex.def)             Requested size: 110.56111pt x 108.41312pt.
+<logos/2D_nodeXY_quartermean_7_left.pdf, id=288, 569.12625pt x 558.085pt>
+File: logos/2D_nodeXY_quartermean_7_left.pdf Graphic file (type pdf)
+<use logos/2D_nodeXY_quartermean_7_left.pdf>
+Package luatex.def Info: logos/2D_nodeXY_quartermean_7_left.pdf  used on input 
+line 452.
+(luatex.def)             Requested size: 110.56111pt x 108.41312pt.
+<problem_layer.png, id=289, 436.63126pt x 395.4775pt>
+File: problem_layer.png Graphic file (type png)
+<use problem_layer.png>
+Package luatex.def Info: problem_layer.png  used on input line 452.
+(luatex.def)             Requested size: 110.56111pt x 100.13637pt.
+
+Overfull \vbox (11.13043pt too high) detected at line 452
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 420.
+Package luatex.def Info: logos/tu.pdf  used on input line 452.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 452.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 420.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 452.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 452.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 420
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 452
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 452.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 420.
+Package luatex.def Info: logos/bmbf.png  used on input line 452.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [13
 
-<./logos/nodeXY_MC.pdf><./tuples_out/combining_2D_nodeXY_v2.pdf>]
-<logos/2D_nodeXY_v2_7_left.pdf, id=339, 569.12625pt x 558.085pt>
-File: logos/2D_nodeXY_v2_7_left.pdf Graphic file (type pdf)
-<use logos/2D_nodeXY_v2_7_left.pdf>
-Package luatex.def Info: logos/2D_nodeXY_v2_7_left.pdf  used on input line 449.
-
-(luatex.def)             Requested size: 110.56111pt x 108.41312pt.
-<logos/2D_nodeXY_quartermean_7_left.pdf, id=340, 569.12625pt x 558.085pt>
-File: logos/2D_nodeXY_quartermean_7_left.pdf Graphic file (type pdf)
-<use logos/2D_nodeXY_quartermean_7_left.pdf>
-Package luatex.def Info: logos/2D_nodeXY_quartermean_7_left.pdf  used on input 
-line 449.
-(luatex.def)             Requested size: 110.56111pt x 108.41312pt.
-<logos/bad_layer.png, id=341, 299.61937pt x 270.25969pt>
-File: logos/bad_layer.png Graphic file (type png)
-<use logos/bad_layer.png>
-Package luatex.def Info: logos/bad_layer.png  used on input line 449.
-(luatex.def)             Requested size: 110.56111pt x 99.72646pt.
-
-Overfull \vbox (11.13043pt too high) detected at line 449
- []
-
+<./logos/2D_nodeXY_v2_7_left.pdf><./logos/2D_nodeXY_quartermean_7_left.pdf><./pr
+oblem_layer.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 449.
+Package luatex.def Info: logos/tu.pdf  used on input line 476.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 476.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 449.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 476.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 476.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 449
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 476
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 476.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 449.
+Package luatex.def Info: logos/bmbf.png  used on input line 476.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
+Overfull \hbox (212.0751pt too wide) has occurred while \output is active
+ [][][][][][][][]  
  []
 
 [14
-
-<./logos/2D_nodeXY_v2_7_left.pdf><./logos/2D_nodeXY_quartermean_7_left.pdf><./lo
-gos/bad_layer.png>]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 473.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 473.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 473
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 473.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (176.40254pt too wide) has occurred while \output is active
- [][][][][]  
- []
-
-[15
 
 ]
 \tf@nav=\write6
@@ -3609,17 +3760,16 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 79009 strings out of 477785
+ 79245 strings out of 477785
  125016,3417909 words of node,token memory allocated
- 10036 words of node memory still in use:
-   95 hlist, 9 vlist, 20 rule, 34 disc, 11 local_par, 10 math, 183 glue, 129 ker
-n, 37 penalty, 2 margin_kern, 686 glyph, 202 attribute, 77 glue_spec, 202 attrib
-ute_list, 4 write, 24 pdf_literal, 46 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_sav
-e, 4 pdf_restore nodes
-   avail lists: 1:9,2:2951,3:1499,4:223,5:473,6:41,7:2313,8:33,9:927,10:20,11:89
-
- 96733 multiletter control sequences out of 65536+600000
- 120 fonts using 41272823 bytes
+ 10388 words of node memory still in use:
+   113 hlist, 9 vlist, 23 rule, 34 disc, 11 local_par, 10 math, 189 glue, 133 ke
+rn, 37 penalty, 2 margin_kern, 688 glyph, 217 attribute, 77 glue_spec, 217 attri
+bute_list, 4 write, 24 pdf_literal, 46 pdf_colorstack, 7 pdf_setmatrix, 7 pdf_sa
+ve, 7 pdf_restore nodes
+   avail lists: 1:9,2:2967,3:1535,4:223,5:477,6:44,7:2325,8:9,9:969,10:20,11:89
+ 96729 multiletter control sequences out of 65536+600000
+ 118 fonts using 39800335 bytes
  128i,18n,144p,1003b,2454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraMath-Regu
 lar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraM
@@ -3629,10 +3779,10 @@ C.enc}</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Li
 ght.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-
 Medium.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSym
 bol12.pfb>
-Output written on example.pdf (15 pages, 1572643 bytes).
+Output written on example.pdf (14 pages, 1716769 bytes).
 
-PDF statistics: 481 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 31 named destinations out of 1000 (max. 131072)
+PDF statistics: 429 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 29 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
