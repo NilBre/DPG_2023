@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/example"] 1679405873 "build/example.bcf" "build/example.bbl" "build/example" 1681195129
-  "build/example.bcf" 1681195129 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
+["biber build/example"] 1693579953 "build/example.bcf" "build/example.bbl" "build/example" 1693579967
+  "build/example.bcf" 1693579966 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
   (generated)
   "build/example.bbl"
   "build/example.blg"
-["lualatex"] 1681195123 "example.tex" "build/example.pdf" "example" 1681195129
+["lualatex"] 1693579960 "example.tex" "build/example.pdf" "example" 1693579967
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-Bold.otf:1:nil" 1678405084 78308 98433242afcc88bb930c3c12cc8ad4a4 ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-BoldOblique.otf:1:nil" 1678405084 81931 dbc326d879cb2026626bbee71ec9d00f ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-Oblique.otf:1:nil" 1678405084 81080 98b126284c685a106f089499575beed1 ""
@@ -22,7 +22,7 @@
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1675943273 127670 564c90a4029a7f4850ec937f07afdc34 ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc" 1675943273 128104 c00a62ca6faf58db23eefc08d1d93c7d ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1678405077 128165 fcc1e5278c934f8cba331f07cd301ca2 ""
-  "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1681195129 5440 c7c57b78b72e6225ca792d71c2fa84c6 "lualatex"
+  "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1693579966 5782 1a2bdc1c74c3ebba203295cef71a4419 "lualatex"
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1675943270 357696 95fc915fd7c406b14d162ea3ac0fc826 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf" 1554498137 505308 9c7b22b54b0d47608efc27c58348b573 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf" 1554498137 514220 a22271ce546d1bd44e64cd453b737a4c ""
@@ -533,12 +533,13 @@
   "/usr/local/texlive/2022/texmf-var/tex/generic/config/language.dat.lua" 1647878956 17725 a067e6927c16a324d245d9b1f795101f ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1674862501 4558584 76e381cefbf6c73e478118771827a156 ""
   "beamerthemetudo.sty" 1679406196 6744 7a898a3e1f863300aa1474991d5987c5 ""
-  "build/example.aux" 1681195129 3080 66747401f1cf550925fee96bc19cd88c "lualatex"
-  "build/example.bbl" 1679405874 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
-  "build/example.nav" 1681195129 1481 4dff29d63ced408af8d13a7957e2a731 "lualatex"
-  "build/example.run.xml" 1681195129 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
+  "build/example.aux" 1693579966 4370 20c607cb1e998fbbccf57a32674f64d1 "lualatex"
+  "build/example.bbl" 1693579954 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
+  "build/example.nav" 1693579966 2411 8c6bbe43bf923ac88764b8cf06f7ccff "lualatex"
+  "build/example.run.xml" 1693579966 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
   "detector.tex" 1678404834 3783 dcef878c459cdca470fd78f64d38e251 ""
-  "example.tex" 1679556782 19927 c5ca0c887d5b10eb8681bd62c7ec2848 ""
+  "example.tex" 1693579942 26466 56ec8f823d1241d786a71099db0181f4 ""
+  "joints.tex" 1693576533 671 da3f3c823ff3c99af1099a027b8d6d7e ""
   "logos/2D_nodeXY_quartermean_7_left.pdf" 1679135736 37174 7f88ff5d34a89cdac83ee76248084ffe ""
   "logos/2D_nodeXY_v2_7_left.pdf" 1679135736 33338 97e60e65d29941a4d7b09836f3b49156 ""
   "logos/FSP_LHCb_Lang_Farbig.png" 1679135736 42753 a23f485edfc93fe20e14c139c9cfa8fa ""
@@ -555,6 +556,11 @@
   "logos/upgrade_lhcb.png" 1679135736 101675 d20f74bc84a1927dbb6985dd3625227a ""
   "logos/v1_v2.png" 1679135736 246543 cdb02371d97557963f895da64cbb8b81 ""
   "objects.tex" 1679405631 4369 6c3d0a25b19a0fe773b388017cdb3328 ""
+  "plots/config_joint_constraint.png" 1693576952 54953 28a2134ee75996698e53737ceadb17fe ""
+  "plots/plain_data/raw_data_T1U_Tx.pdf" 1693576952 27512 c9c43ddcd705b2904fc7d249c90f6360 ""
+  "plots/retest/only_Rz_variable_full_fit.pdf" 1693576952 120620 364f4f0681281d5313b7a562b516493c ""
+  "plots/retest/only_Tx_full_fit.pdf" 1693576951 121175 a8abef5eb52cad2957a9911576fecebb ""
+  "plots/stability_plots/diff_reduced_Tx_T1V_Tx.pdf" 1693576951 23561 4146dcbf13df1f29cdb9778dfc905429 ""
   "problem_layer.png" 1679476137 42819 75a23fd8fb52f6753281c6cccdbede55 ""
   "track.png" 1679482074 211053 bf8f583b72b4104bda24be7f6f5244fa ""
   "tuples_out/combining_2D_nodeXY_v2.pdf" 1678404834 120437 3b2c7d02babeffe43611c0a0f790a400 ""
