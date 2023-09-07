@@ -172,7 +172,7 @@
 \institute{Maria Laach high energy physics school, Siegen}
 %Titelgrafik muss ich einfueren!!!
 %\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
-\date{16.03.2023}
+\date{08.09.2023}
 
 \begin{document}
 \maketitle
@@ -185,15 +185,47 @@
     \item $\bullet$\, Importance of the SciFi and Alignment
     \item $\bullet$\, Understanding first alignments on 2022 data
     \item $\bullet$\, Stability measurements on 2022 data
-    \item $\bullet$\, Joint constraints for SciFi modules
   \end{itemize}
-  %   \end{column}
-  %   \begin{column}[c]{0.48\textwidth}
-  %     \begin{figure}
-  %       \includegraphics[width=0.9\textwidth]{logos/upgrade_lhcb.png}
-  %     \end{figure}
-  %   \end{column}
-  % \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{What is Alignment and why do we need it?}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \input{detector.tex}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, top: ideal detector, bottom: physical detector
+        \item $\bullet$\, Surveys are used to find the rotation and position of each detector component
+        \item $\bullet$\, Are used as starting positions for software alignment
+        \item $\bullet$\, Building tracks accurately requires positions in reconstruction to be as similar as possible to real positions
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Alignment: track fits with the Kalman Filter}
+  \begin{columns}
+    \begin{column}[c]{0.4\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.72\textwidth]{logos/kalman.png}
+        % \caption{Alignment with Kalman Filter.}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.55\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, Use survey information as starting point
+        \item $\bullet$\, aligning the detector by minimizing the residuals of the track hits
+        \item $\bullet$\, basically a $\chi^2$ minimization problem with alignment parameters $\alpha$
+        \item $\bullet$\, Why Kalman Filter?
+        \begin{itemize}
+          \item $\bullet$\, easily models material interactions as well as multiple scattering
+        \end{itemize}
+        \item $\bullet$\, propagation of nodes, minimization, smooth error sizes by back propagation
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{Importance of alignments}
@@ -224,8 +256,8 @@
       \begin{itemize}
         \item $\bullet$\, Consists of 3 stations: T1, T2, T3
         \item $\bullet$\, 4 layers per station: X1, U, V, X2
-	\item $\bullet$\, replaces former IT and OT to cope with the increased instantaneous luminosity
-	\item $\bullet$\, crucial part of tracking system
+      	\item $\bullet$\, replaces former IT and OT to cope with the increased instantaneous luminosity
+	      \item $\bullet$\, crucial part of tracking system
       \end{itemize}
       \includegraphics[width=0.5\textwidth]{track.png}
     \end{column}
@@ -252,27 +284,8 @@
 \end{frame}
 
 \begin{frame}\frametitle{SciFi terminology}
-layers are divided into two halves commonly labeled as A-side and C-side
-  % \begin{itemize}
-  %   \item $\bullet$\, layers are divided into two halves commonly labeled as A-side and C-side
-  % \end{itemize}
+  layers are divided into two halves commonly labeled as A-side and C-side
   \input{objects.tex}
-\end{frame}
-
-\begin{frame}\frametitle{What is Alignment and why do we need it?}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \input{detector.tex}
-    \end{column}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, top: ideal detector, bottom: physical detector
-        \item $\bullet$\, Surveys are used to find the rotation and position of each detector component
-        \item $\bullet$\, Are used as starting positions for software alignment
-        \item $\bullet$\, Building tracks accurately requires positions in reconstruction to be as similar as possible to real positions
-      \end{itemize}
-    \end{column}
-  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{The survey: what is it and the different types}
@@ -287,36 +300,11 @@ layers are divided into two halves commonly labeled as A-side and C-side
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item $\bullet$\, 2022: photogrammetry was recorded in assembly hall \to\, not quite perfect
-        \item $\bullet$\, 2023: photogrammetry will be recorded in cavern
-        \item $\bullet$\, relative angles and positions between points are compared to simulation
-        \item $\bullet$\, layer survey: performed in the cavern on the layer in  the front in closed state (both halves together)
-        \item $\bullet$\, module survey: performed inside assembly hall using reflective stickers keeping track of all positions
-        % \item $\bullet$\, layer survey: performed in the cavern on the layer n the front in closed state (both halves together)
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Alignment: track fits with the Kalman Filter}
-  \begin{columns}
-    \begin{column}[c]{0.4\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.72\textwidth]{logos/kalman.png}
-        % \caption{Alignment with Kalman Filter.}
-      \end{figure}
-    \end{column}
-    \begin{column}[c]{0.55\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, Use survey information as starting point
-        \item $\bullet$\, aligning the detector by minimizing the residuals of the track hits
-        \item $\bullet$\, basically a $\chi^2$ minimization problem with alignment parameters $\alpha$
-        \item $\bullet$\, Why Kalman Filter?
-        \begin{itemize}
-          \item $\bullet$\, easily models material interactions as well as multiple scattering
-        \end{itemize}
-        \item $\bullet$\, propagation of nodes, minimization, smooth error sizes by back propagation
+        \item $\bullet$\, 2022: photogrammetry (assembly hall) \to\, not quite perfect
+        \item $\bullet$\, 2023: cavern
+        \item $\bullet$\, compare survey to simulation
+        \item $\bullet$\, layer survey: coarse, survey layer positions
+        \item $\bullet$\, module survey: keep track of each module
       \end{itemize}
     \end{column}
   \end{columns}
@@ -324,23 +312,21 @@ layers are divided into two halves commonly labeled as A-side and C-side
 
 \begin{frame}\frametitle{Alignment versions in use}
   \begin{columns}
-    \begin{column}[c]{0.33\textwidth}
+    \begin{column}[c]{0.4\textwidth}
       \centering
       \includegraphics[width=\textwidth]{logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pdf}
     \end{column}
-    \begin{column}[c]{0.33\textwidth}
+    \begin{column}[c]{0.3\textwidth}
       \begin{itemize}
-        \item $\bullet$\, V1: First ever SciFi alignments for the upgraded LHCb detector
-	\item $\bullet$\, Using early tracks from comissioning
-        \item $\bullet$\, use full length modules
-        \item $\bullet$\, alignable degrees of freedom: Tx Rz (x translation, rotation around z \to beam pipe axis)
+        \item $\bullet$\, V1: First ever alignments after upgrade
+      	\item $\bullet$\, Using first data sets
+        \item $\bullet$\, Starting configyartion: long modules, Tx Rz
       \end{itemize}
     \end{column}
-    \begin{column}[c]{0.33\textwidth}
+    \begin{column}[c]{0.3\textwidth}
       \begin{itemize}
-        \item $\bullet$\, V2: Updated alignment version with what we learned from V1 %(hard work from detector experts)
-        \item $\bullet$\, aligned using half modules
-        \item $\bullet$\, uses newest time alignment
+        \item $\bullet$\, V2: Imroved configuaration from V1 %(hard work from detector experts)
+        \item $\bullet$\, half modules, Tx Rz, new time alignment
       \end{itemize}
     \end{column}
   \end{columns}
@@ -348,13 +334,13 @@ layers are divided into two halves commonly labeled as A-side and C-side
 
 \begin{frame}\frametitle{Hit distribution per quarter in V1 and V2 alignment}
   \begin{itemize}
-    \item $\bullet$\, Improvements to V2 visible on A-side, losing some performance on C-side
-    \item $\bullet$\, Alignment performance difference in each quarter \to\, seperately analyse quarters!
-    \item $\bullet$\, $\chi2$ per quarter can provide more insights about alignment performance in each detector part
+    \item $\bullet$\, A-side improved a lot in V2, losing some performance on C-side
+    \item $\bullet$\, Performance discrepancies \to quarter analysis
+    \item $\bullet$\, $\chi2$ per quarter \to alignment performance per detector part
   \end{itemize}
   \begin{mybox}{green}{}
     \begin{itemize}
-      \item $\bullet$\, analysis of each quarter seperately makes finding possible issues easier
+      \item $\bullet$\, Scan quarters individually; find issues faster
     \end{itemize}
   \end{mybox}
   \begin{figure}
@@ -391,13 +377,12 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{New Q0 positions in T2X2 layer}
+\begin{frame}\frametitle{Improved Q0 positions in T2X2 layer with V2 alignment}
   \begin{itemize}
-    \item $\bullet$\, Changes based on V2 alignment positions
-    \item $\bullet$\, compare T2X2 constants to layers with good hit coverage \to look for irregularities
-    \item $\bullet$\, positions: translations relative to the nominal position for each module
-    \item $\bullet$\, V2 alignment has only few tracks in Q0 because parts of the SciFi are too far out of alignment
-    \item $\bullet$\, combining the manual scanning with a looser configuration \to Alignment V3
+    \item $\bullet$\, manual comparison of striking features in problematic layer
+    % \item $\bullet$\, positions: translations relative to the nominal position for each module
+    \item $\bullet$\, Q0 too far out of alignment \to less hits
+    \item $\bullet$\, Manual scans + looser tracking config \to Alignment V3
   \end{itemize}
   \begin{figure}
     \includegraphics[width=0.26\textwidth]{logos/2D_nodeXY_v2_7_left.pdf}%
@@ -406,7 +391,7 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Motivation and procedure}
+\begin{frame}\frametitle{Stability tests on 2022 data}
   \begin{columns}
     \begin{column}[c]{0.4\textwidth}
       \begin{itemize}
@@ -426,31 +411,14 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Dataset and Alignment setup}
-  \begin{columns}
-    \begin{column}[c]{0.9\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Dataset contains magUp and magDown samples from 2022 labeled as "good" from EMTF
-        \item $\bullet$\, Good: > 90\% of datalinks are good
-        \item $\bullet$\, Includes runs from fills: 8489, 8491, 8496
-        \item List of randomly chosen runs: 255949, 256030, 256145, 256159, 256163, 256272, 256278, 256290
-        \item $\bullet$\, V10 Alignment from tag (loose tracking, half module alignment TxTz + Mats, back layer fixed) from conditions database
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
 \begin{frame}\frametitle{Module Positions in local half module frame}
   \begin{columns}
     \begin{column}[c]{0.35\textwidth}
       \begin{itemize}
         \setlength\itemsep{0em}
-        \item $\bullet$\, Runs 255949 + 256030 were from fill 8489
+        \item $\bullet$\, Runs 255949 + 256030 problematic \to issues known!
         \item $\bullet$\, Optimal fine timing implemented in 256145 (afterwards)
-        \item $\bullet$\, Positions of other runs compatible
-        \item $\bullet$\, magUp: 256272, 256278, 256290
-        \item $\bullet$\, magDown: 255949, 256030, 256145, 256159, 256163
+        \item $\bullet$\, Both magnet polarities comparable results
       \end{itemize}
     \end{column}
     \begin{column}[c]{0.65\textwidth}
@@ -465,11 +433,10 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        % \item $\bullet$\, removed the first 2 runs from input list since they are from a fill without the optimal timing changes
-        \item $\bullet$\, again: compare module positions of 2 runs but remove first 2 runs from input (different fine timing)
-        \item $\bullet$\, Without the fine timing changes the largest movement is at max around $400 \mu m$ at most outer modules
-        \item $\bullet$\, M4, M5 often < 1000 events (difficult for the alignment) \to large movement,
-        \item $\bullet$\, M0-M3: movement around $150 \mu m$
+        \item $\bullet$\, comparison of module positions of 2 runs each
+        % \item $\bullet$\, Without the fine timing changes the largest movement is at max around $400 \mu m$ at most outer modules
+        \item $\bullet$\, Outer modules \to low statistics \to difficult for the alignment \to large movement
+        \item $\bullet$\, Inner modules: movement around $150 \mu m$ allowed
       \end{itemize}
     \end{column}
       \begin{column}[c]{0.48\textwidth}
@@ -480,11 +447,11 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Conclusion}
+\begin{frame}\frametitle{stability tests: Conclusion}
   \begin{columns}
     \begin{column}[c]{\textwidth}
       \begin{itemize}
-        \item $\bullet$\, Impactful changes like timing induces an observed movement up to 0.8mm in some cases
+        \item $\bullet$\, Timing changes have big impact on module alignment
         \item $\bullet$\, The change in module position from run to run is at maximum $150 \mu m$ for the modules M0 \to M3 in Tx
         \item \to only if there are no big changes between runs
         \item $\bullet$\, M4 moves at max $400 \mu m$ in this case
@@ -496,108 +463,108 @@ layers are divided into two halves commonly labeled as A-side and C-side
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Joints constraints for SciFi module alignment}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Long SciFi modules: slight "banana shape"
-        \item $\bullet$\, Half modules + joints reproduce the real shape
-        \item $\bullet$\, Joints are implemented in the alignment by using a survey constraint (\href{https://gitlab.cern.ch/lhcb/Alignment/-/merge_requests/368}{MR!368})
-        \item $\bullet$\, it constrains parameters of 2 alignables A and B to each other with $\chi^2 = \left( p_A - p_B \right)^T V^{-1} \left( p_A - p_B \right)$
-        \item $\bullet$\, $p_A,p_B$: set of parameters for half modules
-        \item $\bullet$\, use common frame (local half modules)
-        \item $\bullet$\, Uncertainties taken from diagonal covariance matrix \to how realistic? \to tuning needed
-        \item $\bullet$\, No existing survey available for joints; tuning needed to control their $\chi^2$
-      \end{itemize}
-    \end{column}
-      \begin{column}[c]{0.48\textwidth}
-        \input{joints.tex}
-      \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Joints constraints for SciFi module alignment}
+%   \begin{columns}
+%     \begin{column}[c]{0.6\textwidth}
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, Long SciFi modules: slight "banana shape"
+%         \item $\bullet$\, Half modules + joints reproduce the real shape
+%         \item $\bullet$\, Joints are implemented in the alignment by using a survey constraint (\href{https://gitlab.cern.ch/lhcb/Alignment/-/merge_requests/368}{MR!368})
+%         \item $\bullet$\, it constrains parameters of 2 alignables A and B to each other with $\chi^2 = \left( p_A - p_B \right)^T V^{-1} \left( p_A - p_B \right)$
+%         \item $\bullet$\, $p_A,p_B$: set of parameters for half modules
+%         \item $\bullet$\, use common frame (local half modules)
+%         \item $\bullet$\, Uncertainties taken from diagonal covariance matrix \to how realistic? \to tuning needed
+%         \item $\bullet$\, No existing survey available for joints; tuning needed to control their $\chi^2$
+%       \end{itemize}
+%     \end{column}
+%       \begin{column}[c]{0.4\textwidth}
+%         \input{joints.tex}
+%       \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Tuning procedure}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Instead of one $\chi^2$ \to look at $\chi^2$ for joint parameters (Tx, Ty, Tz, Rx, Ry, Rz)
-        \item $\bullet$\, Tune Uncertainties by running an alignment for each change to the respective parameter uncertainty until roughly $\chi^2 / \text{DoF} = 1$
-        \item $\bullet$\, make sure not to run into local minimum
-      \end{itemize}
-    \end{column}
-      \begin{column}[c]{0.48\textwidth}
-        \begin{itemize}
-          \item $\bullet$\, Procedure evaluated with 2023 data (run 269045, warm SciFi) and master from conditions database
-          \item $\bullet$\, Using the alignment master
-        \end{itemize}
-        \begin{figure}
-          \includegraphics[width=\textwidth]{plots/config_joint_constraint.png}
-        \end{figure}
-      \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Tuning procedure}
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, Instead of one $\chi^2$ \to look at $\chi^2$ for joint parameters (Tx, Ty, Tz, Rx, Ry, Rz)
+%         \item $\bullet$\, Tune Uncertainties by running an alignment for each change to the respective parameter uncertainty until roughly $\chi^2 / \text{DoF} = 1$
+%         \item $\bullet$\, make sure not to run into local minimum
+%       \end{itemize}
+%     \end{column}
+%       \begin{column}[c]{0.48\textwidth}
+%         \begin{itemize}
+%           \item $\bullet$\, Procedure evaluated with 2023 data (run 269045, warm SciFi) and master from conditions database
+%           \item $\bullet$\, Using the alignment master
+%         \end{itemize}
+%         \begin{figure}
+%           \includegraphics[width=\textwidth]{plots/config_joint_constraint.png}
+%         \end{figure}
+%       \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Tuning of uncertainty: Tx}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      Initial errors:
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Tx,Ty,Tz [$\mu m$]: 1 1 1
-        \item $\bullet$\, Rx,Ry,Rz [$\text{mrad}$]: 0.2 0.2 0.2
-        \item $\bullet$\, Vary Tx uncertainty (starting at 1 $\mu m$) \to run alignment \to calculate $\chi^2/\text{DoF}$ values, keep other parameters at nominal!
-        \item \to $\text{Tx}= 1\mu m$ has $\chi^2 \approx 13$, perform a scan in a range of uncertainties to find the intersection $\chi^2/\text{DoF} = 1$ (black line)
-      \end{itemize}
-    \end{column}
-      \begin{column}[c]{0.48\textwidth}
-        intersection: $0.22 \mu m$ (fit), $0.3 \mu m$ (measurement)
-        \begin{figure}
-          \includegraphics[width=\textwidth]{plots/retest/only_Tx_full_fit.pdf}
-        \end{figure}
-      \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Tuning of uncertainty: Tx}
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       Initial errors:
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, Tx,Ty,Tz [$\mu m$]: 1 1 1
+%         \item $\bullet$\, Rx,Ry,Rz [$\text{mrad}$]: 0.2 0.2 0.2
+%         \item $\bullet$\, Vary Tx uncertainty (starting at 1 $\mu m$) \to run alignment \to calculate $\chi^2/\text{DoF}$ values, keep other parameters at nominal!
+%         \item \to $\text{Tx}= 1\mu m$ has $\chi^2 \approx 13$, perform a scan in a range of uncertainties to find the intersection $\chi^2/\text{DoF} = 1$ (black line)
+%       \end{itemize}
+%     \end{column}
+%       \begin{column}[c]{0.48\textwidth}
+%         intersection: $0.22 \mu m$ (fit), $0.3 \mu m$ (measurement)
+%         \begin{figure}
+%           \includegraphics[width=\textwidth]{plots/retest/only_Tx_full_fit.pdf}
+%         \end{figure}
+%       \end{column}
+%     \end{columns}
+%   \end{frame}
 
-\begin{frame}\frametitle{Tuning of uncertainty: Tz}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      Initial errors:
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, In the last step Rz was tuned
-        \item $\bullet$\, intersection at 0.2 mrad was already correctly set from nominal
-        \item $\bullet$\, All parameters show good behaviour at chosen uncertainty
-        \item $\bullet$\, final tunded uncertainties [$\mu m$, mrad]: 0.3 1.2 1.9 0.4 0.00000044 0.2
-        \item $\bullet$\, \textbf{make a slide with the tests for loose particle selection}
-      \end{itemize}
-    \end{column}
-      \begin{column}[c]{0.48\textwidth}
-        intersection: $0.22 \mu m$ (fit), $0.3 \mu m$ (measurement)
-        \begin{figure}
-          \includegraphics[width=\textwidth]{plots/retest/only_Rz_variable_full_fit.pdf}
-        \end{figure}
-      \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Tuning of uncertainty: Rz}
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       Initial errors:
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, In the last step Rz was tuned
+%         \item $\bullet$\, intersection at 0.2 mrad was already correctly set from nominal
+%         \item $\bullet$\, All parameters show good behaviour at chosen uncertainty
+%         \item $\bullet$\, final tunded uncertainties [$\mu m$, mrad]: 0.3 1.2 1.9 0.4 0.00000044 0.2
+%         % \item $\bullet$\, \textbf{make a slide with the tests for loose particle selection}
+%       \end{itemize}
+%     \end{column}
+%       \begin{column}[c]{0.48\textwidth}
+%         intersection: $0.22 \mu m$ (fit), $0.3 \mu m$ (measurement)
+%         \begin{figure}
+%           \includegraphics[width=\textwidth]{plots/retest/only_Rz_variable_full_fit.pdf}
+%         \end{figure}
+%       \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Loose particle selection}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Same procedure performed for looser particle selection for D0 \to more events for mass peak analysis
-        \item $\bullet$\, tuned parameters for loose selection [$\mu m$,$\text{mrad}$]: 0.0074 1.2 1.9 0.4 0.00044 0.22
-        \item $\bullet$\, What does that mean for the joint constraint?
-        \begin{itemize}
-          \item $\bullet$\, Constraint is mainly influenced by $\textbf{Rx}$ and $\textbf{Tz}$ \to logical since this is the bending direction
-          \item $\bullet$\, $\textbf{Tx}$ (left-to-right movement) is basically fixed since it has no impact on the constraint, same for $\textbf{Ry}$ (rotation around vertical axis)
-        \end{itemize}
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Loose particle selection}
+%   \begin{columns}
+%     \begin{column}[c]{\textwidth}
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, Same procedure performed for looser particle selection for V0 \to more events for mass peak analysis
+%         \item $\bullet$\, tuned parameters for loose selection [$\mu m$,$\text{mrad}$]: 0.0074 1.2 1.9 0.4 0.00044 0.22
+%         \item $\bullet$\, What does that mean for the joint constraint?
+%         \begin{itemize}
+%           \item $\bullet$\, Constraint is mainly influenced by $\textbf{Rx}$ and $\textbf{Tz}$ \to logical since this is the bending direction
+%           \item $\bullet$\, $\textbf{Tx}$ (left-to-right movement) is basically fixed since it has no impact on the constraint, same for $\textbf{Ry}$ (rotation around vertical axis)
+%         \end{itemize}
+%       \end{itemize}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
 % \begin{frame}\frametitle{What else did i do since DPG 2023 in march?}
 %   \begin{itemize}
@@ -613,30 +580,64 @@ layers are divided into two halves commonly labeled as A-side and C-side
 % \end{frame}
 
 \begin{frame}\frametitle{Summary}
-  >>> editors note: this summary/conclusion has to be changed to account for new findings with alignment v8, 
-  joint constraint analysis and stability tests for alignment runs
+  % >>> editors note: this summary/conclusion has to be changed to account for new findings with alignment v8, 
+  % joint constraint analysis and stability tests for alignment runs
   \begin{itemize}
-    \item $\bullet$\, Trying to solve a puzzle on unexpected lower number of alignment tracks on the C-side
-    \item $\bullet$\, Source of complications: SciFi parts too far out of alignment to be correctly updated
-    \item $\bullet$\, \to\, Varying the positions and rotations of Q0 modules yielded more tracks in more modules
-    \item $\bullet$\, Feeding this back into tracking alignment to get the fine tuning right
-    \item $\bullet$\, new survey/photogrammetry in progress to improve alignment starting conditions this year
+    \setlength\itemsep{0em}
+    \item $\bullet$\, Source of complications: SciFi parts too far out of alignment to be correctly updated, corrected now with new alignment version and photogrammetry
+    \item $\bullet$\, Adapt module positions by hand: working procedure for singular low-efficiency modules
+    \item $\bullet$\, stability tests show no substantial difference in alignment quality from magnet polarity
+    \item $\bullet$\, sufficient statistics: $150 \mu m$ movement; rerun manually if this is exceeded
+    % \item $\bullet$\, Looser particle selection \to more events, residuals comparable to strict selection, better D0 mass peak
+    % \item $\bullet$\, tuned parameters for loose selection [$\mu m$,$\text{mrad}$]: 0.0074 1.2 1.9 0.4 0.00044 0.22
+    % \item $\bullet$\, What does that mean for the joint constraint?
+    \begin{itemize}
+      \item $\bullet$\, Constraint is mainly influenced by $\textbf{Rx}$ and $\textbf{Tz}$ \to logical since this is the bending direction
+      \item $\bullet$\, $\textbf{Tx}$ (left-to-right movement) is basically fixed since it has no impact on the constraint, same for $\textbf{Ry}$ (rotation around vertical axis)
+    \end{itemize}
   \end{itemize}
-  \textbf{Thank you for your attention!}
+  % \textbf{Thank you for your attention!}
 \end{frame}
 
 %\begin{frame}
 %  \input{problem_layer.tex}
 %\end{frame}
 
-% \begin{frame}\frametitle{throwaway: what was in the talk earlier}
-%   $\textbf{Motivation}$
-%     \begin{itemize}
-%       \item $\bullet$\, Performance studies of alignments on run 256145 data
-%       \item \to\, unexpected different results!
-%       \item \to\, analysis of individual quarters
-%     \end{itemize}
-% \end{frame}
+\begin{frame}\frametitle{Backup}
+  $\textbf{Loose Tracking config and D0 selection}$
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{plots/loose_tracking.png}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $pt_\text{min}$ = 800 MeV
+        \item pion, kaon required to have min pt and IPCut = 60 $\mu m$
+        \item mass hypothesis [1760 MeV, 1960 MeV]
+        \item vertex $\chi^2$ < 10
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Backup: stability dataset}
+  % describe what loose tracking is!
+  \begin{columns}
+    \begin{column}[c]{0.9\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0em}
+        \item $\bullet$\, Dataset contains magnet-up and magnet-down samples from 2022 labeled as "good" from EMTF
+        \item $\bullet$\, Good: > 90\% of datalinks are good
+        \item $\bullet$\, Includes runs from fills: 8489, 8491, 8496
+        \item List of randomly chosen runs: 255949, 256030, 256145, 256159, 256163, 256272, 256278, 256290
+        \item $\bullet$\, V3 Alignment from tag (loose tracking, half module alignment TxTz + Mat alignment, back layer fixed) from conditions database % backlayer fixed becasue q/p biggest influence and we want to fix this in place 
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 % not needed
 % \begin{frame}\frametitle{Sources}
