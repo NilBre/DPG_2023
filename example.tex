@@ -165,11 +165,11 @@
 % \setbeamertemplate{itemize subitem}{\scriptsize$\blacktriangleright$}
 
 %Titel:
-\title{Understanding the Alignment of LHCb's Scintillating Fibre Tracker}
+\title{Global Alignment of the SciFi and the VELO (DPG titel einfuegen)}
 %Autor
 \author[N.Breer]{\textbf{Nils Breer}, Biljana Mitreska, Sophie Hollitt, Johannes Albrecht}
 %Lehrstuhl/Fakultät
-\institute{Maria Laach high energy physics school, Siegen}
+\institute{DPG Conference, Karlsruhe}
 %Titelgrafik muss ich einfueren!!!
 %\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
 \date{08.09.2023}
@@ -177,16 +177,17 @@
 \begin{document}
 \maketitle
 
-\begin{frame}\frametitle{Overview}
-  % \begin{columns}
-  %   \begin{column}[c]{0.48\textwidth}
-  \begin{itemize}
-    \item $\bullet$\, The SciFi Detector Upgrade
-    \item $\bullet$\, Importance of the SciFi and Alignment
-    \item $\bullet$\, Understanding first alignments on 2022 data
-    \item $\bullet$\, Stability measurements on 2022 data
-  \end{itemize}
-\end{frame}
+% typically don't need an overview
+% \begin{frame}\frametitle{Overview}
+%   % \begin{columns}
+%   %   \begin{column}[c]{0.48\textwidth}
+%   \begin{itemize}
+%     \item $\bullet$\, The SciFi Detector Upgrade
+%     \item $\bullet$\, Importance of the SciFi and Alignment
+%     \item $\bullet$\, Understanding first alignments on 2022 data
+%     \item $\bullet$\, Stability measurements on 2022 data
+%   \end{itemize}
+% \end{frame}
 
 \begin{frame}\frametitle{What is Alignment and why do we need it?}
   \begin{columns}
@@ -204,7 +205,7 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Alignment: track fits with the Kalman Filter}
+\begin{frame}\frametitle{Alignment: track fits with the Kalman Filter (maybe backup)}
   \begin{columns}
     \begin{column}[c]{0.4\textwidth}
       \begin{figure}
@@ -283,12 +284,12 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{SciFi terminology}
+\begin{frame}\frametitle{SciFi terminology (confusing for some people)}
   Layers are divided into two halves commonly labeled as A-side and C-side
   \input{objects.tex}
 \end{frame}
 
-\begin{frame}\frametitle{The survey: what is it and the different types}
+\begin{frame}\frametitle{The survey: what is it and the different types (maybe backup material)}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       $\bullet$\, Measure distance of some points on the detector with a laser
@@ -308,7 +309,7 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Alignment versions development in 2022}
+\begin{frame}\frametitle{Alignment versions development in 2022 (maybe exchange with something more recent)}
   \begin{columns}
     \begin{column}[c]{0.4\textwidth}
       \centering
@@ -330,134 +331,134 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Hit distribution per quarter in V1 and V2 alignment on 2022 data}
-  \begin{itemize}
-    \item $\bullet$\, V1 \to\, V2: A-side better, C-side loosing some performance
-    \item $\bullet$\, Performance discrepancies \to quarter analysis
-    \item $\bullet$\, $\chi2$ per quarter \to alignment performance per detector part
-    \item $\bullet$\, Expectation for good alignment: symmetry and exponential hit distribution
-  \end{itemize}
-  \begin{mybox}{green}{}
-    \begin{itemize}
-      \item $\bullet$\, Scan quarters individually; find issues faster
-    \end{itemize}
-  \end{mybox}
-  \begin{figure}
-      \includegraphics[width=0.8\textwidth]{logos/v1_v2.png}%
-      % \includegraphics[width=0.45\textwidth]{logos/hit_dist_v2.png}%
-  \end{figure}
-\end{frame}
+% \begin{frame}\frametitle{Hit distribution per quarter in V1 and V2 alignment on 2022 data}
+%   \begin{itemize}
+%     \item $\bullet$\, V1 \to\, V2: A-side better, C-side loosing some performance
+%     \item $\bullet$\, Performance discrepancies \to quarter analysis
+%     \item $\bullet$\, $\chi2$ per quarter \to alignment performance per detector part
+%     \item $\bullet$\, Expectation for good alignment: symmetry and exponential hit distribution
+%   \end{itemize}
+%   \begin{mybox}{green}{}
+%     \begin{itemize}
+%       \item $\bullet$\, Scan quarters individually; find issues faster
+%     \end{itemize}
+%   \end{mybox}
+%   \begin{figure}
+%       \includegraphics[width=0.8\textwidth]{logos/v1_v2.png}%
+%       % \includegraphics[width=0.45\textwidth]{logos/hit_dist_v2.png}%
+%   \end{figure}
+% \end{frame}
 
-\begin{frame}\frametitle{Track hits comparison of V2 and simulation}
-\begin{mybox}{green}{}
-  \begin{itemize}
-    \item $\bullet$\, Simulation: hits on \textbf{reconstructed} tracks fill whole detector
-    \item $\bullet$\, A-side Track hits good!
-  \end{itemize}
-\end{mybox}
-\begin{mybox}{orange}{}
-  \begin{itemize}
-    \item \to\, Scan C-side quarters for possible issues in distinct layers
-  \end{itemize}
-\end{mybox}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.6\textwidth]{logos/nodeXY_MC.pdf}%
-      \end{figure}
-    \end{column}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.6\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Track hits comparison of V2 and simulation}
+% \begin{mybox}{green}{}
+%   \begin{itemize}
+%     \item $\bullet$\, Simulation: hits on \textbf{reconstructed} tracks fill whole detector
+%     \item $\bullet$\, A-side Track hits good!
+%   \end{itemize}
+% \end{mybox}
+% \begin{mybox}{orange}{}
+%   \begin{itemize}
+%     \item \to\, Scan C-side quarters for possible issues in distinct layers
+%   \end{itemize}
+% \end{mybox}
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       \begin{figure}
+%         \centering
+%         \includegraphics[width=0.6\textwidth]{logos/nodeXY_MC.pdf}%
+%       \end{figure}
+%     \end{column}
+%     \begin{column}[c]{0.48\textwidth}
+%       \begin{figure}
+%         \centering
+%         \includegraphics[width=0.6\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
+%       \end{figure}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Improved Q0 positions in T2X2 layer with V2 alignment}
-  \begin{itemize}
-    \item $\bullet$\, Compare good vs. poor performing layers
-    \item $\bullet$\, Q0(bottom left quarter) modules too far out of alignment \to less tracks reconstructed in these objects
-    \item $\bullet$\, Fix manually and rerun alignment
-  \end{itemize}
-  \begin{figure}
-    \includegraphics[width=0.26\textwidth]{logos/2D_nodeXY_v2_7_left.pdf}%
-    \includegraphics[width=0.26\textwidth]{logos/2D_nodeXY_quartermean_7_left.pdf}%
-    \includegraphics[width=0.26\textwidth]{problem_layer.png}%
-  \end{figure}
-\end{frame}
+% \begin{frame}\frametitle{Improved Q0 positions in T2X2 layer with V2 alignment}
+%   \begin{itemize}
+%     \item $\bullet$\, Compare good vs. poor performing layers
+%     \item $\bullet$\, Q0(bottom left quarter) modules too far out of alignment \to less tracks reconstructed in these objects
+%     \item $\bullet$\, Fix manually and rerun alignment
+%   \end{itemize}
+%   \begin{figure}
+%     \includegraphics[width=0.26\textwidth]{logos/2D_nodeXY_v2_7_left.pdf}%
+%     \includegraphics[width=0.26\textwidth]{logos/2D_nodeXY_quartermean_7_left.pdf}%
+%     \includegraphics[width=0.26\textwidth]{problem_layer.png}%
+%   \end{figure}
+% \end{frame}
 
-\begin{frame}\frametitle{Stability tests on 2022 data}
-  \begin{columns}
-    \begin{column}[c]{0.4\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{1em}
-        \item $\bullet$\, \textbf{How much does the SciFi move between runs?}
-        \item $\bullet$\, \textbf{Does the magnet polarity impact playa role in the alignment?}
-      \end{itemize}
-    \end{column}
-    \begin{column}[c]{0.6\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, Perform alignment for each of the runs on the list
-        \item $\bullet$\, Sort the runs in ascending run number
-        \item $\bullet$\, Compare the difference in module position for subsequent
-        \item $\bullet$\, Where are the modules in the local frame in all runs?
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Stability tests on 2022 data}
+%   \begin{columns}
+%     \begin{column}[c]{0.4\textwidth}
+%       \begin{itemize}
+%         \setlength\itemsep{1em}
+%         \item $\bullet$\, \textbf{How much does the SciFi move between runs?}
+%         \item $\bullet$\, \textbf{Does the magnet polarity impact playa role in the alignment?}
+%       \end{itemize}
+%     \end{column}
+%     \begin{column}[c]{0.6\textwidth}
+%       \begin{itemize}
+%         \item $\bullet$\, Perform alignment for each of the runs on the list
+%         \item $\bullet$\, Sort the runs in ascending run number
+%         \item $\bullet$\, Compare the difference in module position for subsequent
+%         \item $\bullet$\, Where are the modules in the local frame in all runs?
+%       \end{itemize}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Module Positions in local half module frame}
-  \begin{columns}
-    \begin{column}[c]{0.35\textwidth}
-      \begin{itemize}
-        \setlength\itemsep{0em}
-        \item $\bullet$\, Runs 255949 + 256030 problematic \to issues known!
-        \item $\bullet$\, Optimal fine timing implemented in 256145 (afterwards)
-        \item $\bullet$\, Both magnet polarities comparable results
-      \end{itemize}
-    \end{column}
-    \begin{column}[c]{0.65\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.9\textwidth]{plots/plain_data/raw_data_T1U_Tx.pdf}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Module Positions in local half module frame}
+%   \begin{columns}
+%     \begin{column}[c]{0.35\textwidth}
+%       \begin{itemize}
+%         \setlength\itemsep{0em}
+%         \item $\bullet$\, Runs 255949 + 256030 problematic \to issues known!
+%         \item $\bullet$\, Optimal fine timing implemented in 256145 (afterwards)
+%         \item $\bullet$\, Both magnet polarities comparable results
+%       \end{itemize}
+%     \end{column}
+%     \begin{column}[c]{0.65\textwidth}
+%       \begin{figure}
+%         \includegraphics[width=0.9\textwidth]{plots/plain_data/raw_data_T1U_Tx.pdf}
+%       \end{figure}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{Reduced dataset: removed pre timing update runs}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, Comparison of module positions of 2 runs each
-        % \item $\bullet$\, Without the fine timing changes the largest movement is at max around $400 \mu m$ at most outer modules
-        \item $\bullet$\, Outer modules \to low statistics \to difficult for the alignment \to large movement
-        \item $\bullet$\, Inner modules: movement around $150 \mu m$ allowed
-      \end{itemize}
-    \end{column}
-      \begin{column}[c]{0.48\textwidth}
-        \begin{figure}
-          \includegraphics[width=\textwidth]{plots/stability_plots/diff_reduced_Tx_T1V_Tx.pdf}
-        \end{figure}
-      \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{Reduced dataset: removed pre timing update runs}
+%   \begin{columns}
+%     \begin{column}[c]{0.48\textwidth}
+%       \begin{itemize}
+%         \item $\bullet$\, Comparison of module positions of 2 runs each
+%         % \item $\bullet$\, Without the fine timing changes the largest movement is at max around $400 \mu m$ at most outer modules
+%         \item $\bullet$\, Outer modules \to low statistics \to difficult for the alignment \to large movement
+%         \item $\bullet$\, Inner modules: movement around $150 \mu m$ allowed
+%       \end{itemize}
+%     \end{column}
+%       \begin{column}[c]{0.48\textwidth}
+%         \begin{figure}
+%           \includegraphics[width=\textwidth]{plots/stability_plots/diff_reduced_Tx_T1V_Tx.pdf}
+%         \end{figure}
+%       \end{column}
+%   \end{columns}
+% \end{frame}
 
-\begin{frame}\frametitle{stability tests: Conclusion}
-  \begin{columns}
-    \begin{column}[c]{\textwidth}
-      \begin{itemize}
-        \item $\bullet$\, Timing changes have big impact on module alignment
-        \item $\bullet$\, Upper limit of module movement: $150 \mu m$ %for the modules M0 \to M3 in Tx
-        \item $\bullet$\, \to manually update
-        \item $\bullet$\, Magnet polarity no major impact
-        \item $\bullet$\, A possible choice of an automatic update would be if variations of > 200 $\mu m$ occur.
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
+% \begin{frame}\frametitle{stability tests: Conclusion}
+%   \begin{columns}
+%     \begin{column}[c]{\textwidth}
+%       \begin{itemize}
+%         \item $\bullet$\, Timing changes have big impact on module alignment
+%         \item $\bullet$\, Upper limit of module movement: $150 \mu m$ %for the modules M0 \to M3 in Tx
+%         \item $\bullet$\, \to manually update
+%         \item $\bullet$\, Magnet polarity no major impact
+%         \item $\bullet$\, A possible choice of an automatic update would be if variations of > 200 $\mu m$ occur.
+%       \end{itemize}
+%     \end{column}
+%   \end{columns}
+% \end{frame}
 
 % \begin{frame}\frametitle{Joints constraints for SciFi module alignment}
 %   \begin{columns}
@@ -574,6 +575,45 @@
 %     \item $\bullet$\, look at my slides from LHCb where i presented!!
 %   \end{itemize}
 % \end{frame}
+
+\begin{frame}\frametitle{Global Alignment and motivation}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item $\bullet$\, what is global alignment?
+    \begin{itemize}
+      \item $\bullet$\, alignment of the velo and the scifi together to understand the interplay in comparison to only SciFi
+    \end{itemize}
+    \item $\bullet$\, why is it a good idea to do it?
+    \begin{itemize}
+      \item $\bullet$\, open VELO might be a problem for other tracking stations like UT, SciFi and Muon
+      \item $\bullet$\, VELO is twisted between fron and back -> introduces potential biases
+    \end{itemize}
+  \end{itemize}
+  % \textbf{Thank you for your attention!}
+\end{frame}
+
+\begin{frame}\frametitle{problems miguel told me}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item $\bullet$\, problem A
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{plots about layer positions}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item $\bullet$\, zig zag pattern
+    \item $\bullet$\, dip in T2 is weird
+    \item $\bullet$\, look at my plots and deduce the differences between configs (what happens when introduce Frames or Long layers or lagrange constraints or different dofs)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{maybe also show module positions}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item $\bullet$\, make it easier to understand when looking at the plot
+  \end{itemize}
+\end{frame}
 
 \begin{frame}\frametitle{Summary}
   \begin{itemize}

@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'build/example.blg'
-[48] biber-darwin:340> INFO - === Fri Sep  8, 2023, 10:18:25
-[58] Biber.pm:418> INFO - Reading 'build/example.bcf'
-[124] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[137] bbl.pm:654> INFO - Writing 'build/example.bbl' with encoding 'UTF-8'
-[137] bbl.pm:757> INFO - Output to build/example.bbl
-[137] Biber.pm:130> WARN - The file 'build/example.bcf' does not contain any citations!
-[137] Biber.pm:132> INFO - WARNINGS: 1
+[66] biber-darwin:340> INFO - === Thu Jan 18, 2024, 12:48:36
+[80] Biber.pm:418> INFO - Reading 'build/example.bcf'
+[169] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[185] bbl.pm:654> INFO - Writing 'build/example.bbl' with encoding 'UTF-8'
+[185] bbl.pm:757> INFO - Output to build/example.bbl
+[185] Biber.pm:130> WARN - The file 'build/example.bcf' does not contain any citations!
+[186] Biber.pm:132> INFO - WARNINGS: 1
