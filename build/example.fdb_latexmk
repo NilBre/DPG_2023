@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/example"] 1705578499 "build/example.bcf" "build/example.bbl" "build/example" 1708194234
-  "build/example.bcf" 1708194234 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
+["biber build/example"] 1708690676 "build/example.bcf" "build/example.bbl" "build/example" 1708693279
+  "build/example.bcf" 1708693279 106635 c9f14f75b8f4bddaba282eb14e7fd3c9 "lualatex"
   (generated)
   "build/example.bbl"
   "build/example.blg"
-["lualatex"] 1708194226 "example.tex" "build/example.pdf" "example" 1708194234
+["lualatex"] 1708693272 "example.tex" "build/example.pdf" "example" 1708693279
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-Bold.otf:1:nil" 1678405084 78308 98433242afcc88bb930c3c12cc8ad4a4 ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-BoldOblique.otf:1:nil" 1678405084 81931 dbc326d879cb2026626bbee71ec9d00f ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:fira:FiraMono-Oblique.otf:1:nil" 1678405084 81080 98b126284c685a106f089499575beed1 ""
@@ -22,7 +22,7 @@
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1675943273 127670 564c90a4029a7f4850ec937f07afdc34 ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc" 1675943273 128104 c00a62ca6faf58db23eefc08d1d93c7d ""
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1678405077 128165 fcc1e5278c934f8cba331f07cd301ca2 ""
-  "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1708194233 5782 1a2bdc1c74c3ebba203295cef71a4419 "lualatex"
+  "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1708693279 5440 c7c57b78b72e6225ca792d71c2fa84c6 "lualatex"
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1675943270 357696 95fc915fd7c406b14d162ea3ac0fc826 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf" 1554498137 505308 9c7b22b54b0d47608efc27c58348b573 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf" 1554498137 514220 a22271ce546d1bd44e64cd453b737a4c ""
@@ -533,14 +533,13 @@
   "/usr/local/texlive/2022/texmf-var/tex/generic/config/language.dat.lua" 1647878956 17725 a067e6927c16a324d245d9b1f795101f ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1674862501 4558584 76e381cefbf6c73e478118771827a156 ""
   "beamerthemetudo.sty" 1694161094 7022 d778c53eb18f72d244a5087afcab6002 ""
-  "build/example.aux" 1708194234 3338 e975415ca92444aa022ddf2d9c9b3394 "lualatex"
-  "build/example.bbl" 1705578517 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
-  "build/example.nav" 1708194234 1667 223530e0d280496bcaab89de82b2e7ab "lualatex"
-  "build/example.run.xml" 1708194234 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
+  "build/example.aux" 1708693279 2951 94a6589c4d9e08d9ec40547d0342b971 "lualatex"
+  "build/example.bbl" 1708690677 466 ee04f40f768daeed26442158e95aba61 "biber build/example"
+  "build/example.nav" 1708693279 1388 37fb167c90003b6656a249083ce3750a "lualatex"
+  "build/example.run.xml" 1708693279 2454 c5712fb5e4239e37774d01ad02cf1c49 "lualatex"
   "detector.tex" 1678404834 3783 dcef878c459cdca470fd78f64d38e251 ""
-  "example.tex" 1708194211 26856 bd1b8004af094ff49a4e8c560dee388e ""
+  "example.tex" 1708693270 15644 a323e67e156a6f2f99c9ce8ecfa35f10 ""
   "logos/FSP_LHCb_Lang_Farbig.png" 1679135736 42753 a23f485edfc93fe20e14c139c9cfa8fa ""
-  "logos/LHCb-FIGURE-2022-018/Run251342Preliminary_BestLong_chi2_per_ndof.pdf" 1679135736 15314 6055afd2b09cb9e1bbc6a39ce6052cbe ""
   "logos/blanco.png" 1679405948 4321 b60f9aae83674f5ef20e2b7c706c8bdb ""
   "logos/bmbf.png" 1679135736 52964 5b0a41918f8aa16cf670dab136385c05 ""
   "logos/dataflow.png" 1679135736 140819 4d3a9efaff48d02f14f7773385b6f94b ""
@@ -550,8 +549,11 @@
   "logos/survey.png" 1679135736 52968 d27bf2a99021e1575093655d0c7cb9f2 ""
   "logos/tu.pdf" 1678404834 13157 1c5905f8a3419899042add57a2182b18 ""
   "logos/upgrade_lhcb.png" 1679135736 101675 d20f74bc84a1927dbb6985dd3625227a ""
-  "objects.tex" 1679405631 4369 6c3d0a25b19a0fe773b388017cdb3328 ""
-  "plots/loose_tracking.png" 1694027784 330244 da8097784b5c63b68255bacef4f924e2 ""
+  "plots/outfiles_vs_global/Layers_Tx_pattern.png" 1708519384 72198 73e840f667a58411818a8aad71ae1013 ""
+  "plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rx.pdf" 1708517896 18981 257fa0095118f6ed3d4f281314c9a1d8 ""
+  "plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf" 1708517896 17929 01930974bb372049a79e330282419a1e ""
+  "plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Tx.pdf" 1708517896 18553 ad45a1e0e888d6ab1cda07b97ebec69d ""
+  "plots/velo_rotation.png" 1708690397 176328 ad2b6e30e710a6fd70dcfa9bb108979a ""
   "track.png" 1679482074 211053 bf8f583b72b4104bda24be7f6f5244fa ""
   (generated)
   "/Users/nibreer/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
