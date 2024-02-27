@@ -33,7 +33,7 @@
 \usepackage[most]{tcolorbox}
 \tcbset{on line, hbox,
         boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
-        colframe=white,colback=SpringGreen,  
+        colframe=white,colback=SpringGreen,
         highlight math style={enhanced}
         }
 \newtcolorbox{mybox}[3][]
@@ -53,6 +53,7 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{bbold}
+\usepackage{hyperref}
 
 % Enable Unicode-Math and follow the ISO-Standards for typesetting math
 \usepackage[
@@ -177,17 +178,17 @@
 \begin{document}
 \maketitle
 
-\begin{frame}\frametitle{What is Alignment and why do we need it?}
+\begin{frame}\frametitle{Why do we need detector alignment?}
   \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
+    \begin{column}[c]{0.5\textwidth}
       \input{detector.tex}
     \end{column}
-    \begin{column}[c]{0.48\textwidth}
+    \begin{column}[c]{0.5\textwidth}
       \begin{itemize}
         \item $\bullet$\, Top: ideal detector, bottom: physical detector
         \item $\bullet$\, Surveys are used to find the rotation and position of each detector component
-        \item $\bullet$\, \to Starting positions for software alignment
-        \item $\bullet$\, Building tracks accurately requires positions in reconstruction to be as similar as possible to real positions
+        \item $\bullet$\, Input for alignment are surveyed measurements of detector positions
+        \item $\bullet$\, Track reconstruction accurately requires positions in reconstruction to be as similar as possible to real positions
       \end{itemize}
     \end{column}
   \end{columns}
@@ -197,7 +198,7 @@
   \begin{itemize}
     \item $\bullet$\, Alignment is part of the LHCb trigger system
     \item $\bullet$\, Physics performance tied to alignment performance
-    \item $\bullet$\, with optimal alignment:
+    \item $\bullet$\, Good quality alignment contributes to:
     \begin{itemize}
       \item $\bullet$\, \to\, remove systematic biases for asymmetry measurements
       \item $\bullet$\, Best possible mass resolution
@@ -209,7 +210,7 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{Alignment: track fits with the Kalman Filter}
+\begin{frame}\frametitle{Tracking alignment: track fit using Kalman filter}
   \begin{columns}
     \begin{column}[c]{0.4\textwidth}
       \begin{figure}
@@ -222,33 +223,44 @@
       \begin{itemize}
         \item $\bullet$\, Starting positions: positions from laser scans of detector objects (survey)
         \item $\bullet$\, Alignment: $\chi^2$ minimization of track residuals
+        \item $\bullet$\,\begin{equation}
+          \frac{\symup{d}\Chi^2}{\symup{d}\alpha} = 2 A^T V^{-1}r
+      \end{equation}
         \item $\bullet$\, Add measurements one-by-one to fit
         \item $\bullet$\, Prediction of next measurement \to minimize residuals \to redo until track complete
         \item $\bullet$\, Why Kalman Filter?
         \begin{itemize}
-          \item $\bullet$\, easily models material interactions as well as multiple scattering
+          \item $\bullet$\, Easily models material interactions as well as multiple scattering
         \end{itemize}
       \end{itemize}
     \end{column}
   \end{columns}
+  % See \hyperfootnote[Kalman Filter]{https://www.sciencedirect.com/science/article/pii/S0168900208017567?via%3Dihub}
 \end{frame}
 
-\begin{frame}\frametitle{LHCb upgraded with the SciFi}
+\begin{frame}\frametitle{The Run 3 LHCb detector}
   \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
+    \begin{column}[c]{0.6\textwidth}
       \begin{figure}
-        \includegraphics[width=\textwidth]{logos/upgrade_lhcb.png}
+        % \includegraphics[width=\textwidth]{logos/upgrade_lhcb.png}
+        \includegraphics[width=\textwidth]{plots/lhcb_upgrade.png}
         % \caption{Visualization of the SciFi tracking stations.}
       \end{figure}
     \end{column}
     \begin{column}{0.48\textwidth}
+      % \begin{itemize}
+      %   \item $\bullet$\, 3 stations: T1, T2, T3
+      %   \item $\bullet$\, 4 layers per station: X1, U, V, X2
+      % 	\item $\bullet$\, Replaces former IT and OT to cope with the increased instantaneous luminosity
+      %   \item $\bullet$\, IT and OT: silicon detectors have been replaced with fibre tracker
+      % \end{itemize}
       \begin{itemize}
-        \item $\bullet$\, 3 stations: T1, T2, T3
-        \item $\bullet$\, 4 layers per station: X1, U, V, X2
-      	\item $\bullet$\, Replaces former IT and OT to cope with the increased instantaneous luminosity
-%	      \item $\bullet$\, crucial part of tracking system
+        \item $\bullet$\, Brand new detector to maintain physics performance at more radiation harsh environment
       \end{itemize}
-      \includegraphics[width=0.7\textwidth]{track.png}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{track.png}
+      \end{figure}
     \end{column}
   \end{columns}
 \end{frame}
@@ -265,105 +277,127 @@
       \begin{itemize}
         \item $\bullet$\, Front two stations have 5 modules per side
         \item $\bullet$\, Back station has 6 modules on each side
-        \item $\bullet$\, U, V layers have a $\mp 5 \deg$ stereo angle respectively
-        \item $\bullet$\, \to\, Used for determining y-position of tracks by comparing hitposition at different angles
+        \item $\bullet$\, U, V layers have a $\mp 5 \si{degree}$ stereo angle respectively
+        \begin{itemize}
+          \item $\bullet$\, \to\, Used for determining y-position of tracks by comparing hitposition at different angles
+        \end{itemize}
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% \begin{frame}\frametitle{Track hits comparison of V2 and simulation}
-% \begin{mybox}{green}{}
-%   \begin{itemize}
-%     \item $\bullet$\, Simulation: hits on \textbf{reconstructed} tracks fill whole detector
-%     \item $\bullet$\, A-side Track hits good!
-%   \end{itemize}
-% \end{mybox}
-% \begin{mybox}{orange}{}
-%   \begin{itemize}
-%     \item \to\, Scan C-side quarters for possible issues in distinct layers
-%   \end{itemize}
-% \end{mybox}
-%   \begin{columns}
-%     \begin{column}[c]{0.48\textwidth}
-%       \begin{figure}
-%         \centering
-%         \includegraphics[width=0.6\textwidth]{logos/nodeXY_MC.pdf}%
-%       \end{figure}
-%     \end{column}
-%     \begin{column}[c]{0.48\textwidth}
-%       \begin{figure}
-%         \centering
-%         \includegraphics[width=0.6\textwidth]{tuples_out/combining_2D_nodeXY_v2.pdf}%
-%       \end{figure}
-%     \end{column}
-%   \end{columns}
-% \end{frame}
+\begin{frame}\frametitle{VELO ALignment}
+  \begin{columns}
+    \begin{column}[c]{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.7\textwidth]{plots/velo_tracks_before_after.png}
+        \includegraphics[width=0.7\textwidth]{plots/velo_deltax.png}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, Align VELO in Tx to move modules where trakc is expected
+      \end{itemize}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{plots/PVx_velo.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Alignables for the global alignment}
+  \begin{columns}
+    \begin{column}[c]{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{plots/velo_halves.png}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{plots/scifi_modell.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
 
 \begin{frame}\frametitle{Global alignment and motivation}
   \begin{mybox}{green}{Global alignment}
     \begin{itemize}
-      \item $\bullet$\, alignment of the velo and the scifi simultaneously
+      \item $\bullet$\, Alignment of the VELO and SciFi simultaneously
     \end{itemize}
     \begin{itemize}
       \setlength\itemsep{0em}
       \item $\bullet$\, Motivation for global alignment
       \begin{itemize}
-        \item $\bullet$\, understanding the interplay between tracking systems
-        \item $\bullet$\, rotations inside the VELO \to weak modes inside SciFi (VELO twisting)
+        \item $\bullet$\, Understanding the interplay between tracking systems
+        \item $\bullet$\, Rotations inside the VELO \to weak modes inside SciFi (VELO twisting)
       \end{itemize}
-    \end{itemize}
-  \end{mybox}
-  \begin{mybox}{orange}{Configuration}
-    \begin{itemize}
-      \item First Longmodules then Halfmodules TxRxRz
-      \item Full VELO RxRz + VELO halves TxTyTz
-      \item VELO halves TxTyTz
-      \item CFrames to be able to absorb for the average movement
-      \item lagrage constraint in T2
-      \item VELO backwards tracks
     \end{itemize}
   \end{mybox}
 \end{frame}
 
 \begin{frame}\frametitle{VELO global rotation}
   \begin{itemize}
-    \item rotation Rz leading to shifts in x and y
+    \item $\bullet$\, Rotation Rz leading to shifts in x and y
     % \item half alignment somewhat sensitive and shows Rz ≈ 3 mrad
-    \item half alignment sensitive to x shift 
-    \item global movement in y
-    \begin{itemize}
-      \item can not be corrected for by half alignment
-    \end{itemize}
+    \item $\bullet$\, Half alignment sensitive to x shift
+    \item $\bullet$\, Global movement in y
+    \item $\bullet$\, Can not be corrected for by half alignment
   \end{itemize}
   \includegraphics[width=\textwidth]{plots/velo_rotation.png}
 \end{frame}
 
-\begin{frame}\frametitle{Comparison of SciFi only to global alignment}
-  \begin{itemize}
-    \setlength\itemsep{0em}
-    \item $\bullet$\, zig-zag pattern still unknown origin
-    \item \to correlated with Tz shifting showing similar trend
-    \item $\bullet$\, small improvement in comparison to SciFi only
-    \item \to layer movement has still issues from VELO rotation present in SciFi
-  \end{itemize}
+\begin{frame}\frametitle{SciFi alignment status and issue}
   \begin{columns}
-    \begin{column}[c]{0.35\textwidth}
+    \begin{column}[c]{0.6\textwidth}
       \begin{figure}
         \centering
-        \includegraphics[width=\textwidth]{plots/outfiles_vs_global/Layers_Tx_pattern.png}
+        \includegraphics[width=0.9\textwidth]{plots/outfiles_vs_global/Layers_Tx_pattern.png}
       \end{figure}
     \end{column}
-    \begin{column}[c]{0.5\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\textwidth]{plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Tx.pdf}
-      \end{figure}
+    \begin{column}[c]{0.4\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, Shift of SciFi layers larger than expected from survey
+        \item \to underlying problem
+        \item $\bullet$\, Zig-zag pattern comes from global VELO Rx rotation
+        \item $\bullet$\, Similar pattern in SciFi Tz \to entangled problem between Tx and Tz
+      \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Comparison of SciFi only to global alignment}
+\begin{frame}\frametitle{Comparison to global alignment tests}
+  \begin{table}
+    \begin{tabular}{c | c c c c}
+      \toprule
+         & C-FRames & Halfmodules & full VELO & VELO halves \\
+      \midrule
+        DoF & RxRz & TxRxRz & RxRz & TxTyTz \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, Black: first align Longmodules then Halfmodules
+        \item $\bullet$\, \color{blue}Blue\color{black}: constraining (X1|X2) and (U|V) layers
+        \item $\bullet$\, \color{red}Red\color{black}: added backwards VELO tracks
+        \item $\bullet$\, \color{green}Green\color{black}: only Rx in full VELO alignment
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{global alignment: rotation studies}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
@@ -372,23 +406,25 @@
       \end{figure}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\textwidth]{plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf}
-      \end{figure}
+      \begin{itemize}
+        \item $\bullet$\, Observe rotation around Rx through T-stations \to inconsistent bending of the layers
+        \item $\bullet$\, This effect only shows when running SciFi and VELO together
+      \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Issues and possible solutions}
+\begin{frame}\frametitle{Outcome of the study and next steps}
   \begin{itemize}
     \setlength\itemsep{0em}
-    \item $\bullet$\, zig-zag pattern of stereo layers in Tx difficult to fix
+    \item $\bullet$\, ongoing investigation of zig-zag pattern with VELO Rx
     \item \to similar pattern in Tz \to cannot fix one without the other
     \item $\bullet$\, global VELO Rx might be overthrown by survey constrains acting on Rx \to Rx not being picked up in the alignment
     \item $\bullet$\, Testing different survey uncertanties to study the impact on global VELO rotation
     \item $\bullet$\, Testing different settings in the alignment on stereo layers in Tx
-    \item make sure VELO Rx is being picked up in the alignment  \end{itemize}
+    \item $\bullet$\, make sure VELO Rx is being picked up in the alignment
+    \item $\bullet$\, Include the VELO+ SciFi configuration during data-takin
+  \end{itemize}
 \end{frame}
 
 
@@ -396,7 +432,6 @@
   \begin{itemize}
     \setlength\itemsep{0em}
     \item $\bullet$\, global alignment improving the position of the T-stations
-    \item $\bullet$\, still unknown phenomena (zig-zag pattern, offset T2 position)
     \item $\bullet$\, survey constraints might counteract the global VELO Rx
     \item $\bullet$\, A lot more tests to do until data taking which look promising
     \item $\bullet$\, \textbf{Thank you for your attention!}
@@ -428,6 +463,12 @@
     \end{column}
   \end{columns}
 \end{frame}
+
+% \begin{frame}
+%   \begin{figure}
+%     \includegraphics[width=\textwidth]{plots/old_lhcb.png}
+%   \end{figure}
+% \end{frame}
 
 
 % not needed
