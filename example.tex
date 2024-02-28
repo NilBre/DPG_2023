@@ -185,10 +185,11 @@
     \end{column}
     \begin{column}[c]{0.5\textwidth}
       \begin{itemize}
+        \item $\bullet$\, Track reconstruction accurately requires positions in reconstruction to be as similar as possible to real positions
         \item $\bullet$\, Top: ideal detector, bottom: physical detector
         \item $\bullet$\, Surveys are used to find the rotation and position of each detector component
         \item $\bullet$\, Input for alignment are surveyed measurements of detector positions
-        \item $\bullet$\, Track reconstruction accurately requires positions in reconstruction to be as similar as possible to real positions
+        \item $\bullet$\, Alignment goal: achieve the best precision in the detector position
       \end{itemize}
     \end{column}
   \end{columns}
@@ -204,6 +205,7 @@
       \item $\bullet$\, Best possible mass resolution
     \end{itemize}
   \end{itemize}
+  % note: say in the talk: the alignment takes input from events selected by HLT1 to perform the calibration. the updated geometry constants are then applied both to HLT1 and HLT2
   \begin{figure}
       \includegraphics[width=0.9\textwidth]{logos/dataflow.png}%
     % \caption{Hits on tracks in x-direction with run 256145 data on 20000 ents using 9 minimum hits against 11 minimum hits.}
@@ -256,6 +258,7 @@
       % \end{itemize}
       \begin{itemize}
         \item $\bullet$\, Brand new detector to maintain physics performance at more radiation harsh environment
+        \item $\bullet$\, UT was not present during 2022-23 data taking \to focus on SciFi and VELO
       \end{itemize}
       \begin{figure}
         \centering
@@ -275,8 +278,8 @@
     \end{column}
     \begin{column}{0.48\textwidth}
       \begin{itemize}
-        \item $\bullet$\, Front two stations have 5 modules per side
-        \item $\bullet$\, Back station has 6 modules on each side
+        \item $\bullet$\, 5 modules per side except for back T-station has 6
+        \item $\bullet$\, X1, X2-layers are vertical and only yield x-position information
         \item $\bullet$\, U, V layers have a $\mp 5 \si{degree}$ stereo angle respectively
         \begin{itemize}
           \item $\bullet$\, \to\, Used for determining y-position of tracks by comparing hitposition at different angles
@@ -286,24 +289,25 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{VELO ALignment}
+\begin{frame}\frametitle{VELO geometry}
   \begin{columns}
     \begin{column}[c]{0.5\textwidth}
-      \begin{figure}
-        \includegraphics[width=0.7\textwidth]{plots/velo_tracks_before_after.png}
-        \includegraphics[width=0.7\textwidth]{plots/velo_deltax.png}
-      \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
       \begin{itemize}
-        \item $\bullet$\, Align VELO in Tx to move modules where trakc is expected
-      \end{itemize}
+        \item $\bullet$\, Rotation Rz leading to shifts in x and y
+        % \item half alignment somewhat sensitive and shows Rz ≈ 3 mrad
+        \item $\bullet$\, Half alignment sensitive to x shift
+        \item $\bullet$\, Global movement in y
+        \item $\bullet$\, Can not be corrected for by half alignment
+      \end{itemize}    
+    \end{column}
+    \begin{column}[c]{0.5\textwidth}
       \begin{figure}
         \centering
-        \includegraphics[width=0.9\textwidth]{plots/PVx_velo.png}
+        \includegraphics[width=\textwidth]{plots/velo_layers_all.png}
       \end{figure}
     \end{column}
   \end{columns}
+  \includegraphics[width=\textwidth]{plots/velo_rotation.png}
 \end{frame}
 
 \begin{frame}\frametitle{Alignables for the global alignment}
@@ -323,6 +327,26 @@
   \end{columns}
 \end{frame}
 
+\begin{frame}\frametitle{VELO ALignment}
+  \begin{columns}
+    \begin{column}[c]{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.7\textwidth]{plots/velo_tracks_before_after.png}
+        \includegraphics[width=0.7\textwidth]{plots/velo_deltax.png}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item $\bullet$\, Align VELO in Tx to move modules where track is expected
+      \end{itemize}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{plots/PVx_velo.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 \begin{frame}\frametitle{Global alignment and motivation}
   \begin{mybox}{green}{Global alignment}
     \begin{itemize}
@@ -332,6 +356,7 @@
       \setlength\itemsep{0em}
       \item $\bullet$\, Motivation for global alignment
       \begin{itemize}
+        \item $\bullet$\, we can do the alignment seperately but ideally best alignment we achieve is the global one
         \item $\bullet$\, Understanding the interplay between tracking systems
         \item $\bullet$\, Rotations inside the VELO \to weak modes inside SciFi (VELO twisting)
       \end{itemize}
@@ -339,18 +364,7 @@
   \end{mybox}
 \end{frame}
 
-\begin{frame}\frametitle{VELO global rotation}
-  \begin{itemize}
-    \item $\bullet$\, Rotation Rz leading to shifts in x and y
-    % \item half alignment somewhat sensitive and shows Rz ≈ 3 mrad
-    \item $\bullet$\, Half alignment sensitive to x shift
-    \item $\bullet$\, Global movement in y
-    \item $\bullet$\, Can not be corrected for by half alignment
-  \end{itemize}
-  \includegraphics[width=\textwidth]{plots/velo_rotation.png}
-\end{frame}
-
-\begin{frame}\frametitle{SciFi alignment status and issue}
+\begin{frame}\frametitle{SciFi alignment status and issues}
   \begin{columns}
     \begin{column}[c]{0.6\textwidth}
       \begin{figure}
@@ -360,8 +374,8 @@
     \end{column}
     \begin{column}[c]{0.4\textwidth}
       \begin{itemize}
+        \item $\bullet$\, SciFi alignment is quite good already but there are some underlying problems
         \item $\bullet$\, Shift of SciFi layers larger than expected from survey
-        \item \to underlying problem
         \item $\bullet$\, Zig-zag pattern comes from global VELO Rx rotation
         \item $\bullet$\, Similar pattern in SciFi Tz \to entangled problem between Tx and Tz
       \end{itemize}

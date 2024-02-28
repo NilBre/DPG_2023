@@ -1,2 +1,1 @@
-\xpginauxfiletrue 
 \selectlanguage *{german}
