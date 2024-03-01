@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  28 FEB 2024 12:26
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  1 MAR 2024 14:34
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -873,12 +873,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            synonyms	 on input line 10
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -2702,12 +2702,12 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            synonyms	 on input line 22
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
@@ -3256,14 +3256,14 @@ Package luatex.def Info: plots/lhcb_upgrade.png  used on input line 269.
 File: track.png Graphic file (type png)
 <use track.png>
 Package luatex.def Info: track.png  used on input line 269.
-(luatex.def)             Requested size: 204.11534pt x 143.49629pt.
+(luatex.def)             Requested size: 163.2929pt x 114.79796pt.
 
 Overfull \hbox (4.0203pt too wide) detected at line 269
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (40.26015pt too high) detected at line 269
+Overfull \vbox (11.56181pt too high) detected at line 269
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
@@ -3870,7 +3870,7 @@ ave, 8 pdf_restore nodes
    avail lists: 1:9,2:1580,3:1385,4:225,5:420,6:44,7:2941,8:15,9:796,10:17,11:11
 8
  96747 multiletter control sequences out of 65536+600000
- 120 fonts using 41272735 bytes
+ 120 fonts using 41272559 bytes
  128i,18n,144p,1003b,2454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraMath-Regu
 lar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraM
@@ -3880,7 +3880,7 @@ C.enc}</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Li
 ght.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-
 Medium.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSym
 bol12.pfb>
-Output written on example.pdf (16 pages, 2484269 bytes).
+Output written on example.pdf (16 pages, 2484267 bytes).
 
 PDF statistics: 351 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams
