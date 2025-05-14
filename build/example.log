@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  1 MAR 2024 14:34
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.28)  22 APR 2025 10:54
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -768,6 +768,13 @@ eX
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip64
+\multirow@cntb=\count343
+\multirow@dima=\skip65
+\bigstrutjot=\dimen294
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
@@ -783,7 +790,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks46
 \XKV@tempa@toks=\toks47
 )
-\XKV@depth=\count343
+\XKV@depth=\count344
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -798,7 +805,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/local/texlive/2022/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count344
+\@catcodetablestackcnt=\count345
 )
 \CatcodeTableOther=\catcodetable12
 \CatcodeTableExpl=\catcodetable13
@@ -873,12 +880,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
 (polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 10
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -952,12 +959,12 @@ Package polyglossia Info: Option: English, variant=american.
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count345
-\csq@gtype=\count346
-\csq@glevel=\count347
-\csq@qlevel=\count348
-\csq@maxlvl=\count349
-\csq@tshold=\count350
+\csq@reset=\count346
+\csq@gtype=\count347
+\csq@glevel=\count348
+\csq@qlevel=\count349
+\csq@maxlvl=\count350
+\csq@tshold=\count351
 \csq@ltx@everypar=\toks48
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -975,14 +982,14 @@ Package csquotes Info: Enabling multilingual quotes.
 Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
 \MT@toks=\toks49
 \MT@tempbox=\box76
-\MT@count=\count351
+\MT@count=\count352
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen294
+\MT@outer@kern=\dimen295
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count352
+\MT@listname@count=\count353
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2022/03/14 v3.0d Definitions specific to luatex (RS)
@@ -991,7 +998,7 @@ Lua module: microtype 2022/03/14 3.0d microtype module.
 Module microtype Info: overwriting function `keepligature' on input line 63
 LaTeX Info: Redefining \lsstyle on input line 686.
 LaTeX Info: Redefining \lslig on input line 686.
-\MT@outer@space=\skip64
+\MT@outer@space=\skip66
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1016,8 +1023,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
+\pgf@nodesepstart=\dimen296
+\pgf@nodesepend=\dimen297
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1038,9 +1045,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box79
 \tcb@lowerbox=\box80
 \tcb@phantombox=\box81
-\c@tcbbreakpart=\count353
-\c@tcblayer=\count354
-\c@tcolorbox@number=\count355
+\c@tcbbreakpart=\count354
+\c@tcblayer=\count355
+\c@tcolorbox@number=\count356
 \tcb@temp=\box82
 \tcb@temp=\box83
 \tcb@temp=\box84
@@ -1048,10 +1055,10 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
-\c@tcbrastercolumn=\count356
-\c@tcbrasterrow=\count357
-\c@tcbrasternum=\count358
-\c@tcbraster=\count359
+\c@tcbrastercolumn=\count357
+\c@tcbrasterrow=\count358
+\c@tcbrasternum=\count359
+\c@tcbraster=\count360
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -1060,8 +1067,8 @@ Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
+\pgffor@iter=\dimen298
+\pgffor@skip=\dimen299
 \pgffor@stack=\toks52
 \pgffor@toks=\toks53
 ))
@@ -1072,34 +1079,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count360
-\pgfplotmarksize=\dimen299
+\pgf@plot@mark@count=\count361
+\pgfplotmarksize=\dimen300
 )
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikz@lastmovetox=\dimen304
-\tikz@lastmovetoy=\dimen305
-\tikzleveldistance=\dimen306
-\tikzsiblingdistance=\dimen307
+\tikz@lastx=\dimen301
+\tikz@lasty=\dimen302
+\tikz@lastxsaved=\dimen303
+\tikz@lastysaved=\dimen304
+\tikz@lastmovetox=\dimen305
+\tikz@lastmovetoy=\dimen306
+\tikzleveldistance=\dimen307
+\tikzsiblingdistance=\dimen308
 \tikz@figbox=\box86
 \tikz@figbox@bg=\box87
 \tikz@tempbox=\box88
 \tikz@tempbox@bg=\box89
-\tikztreelevel=\count361
-\tikznumberofchildren=\count362
-\tikznumberofcurrentchild=\count363
-\tikz@fig@count=\count364
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count365
-\pgfmatrixcurrentcolumn=\count366
-\pgf@matrix@numberofcolumns=\count367
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
 )
-\tikz@expandcount=\count368
+\tikz@expandcount=\count369
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1129,10 +1136,10 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
-\tcbfitdim=\dimen308
-\tcb@lowerfitdim=\dimen309
-\tcb@upperfitdim=\dimen310
-\tcb@cur@hbadness=\count369
+\tcbfitdim=\dimen309
+\tcb@lowerfitdim=\dimen310
+\tcb@upperfitdim=\dimen311
+\tcb@cur@hbadness=\count370
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
 )
@@ -1142,23 +1149,23 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count370
+\lst@mode=\count371
 \lst@gtempboxa=\box94
 \lst@token=\toks54
-\lst@length=\count371
-\lst@currlwidth=\dimen311
-\lst@column=\count372
-\lst@pos=\count373
-\lst@lostspace=\dimen312
-\lst@width=\dimen313
-\lst@newlines=\count374
-\lst@lineno=\count375
-\lst@maxwidth=\dimen314
+\lst@length=\count372
+\lst@currlwidth=\dimen312
+\lst@column=\count373
+\lst@pos=\count374
+\lst@lostspace=\dimen313
+\lst@width=\dimen314
+\lst@newlines=\count375
+\lst@lineno=\count376
+\lst@maxwidth=\dimen315
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count376
-\lst@skipnumbers=\count377
+\c@lstnumber=\count377
+\lst@skipnumbers=\count378
 \lst@framebox=\box95
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
@@ -1175,7 +1182,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count378
+\c@tcblisting=\count379
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1202,31 +1209,31 @@ Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count379
-\calc@Bcount=\count380
-\calc@Adimen=\dimen315
-\calc@Bdimen=\dimen316
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
+\calc@Acount=\count380
+\calc@Bcount=\count381
+\calc@Adimen=\dimen316
+\calc@Bdimen=\dimen317
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count381
-\calc@Cskip=\skip67
+\calc@Ccount=\count382
+\calc@Cskip=\skip69
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count382
-\l_MT_multwidth_dim=\dimen317
-\origjot=\skip68
-\l_MT_shortvdotswithinadjustabove_dim=\dimen318
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen319
-\l_MT_above_intertext_sep=\dimen320
-\l_MT_below_intertext_sep=\dimen321
-\l_MT_above_shortintertext_sep=\dimen322
-\l_MT_below_shortintertext_sep=\dimen323
+\g_MT_multlinerow_int=\count383
+\l_MT_multwidth_dim=\dimen318
+\origjot=\skip70
+\l_MT_shortvdotswithinadjustabove_dim=\dimen319
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen320
+\l_MT_above_intertext_sep=\dimen321
+\l_MT_below_intertext_sep=\dimen322
+\l_MT_above_shortintertext_sep=\dimen323
+\l_MT_below_shortintertext_sep=\dimen324
 \xmathstrut@box=\box96
-\xmathstrut@dim=\dimen324
+\xmathstrut@dim=\dimen325
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
@@ -1252,9 +1259,9 @@ Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
 h LuaLaTeX
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
 h LuaLaTeX)
-\g__um_fam_int=\count383
-\g__um_fonts_used_int=\count384
-\l__um_primecount_int=\count385
+\g__um_fam_int=\count384
+\g__um_fonts_used_int=\count385
+\l__um_primecount_int=\count386
 \g__um_primekern_muskip=\muskip18
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
@@ -1311,15 +1318,15 @@ flt;"<7.2-10.2>"LatinModernMath:mode=base;script=math;language=dflt;+ssty=0;"<-
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 67.
+(Font)              `operators' in the math version `normal' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line
- 67.
+ 68.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 67.
+(Font)              `operators' in the math version `bold' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input lin
-e 67.
+e 68.
 
 Package fontspec Info: LatinModernMath scale = 1.0001.
 
@@ -1381,15 +1388,15 @@ ge=dflt;+ssty=1;"
 (fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 67.
+(Font)              `symbols' in the math version `normal' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input lin
-e 67.
+e 68.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 67.
+(Font)              `symbols' in the math version `bold' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input lin
-e 67.
+e 68.
 
 Package fontspec Info: LatinModernMath scale = 0.9999.
 
@@ -1440,34 +1447,34 @@ ge=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 6
-7.
+8.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input lin
-e 67.
+e 68.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 67.
+(Font)              `largesymbols' in the math version `bold' on input line 68.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input lin
-e 67.
+e 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 67.
+(Font)              scaled to size 12.00128pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 8.40088pt on input line 67.
+(Font)              scaled to size 8.40088pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 67.
+(Font)              scaled to size 6.00064pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 67.
+(Font)              scaled to size 11.99872pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 67.
+(Font)              scaled to size 8.3991pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 67.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+(Font)              scaled to size 5.99936pt on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1480,19 +1487,19 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
 y
 Package: xtemplate 2022-01-12 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen325
-\l__xtemplate_tmp_int=\count386
+\l__xtemplate_tmp_dim=\dimen326
+\l__xtemplate_tmp_int=\count387
 \l__xtemplate_tmp_muskip=\muskip19
-\l__xtemplate_tmp_skip=\skip69
+\l__xtemplate_tmp_skip=\skip71
 )
 Package: xfrac 2022-01-12 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box97
 \l__xfrac_tmp_box=\box98
-\l__xfrac_denominator_bot_sep_dim=\dimen326
-\l__xfrac_numerator_bot_sep_dim=\dimen327
-\l__xfrac_numerator_top_sep_dim=\dimen328
-\l__xfrac_slash_left_sep_dim=\dimen329
-\l__xfrac_slash_right_sep_dim=\dimen330
+\l__xfrac_denominator_bot_sep_dim=\dimen327
+\l__xfrac_numerator_bot_sep_dim=\dimen328
+\l__xfrac_numerator_top_sep_dim=\dimen329
+\l__xfrac_slash_left_sep_dim=\dimen330
+\l__xfrac_slash_right_sep_dim=\dimen331
 \l__xfrac_slash_left_muskip=\muskip20
 \l__xfrac_slash_right_muskip=\muskip21
 
@@ -1501,32 +1508,32 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen331
+\l__siunitx_angle_tmp_dim=\dimen332
 \l__siunitx_angle_marker_box=\box99
 \l__siunitx_angle_unit_box=\box100
-\l__siunitx_compound_count_int=\count387
+\l__siunitx_compound_count_int=\count388
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count388
-\l__siunitx_number_min_decimal_int=\count389
-\l__siunitx_number_min_integer_int=\count390
-\l__siunitx_number_round_precision_int=\count391
-\l__siunitx_number_group_minimum_int=\count392
+\l__siunitx_number_exponent_fixed_int=\count389
+\l__siunitx_number_min_decimal_int=\count390
+\l__siunitx_number_min_integer_int=\count391
+\l__siunitx_number_round_precision_int=\count392
+\l__siunitx_number_group_minimum_int=\count393
 \l__siunitx_table_tmp_box=\box101
-\l__siunitx_table_tmp_dim=\dimen332
-\l__siunitx_table_column_width_dim=\dimen333
+\l__siunitx_table_tmp_dim=\dimen333
+\l__siunitx_table_column_width_dim=\dimen334
 \l__siunitx_table_integer_box=\box102
 \l__siunitx_table_decimal_box=\box103
 \l__siunitx_table_before_box=\box104
 \l__siunitx_table_after_box=\box105
-\l__siunitx_table_before_dim=\dimen334
-\l__siunitx_table_carry_dim=\dimen335
-\l__siunitx_unit_tmp_int=\count393
-\l__siunitx_unit_position_int=\count394
-\l__siunitx_unit_total_int=\count395
+\l__siunitx_table_before_dim=\dimen335
+\l__siunitx_table_carry_dim=\dimen336
+\l__siunitx_unit_tmp_int=\count394
+\l__siunitx_unit_position_int=\count395
+\l__siunitx_unit_total_int=\count396
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
@@ -1536,12 +1543,12 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen336
+\col@sep=\dimen337
 \ar@mcellbox=\box106
-\extrarowheight=\dimen337
+\extrarowheight=\dimen338
 \NC@list=\toks55
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip72
+\backup@length=\skip73
 \ar@cellbox=\box107
 ))
 
@@ -1552,23 +1559,23 @@ Package siunitx Warning: Option "text-micro" has been removed in this release.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen338
-\lightrulewidth=\dimen339
-\cmidrulewidth=\dimen340
-\belowrulesep=\dimen341
-\belowbottomsep=\dimen342
-\aboverulesep=\dimen343
-\abovetopsep=\dimen344
-\cmidrulesep=\dimen345
-\cmidrulekern=\dimen346
-\defaultaddspace=\dimen347
-\@cmidla=\count396
-\@cmidlb=\count397
-\@aboverulesep=\dimen348
-\@belowrulesep=\dimen349
-\@thisruleclass=\count398
-\@lastruleclass=\count399
-\@thisrulewidth=\dimen350
+\heavyrulewidth=\dimen339
+\lightrulewidth=\dimen340
+\cmidrulewidth=\dimen341
+\belowrulesep=\dimen342
+\belowbottomsep=\dimen343
+\aboverulesep=\dimen344
+\abovetopsep=\dimen345
+\cmidrulesep=\dimen346
+\cmidrulekern=\dimen347
+\defaultaddspace=\dimen348
+\@cmidla=\count397
+\@cmidlb=\count398
+\@aboverulesep=\dimen349
+\@belowrulesep=\dimen350
+\@thisruleclass=\count399
+\@lastruleclass=\count400
+\@thisrulewidth=\dimen351
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/grffile/grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
@@ -1587,10 +1594,10 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen351
-\pgfarrowlength=\dimen352
-\pgfarrowwidth=\dimen353
-\pgfarrowlinewidth=\dimen354
+\pgfarrowinset=\dimen352
+\pgfarrowlength=\dimen353
+\pgfarrowwidth=\dimen354
+\pgfarrowlinewidth=\dimen355
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybending.code.tex
@@ -1603,38 +1610,38 @@ File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineart
 ransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen355
+\pgftransformnonlinearflatness=\dimen356
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvili
 near.code.tex
 File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen356
-\pgf@curvilinear@length@a=\dimen357
-\pgf@curvilinear@length@b=\dimen358
-\pgf@curvilinear@length@c=\dimen359
-\pgf@curvilinear@length@d=\dimen360
+\pgf@curvilinear@time@a=\dimen357
+\pgf@curvilinear@length@a=\dimen358
+\pgf@curvilinear@length@b=\dimen359
+\pgf@curvilinear@length@c=\dimen360
+\pgf@curvilinear@length@d=\dimen361
 )
-\pgf@arrows@the@rigidity=\dimen361
+\pgf@arrows@the@rigidity=\dimen362
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryfpu.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count400
-\pgf@circ@count@b=\count401
-\pgf@circ@count@c=\count402
-\pgf@circ@res@up=\dimen362
-\pgf@circ@res@down=\dimen363
-\pgf@circ@res@zero=\dimen364
-\pgf@circ@res@left=\dimen365
-\pgf@circ@res@right=\dimen366
-\pgf@circ@res@other=\dimen367
-\pgf@circ@res@step=\dimen368
-\pgf@circ@res@temp=\dimen369
-\pgf@circ@Rlen=\dimen370
-\pgf@circ@scaled@Rlen=\dimen371
-\pgfstartlinewidth=\dimen372
+\pgf@circ@count@a=\count401
+\pgf@circ@count@b=\count402
+\pgf@circ@count@c=\count403
+\pgf@circ@res@up=\dimen363
+\pgf@circ@res@down=\dimen364
+\pgf@circ@res@zero=\dimen365
+\pgf@circ@res@left=\dimen366
+\pgf@circ@res@right=\dimen367
+\pgf@circ@res@other=\dimen368
+\pgf@circ@res@step=\dimen369
+\pgf@circ@res@temp=\dimen370
+\pgf@circ@Rlen=\dimen371
+\pgf@circ@scaled@Rlen=\dimen372
+\pgfstartlinewidth=\dimen373
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
 \ctikz@scratchbox=\box108
 )
@@ -1644,13 +1651,13 @@ e.tex))
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count403
+\pgf@circ@res@count=\count404
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.te
 x) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen373
+\pgfcirc@labelshift=\dimen374
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
@@ -1667,14 +1674,14 @@ ode.tex
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen374
-\pgfdecoratedremainingdistance=\dimen375
-\pgfdecoratedinputsegmentcompleteddistance=\dimen376
-\pgfdecoratedinputsegmentremainingdistance=\dimen377
-\pgf@decorate@distancetomove=\dimen378
-\pgf@decorate@repeatstate=\count404
-\pgfdecorationsegmentamplitude=\dimen379
-\pgfdecorationsegmentlength=\dimen380
+\pgfdecoratedcompleteddistance=\dimen375
+\pgfdecoratedremainingdistance=\dimen376
+\pgfdecoratedinputsegmentcompleteddistance=\dimen377
+\pgfdecoratedinputsegmentremainingdistance=\dimen378
+\pgf@decorate@distancetomove=\dimen379
+\pgf@decorate@repeatstate=\count405
+\pgfdecorationsegmentamplitude=\dimen380
+\pgfdecorationsegmentlength=\dimen381
 )
 \tikz@lib@dec@box=\box109
 )
@@ -1693,8 +1700,8 @@ brarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/graphs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\tikz@lib@auto@number=\count405
-\tikz@qnode@count=\count406
+\tikz@lib@auto@number=\count406
+\tikz@qnode@count=\count407
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.code.tex
@@ -1723,7 +1730,7 @@ File: tikzlibrarygraphdrawing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
 graphdrawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@gd@parameter@stack@height=\count407
+\pgf@gd@parameter@stack@height=\count408
 \pgf@gd@node@box=\box110
 \pgf@gd@edge@box=\box111
 \pgf@gd@prekind@box=\box112
@@ -1738,29 +1745,29 @@ Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen381
-\captionmargin=\dimen382
-\caption@leftmargin=\dimen383
-\caption@rightmargin=\dimen384
-\caption@width=\dimen385
-\caption@indent=\dimen386
-\caption@parindent=\dimen387
-\caption@hangindent=\dimen388
+\caption@tempdima=\dimen382
+\captionmargin=\dimen383
+\caption@leftmargin=\dimen384
+\caption@rightmargin=\dimen385
+\caption@width=\dimen386
+\caption@indent=\dimen387
+\caption@parindent=\dimen388
+\caption@hangindent=\dimen389
 Package caption Info: beamer document class detected.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count408
-\c@continuedfloat=\count409
+\c@caption@flags=\count409
+\c@continuedfloat=\count410
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: listings package is loaded.
 )
-\c@subfigure=\count410
-\c@subtable=\count411
+\c@subfigure=\count411
+\c@subtable=\count412
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrhack.sty
 Package: scrhack 2021/11/13 v3.35 KOMA-Script package (hacking other packages)
@@ -1790,7 +1797,7 @@ istings)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip72
+\scr@dte@tocline@numberwidth=\skip74
 \scr@dte@tocline@numbox=\box114
 )
 Package tocbasic Info: babel extension for `lol' omitted
@@ -1799,13 +1806,13 @@ Package scrhack Info: redefining \lstlistoflistings on input line 143.
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count412
+\c@float@type=\count413
 \float@exts=\toks58
 \float@box=\box115
 \@float@everytoks=\toks59
 \@floatcapt=\box116
 )
-Package scrhack Info: loading float hack on input line 104.
+Package scrhack Info: loading float hack on input line 105.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package floa
@@ -1915,12 +1922,12 @@ LaTeX Font Info:    Redeclaring math symbol \invneg on input line 242.
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip73
-\enit@outerparindent=\dimen389
+\labelindent=\skip75
+\enit@outerparindent=\dimen390
 \enit@toks=\toks60
 \enit@inbox=\box117
-\enit@count@id=\count413
-\enitdp@description=\count414
+\enit@count@id=\count414
+\enitdp@description=\count415
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hepunits/hepunits.sty
 Package: hepunits 2020/04/10 High-energy physics units by Andy Buckley (v2.0.0)
@@ -1948,22 +1955,22 @@ Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen390
-\ESO@tempdimb=\dimen391
+\ESO@tempdima=\dimen391
+\ESO@tempdimb=\dimen392
 )
-\AM@pagewidth=\dimen392
-\AM@pageheight=\dimen393
-\AM@fboxrule=\dimen394
+\AM@pagewidth=\dimen393
+\AM@pageheight=\dimen394
+\AM@fboxrule=\dimen395
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2022/01/29 v0.5u Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count415
+\pdfpages@includegraphics@status=\count416
 \AM@pagebox=\box118
 \AM@global@opts=\toks61
-\AM@pagecnt=\count416
+\AM@pagecnt=\count417
 \AM@toc@title=\toks62
-\c@AM@survey=\count417
+\c@AM@survey=\count418
 \AM@templatesizebox=\box119
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1971,67 +1978,67 @@ Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count418
+\lrq@indent=\count419
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count419
-\c@listtotal=\count420
-\c@listcount=\count421
-\c@liststart=\count422
-\c@liststop=\count423
-\c@citecount=\count424
-\c@citetotal=\count425
-\c@multicitecount=\count426
-\c@multicitetotal=\count427
-\c@instcount=\count428
-\c@maxnames=\count429
-\c@minnames=\count430
-\c@maxitems=\count431
-\c@minitems=\count432
-\c@citecounter=\count433
-\c@maxcitecounter=\count434
-\c@savedcitecounter=\count435
-\c@uniquelist=\count436
-\c@uniquename=\count437
-\c@refsection=\count438
-\c@refsegment=\count439
-\c@maxextratitle=\count440
-\c@maxextratitleyear=\count441
-\c@maxextraname=\count442
-\c@maxextradate=\count443
-\c@maxextraalpha=\count444
-\c@abbrvpenalty=\count445
-\c@highnamepenalty=\count446
-\c@lownamepenalty=\count447
-\c@maxparens=\count448
-\c@parenlevel=\count449
-\blx@tempcnta=\count450
-\blx@tempcntb=\count451
-\blx@tempcntc=\count452
-\c@blx@maxsection=\count453
-\c@blx@maxsegment@0=\count454
-\blx@notetype=\count455
-\blx@parenlevel@text=\count456
-\blx@parenlevel@foot=\count457
-\c@blx@sectionciteorder@0=\count458
-\blx@entrysetcounter=\count459
-\blx@biblioinstance=\count460
-\labelnumberwidth=\skip74
-\labelalphawidth=\skip75
-\biblabelsep=\skip76
-\bibitemsep=\skip77
-\bibnamesep=\skip78
-\bibinitsep=\skip79
-\bibparsep=\skip80
-\bibhang=\skip81
+\c@tabx@nest=\count420
+\c@listtotal=\count421
+\c@listcount=\count422
+\c@liststart=\count423
+\c@liststop=\count424
+\c@citecount=\count425
+\c@citetotal=\count426
+\c@multicitecount=\count427
+\c@multicitetotal=\count428
+\c@instcount=\count429
+\c@maxnames=\count430
+\c@minnames=\count431
+\c@maxitems=\count432
+\c@minitems=\count433
+\c@citecounter=\count434
+\c@maxcitecounter=\count435
+\c@savedcitecounter=\count436
+\c@uniquelist=\count437
+\c@uniquename=\count438
+\c@refsection=\count439
+\c@refsegment=\count440
+\c@maxextratitle=\count441
+\c@maxextratitleyear=\count442
+\c@maxextraname=\count443
+\c@maxextradate=\count444
+\c@maxextraalpha=\count445
+\c@abbrvpenalty=\count446
+\c@highnamepenalty=\count447
+\c@lownamepenalty=\count448
+\c@maxparens=\count449
+\c@parenlevel=\count450
+\blx@tempcnta=\count451
+\blx@tempcntb=\count452
+\blx@tempcntc=\count453
+\c@blx@maxsection=\count454
+\c@blx@maxsegment@0=\count455
+\blx@notetype=\count456
+\blx@parenlevel@text=\count457
+\blx@parenlevel@foot=\count458
+\c@blx@sectionciteorder@0=\count459
+\blx@entrysetcounter=\count460
+\blx@biblioinstance=\count461
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language3
-\c@mincomprange=\count461
-\c@maxcomprange=\count462
-\c@mincompwidth=\count463
+\c@mincomprange=\count462
+\c@maxcomprange=\count463
+\c@mincompwidth=\count464
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2040,88 +2047,88 @@ File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count464
-\c@savedafterword=\count465
-\c@annotator=\count466
-\c@savedannotator=\count467
-\c@author=\count468
-\c@savedauthor=\count469
-\c@bookauthor=\count470
-\c@savedbookauthor=\count471
-\c@commentator=\count472
-\c@savedcommentator=\count473
-\c@editor=\count474
-\c@savededitor=\count475
-\c@editora=\count476
-\c@savededitora=\count477
-\c@editorb=\count478
-\c@savededitorb=\count479
-\c@editorc=\count480
-\c@savededitorc=\count481
-\c@foreword=\count482
-\c@savedforeword=\count483
-\c@holder=\count484
-\c@savedholder=\count485
-\c@introduction=\count486
-\c@savedintroduction=\count487
-\c@namea=\count488
-\c@savednamea=\count489
-\c@nameb=\count490
-\c@savednameb=\count491
-\c@namec=\count492
-\c@savednamec=\count493
-\c@translator=\count494
-\c@savedtranslator=\count495
-\c@shortauthor=\count496
-\c@savedshortauthor=\count497
-\c@shorteditor=\count498
-\c@savedshorteditor=\count499
-\c@labelname=\count500
-\c@savedlabelname=\count501
-\c@institution=\count502
-\c@savedinstitution=\count503
-\c@lista=\count504
-\c@savedlista=\count505
-\c@listb=\count506
-\c@savedlistb=\count507
-\c@listc=\count508
-\c@savedlistc=\count509
-\c@listd=\count510
-\c@savedlistd=\count511
-\c@liste=\count512
-\c@savedliste=\count513
-\c@listf=\count514
-\c@savedlistf=\count515
-\c@location=\count516
-\c@savedlocation=\count517
-\c@organization=\count518
-\c@savedorganization=\count519
-\c@origlocation=\count520
-\c@savedoriglocation=\count521
-\c@origpublisher=\count522
-\c@savedorigpublisher=\count523
-\c@publisher=\count524
-\c@savedpublisher=\count525
-\c@language=\count526
-\c@savedlanguage=\count527
-\c@origlanguage=\count528
-\c@savedoriglanguage=\count529
-\c@pageref=\count530
-\c@savedpageref=\count531
-\shorthandwidth=\skip82
-\shortjournalwidth=\skip83
-\shortserieswidth=\skip84
-\shorttitlewidth=\skip85
-\shortauthorwidth=\skip86
-\shorteditorwidth=\skip87
-\locallabelnumberwidth=\skip88
-\locallabelalphawidth=\skip89
-\localshorthandwidth=\skip90
-\localshortjournalwidth=\skip91
-\localshortserieswidth=\skip92
-\localshorttitlewidth=\skip93
-\localshortauthorwidth=\skip94
-\localshorteditorwidth=\skip95
+\c@afterword=\count465
+\c@savedafterword=\count466
+\c@annotator=\count467
+\c@savedannotator=\count468
+\c@author=\count469
+\c@savedauthor=\count470
+\c@bookauthor=\count471
+\c@savedbookauthor=\count472
+\c@commentator=\count473
+\c@savedcommentator=\count474
+\c@editor=\count475
+\c@savededitor=\count476
+\c@editora=\count477
+\c@savededitora=\count478
+\c@editorb=\count479
+\c@savededitorb=\count480
+\c@editorc=\count481
+\c@savededitorc=\count482
+\c@foreword=\count483
+\c@savedforeword=\count484
+\c@holder=\count485
+\c@savedholder=\count486
+\c@introduction=\count487
+\c@savedintroduction=\count488
+\c@namea=\count489
+\c@savednamea=\count490
+\c@nameb=\count491
+\c@savednameb=\count492
+\c@namec=\count493
+\c@savednamec=\count494
+\c@translator=\count495
+\c@savedtranslator=\count496
+\c@shortauthor=\count497
+\c@savedshortauthor=\count498
+\c@shorteditor=\count499
+\c@savedshorteditor=\count500
+\c@labelname=\count501
+\c@savedlabelname=\count502
+\c@institution=\count503
+\c@savedinstitution=\count504
+\c@lista=\count505
+\c@savedlista=\count506
+\c@listb=\count507
+\c@savedlistb=\count508
+\c@listc=\count509
+\c@savedlistc=\count510
+\c@listd=\count511
+\c@savedlistd=\count512
+\c@liste=\count513
+\c@savedliste=\count514
+\c@listf=\count515
+\c@savedlistf=\count516
+\c@location=\count517
+\c@savedlocation=\count518
+\c@organization=\count519
+\c@savedorganization=\count520
+\c@origlocation=\count521
+\c@savedoriglocation=\count522
+\c@origpublisher=\count523
+\c@savedorigpublisher=\count524
+\c@publisher=\count525
+\c@savedpublisher=\count526
+\c@language=\count527
+\c@savedlanguage=\count528
+\c@origlanguage=\count529
+\c@savedoriglanguage=\count530
+\c@pageref=\count531
+\c@savedpageref=\count532
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+\locallabelnumberwidth=\skip90
+\locallabelalphawidth=\skip91
+\localshorthandwidth=\skip92
+\localshortjournalwidth=\skip93
+\localshortserieswidth=\skip94
+\localshorttitlewidth=\skip95
+\localshortauthorwidth=\skip96
+\localshorteditorwidth=\skip97
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -2137,19 +2144,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count532
-\c@textcitetotal=\count533
-\c@textcitemaxnames=\count534
-\c@biburlbigbreakpenalty=\count535
-\c@biburlbreakpenalty=\count536
-\c@biburlnumpenalty=\count537
-\c@biburlucpenalty=\count538
-\c@biburllcpenalty=\count539
+\c@textcitecount=\count533
+\c@textcitetotal=\count534
+\c@textcitemaxnames=\count535
+\c@biburlbigbreakpenalty=\count536
+\c@biburlbreakpenalty=\count537
+\c@biburlnumpenalty=\count538
+\c@biburlucpenalty=\count539
+\c@biburllcpenalty=\count540
 \biburlbigskip=\muskip22
 \biburlnumskip=\muskip23
 \biburlucskip=\muskip24
 \biburllcskip=\muskip25
-\c@smartand=\count540
+\c@smartand=\count541
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -2161,8 +2168,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count541
-\c@bbx:relatedtotal=\count542
+\c@bbx:relatedcount=\count542
+\c@bbx:relatedtotal=\count543
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -2203,7 +2210,7 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count543
+\BKM@id=\count544
 ))
 (./beamerthemetudo.sty
 Package: beamerthemetudo 2019/01/29
@@ -2692,7 +2699,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 46
  (/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-\headerheight=\skip96
+\headerheight=\skip98
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
@@ -2702,37 +2709,37 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
 (polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 22
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
 \openout1 = example.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2770,16 +2777,16 @@ LaTeX Font Info:    ... okay on input line 178.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count544
-\scratchdimen=\dimen395
+\scratchcounter=\count545
+\scratchdimen=\dimen396
 \scratchbox=\box120
-\nofMPsegments=\count545
-\nofMParguments=\count546
+\nofMPsegments=\count546
+\nofMParguments=\count547
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count547
-\MPscratchDim=\dimen396
-\MPnumerator=\count548
-\makeMPintoPDFobject=\count549
+\MPscratchCnt=\count548
+\MPscratchDim=\dimen397
+\MPnumerator=\count549
+\makeMPintoPDFobject=\count550
 \everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2790,7 +2797,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 178.
+Package hyperref Info: Link coloring ON on input line 177.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -2802,11 +2809,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count550
+\c@section@level=\count551
 )
-LaTeX Info: Redefining \ref on input line 178.
-LaTeX Info: Redefining \pageref on input line 178.
-LaTeX Info: Redefining \nameref on input line 178.
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -2832,13 +2839,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 178.
-Package microtype Info: Applying patch `item' on input line 178.
-Package microtype Info: Applying patch `toc' on input line 178.
-Package microtype Info: Applying patch `eqnum' on input line 178.
+LaTeX Info: Redefining \microtypecontext on input line 177.
+Package microtype Info: Applying patch `item' on input line 177.
+Package microtype Info: Applying patch `toc' on input line 177.
+Package microtype Info: Applying patch `eqnum' on input line 177.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 178.
+Package microtype Warning: Unable to apply patch `footnote' on input line 177.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -2846,7 +2853,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 178.
+LaTeX Info: Redefining \showhyphens on input line 177.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -2854,13 +2861,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSansLight' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count551
+\c@lstlisting=\count552
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/FiraMath(1)/m/n --> TU/lmr/m/n on input line 178.
+(Font)                  TU/FiraMath(1)/m/n --> TU/lmr/m/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 178.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 178.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 177.
 
 Package unicode-math Warning: Using \overbracket and \underbracket from
 (unicode-math)                `mathtools' package.
@@ -2886,7 +2893,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 178.
+or `german'. on input line 177.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -2894,17 +2901,17 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 178.
+or `english'. on input line 177.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 178.
+ input line 177.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package scrhack Info: undefining \float@addtolists on input line 178.
+Package scrhack Info: undefining \float@addtolists on input line 177.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
@@ -2918,7 +2925,7 @@ File: lscape.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package lsc
 ape)
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
-\scrh@LT@textheight=\skip97
+\scrh@LT@textheight=\skip99
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
@@ -2973,35 +2980,85 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'example.bbl' found.
 
 (./build/example.bbl)
-Package biblatex Info: Reference section=0 on input line 178.
-Package biblatex Info: Reference segment=0 on input line 178.
-LaTeX Info: Redefining \rmfamily on input line 178.
-LaTeX Info: Redefining \sffamily on input line 178.
-LaTeX Info: Redefining \ttfamily on input line 178.
+Package biblatex Info: Reference section=0 on input line 177.
+Package biblatex Info: Reference segment=0 on input line 177.
+LaTeX Info: Redefining \rmfamily on input line 177.
+LaTeX Info: Redefining \sffamily on input line 177.
+LaTeX Info: Redefining \ttfamily on input line 177.
 Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-178
+177
  (./build/example.nav)
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.09372pt on input line 178.
+(Font)              scaled to size 5.09372pt on input line 177.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 5.03586pt on input line 178.
+(Font)              scaled to size 5.03586pt on input line 177.
 
 warning  (file logos/tu.pdf) (pdf inclusion): PDF inclusion: found PDF version '
 1.7', but at most version '1.5' allowed
 <logos/tu.pdf, id=49, 340.27126pt x 55.20625pt>
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 178.
+Package luatex.def Info: logos/tu.pdf  used on input line 177.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <logos/blanco.png, id=50, 35.13126pt x 67.25125pt>
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 178.
+Package luatex.def Info: logos/blanco.png  used on input line 177.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 
 warning  (file logos/lhcb-logo-0121.pdf) (pdf inclusion): PDF inclusion: found P
 DF version '1.6', but at most version '1.5' allowed
 <logos/lhcb-logo-0121.pdf, id=51, 1422.63495pt x 853.58298pt>
+File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
+<use logos/lhcb-logo-0121.pdf>
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 177.
+(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 177.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
+<logos/FSP_LHCb_Lang_Farbig.png, id=52, 289.08pt x 71.5473pt>
+File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
+<use logos/FSP_LHCb_Lang_Farbig.png>
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 177
+.
+(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 177.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
+<logos/bmbf.png, id=53, 518.6878pt x 259.7203pt>
+File: logos/bmbf.png Graphic file (type png)
+<use logos/bmbf.png>
+Package luatex.def Info: logos/bmbf.png  used on input line 177.
+(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
+
+Overfull \hbox (212.0751pt too wide) in paragraph at lines 177--177
+ [][][][][][][][]  
+ []
+
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 12.22491pt on input line 177.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 21.12195pt on input line 178.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 20.88202pt on input line 178.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 14.6699pt on input line 178.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 14.50327pt on input line 178.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 12.08604pt on input line 178.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 3.39581pt on input line 178.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 178.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: logos/blanco.png Graphic file (type png)
+<use logos/blanco.png>
+Package luatex.def Info: logos/blanco.png  used on input line 178.
+(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
 Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 178.
@@ -3010,7 +3067,6 @@ File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
 Package luatex.def Info: logos/blanco.png  used on input line 178.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-<logos/FSP_LHCb_Lang_Farbig.png, id=52, 289.08pt x 71.5473pt>
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
 Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 178
@@ -3020,58 +3076,9 @@ File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
 Package luatex.def Info: logos/blanco.png  used on input line 178.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-<logos/bmbf.png, id=53, 518.6878pt x 259.7203pt>
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
 Package luatex.def Info: logos/bmbf.png  used on input line 178.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) in paragraph at lines 178--178
- [][][][][][][][]  
- []
-
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 12.22491pt on input line 178.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 21.12195pt on input line 179.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 20.88202pt on input line 179.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 14.6699pt on input line 179.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 14.50327pt on input line 179.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 12.08604pt on input line 179.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 3.39581pt on input line 179.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 179.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 179.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 179.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 179.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 179
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 179.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 179.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3082,7 +3089,7 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./logos/t
 u.pdf><./logos/blanco.png><./logos/lhcb-logo-0121.pdf><./logos/FSP_LHCb_Lang_Far
-big.png><./logos/bmbf.png>] (./detector.tex)
+big.png><./logos/bmbf.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -3095,65 +3102,73 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 196.
+(microtype)             (new value: 12.0pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/8.64
 '
-(microtype)             (new value: 8.64pt) on input line 196.
+(microtype)             (new value: 8.64pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/6.96
 '
-(microtype)             (new value: 6.96pt) on input line 196.
+(microtype)             (new value: 6.96pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 196.
+(microtype)             (new value: 12.0pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/8.64
 '
-(microtype)             (new value: 8.64pt) on input line 196.
+(microtype)             (new value: 8.64pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/6.96
 '
-(microtype)             (new value: 6.96pt) on input line 196.
+(microtype)             (new value: 6.96pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 196.
+(microtype)             (new value: 12.0pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/8.64
 '
-(microtype)             (new value: 8.64pt) on input line 196.
+(microtype)             (new value: 8.64pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/6.96
 '
-(microtype)             (new value: 6.96pt) on input line 196.
+(microtype)             (new value: 6.96pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 196.
+(microtype)             (new value: 12.0pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/8.64
 '
-(microtype)             (new value: 8.64pt) on input line 196.
+(microtype)             (new value: 8.64pt) on input line 194.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/6.96
 '
-(microtype)             (new value: 6.96pt) on input line 196.
+(microtype)             (new value: 6.96pt) on input line 194.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 10.07172pt on input line 194.
+
+Overfull \hbox (10.68918pt too wide) in paragraph at lines 194--194
+[]\TU/FiraSansLight(0)/m/n/12 305559,305641,305684,305850,306109,306356,306532,3
+06608,306711,307071,30518,307587,307654,307758,  
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 196.
+Package luatex.def Info: logos/tu.pdf  used on input line 194.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 196.
+Package luatex.def Info: logos/blanco.png  used on input line 194.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 196.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 194.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 196.
+Package luatex.def Info: logos/blanco.png  used on input line 194.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 196
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 194
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 196.
+Package luatex.def Info: logos/blanco.png  used on input line 194.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 196.
+Package luatex.def Info: logos/bmbf.png  used on input line 194.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3163,39 +3178,34 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 [2
 
 ]
-<logos/dataflow.png, id=84, 871.255pt x 161.60374pt>
-File: logos/dataflow.png Graphic file (type png)
-<use logos/dataflow.png>
-Package luatex.def Info: logos/dataflow.png  used on input line 213.
-(luatex.def)             Requested size: 382.71707pt x 70.9875pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 213.
+Package luatex.def Info: logos/tu.pdf  used on input line 208.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 213.
+Package luatex.def Info: logos/blanco.png  used on input line 208.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 213.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 208.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 213.
+Package luatex.def Info: logos/blanco.png  used on input line 208.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 213
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 208
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 213.
+Package luatex.def Info: logos/blanco.png  used on input line 208.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 213.
+Package luatex.def Info: logos/bmbf.png  used on input line 208.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3204,40 +3214,53 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [3
 
-<./logos/dataflow.png>]
-<logos/kalman.png, id=92, 268.00125pt x 332.74312pt>
-File: logos/kalman.png Graphic file (type png)
-<use logos/kalman.png>
-Package luatex.def Info: logos/kalman.png  used on input line 241.
-(luatex.def)             Requested size: 122.46863pt x 152.05331pt.
+]
+<plots/2025_plots_goettingen/scifi_stability_TxRz/half/stabi_test_Tx_half_corre
+ct.pdf, id=89, 423.76498pt x 349.7921pt>
+File: plots/2025_plots_goettingen/scifi_stability_TxRz/half/stabi_test_Tx_half_
+correct.pdf Graphic file (type pdf)
+<use plots/2025_plots_goettingen/scifi_stability_TxRz/half/stabi_test_Tx_half_c
+orrect.pdf>
+Package luatex.def Info: plots/2025_plots_goettingen/scifi_stability_TxRz/half/
+stabi_test_Tx_half_correct.pdf  used on input line 230.
+(luatex.def)             Requested size: 170.09827pt x 140.4054pt.
+<plots/2025_plots_goettingen/scifi_stability_TxRz/per_layer/stabi_test_Tx_per_l
+ayer.pdf, id=90, 418.76497pt x 349.7921pt>
+File: plots/2025_plots_goettingen/scifi_stability_TxRz/per_layer/stabi_test_Tx_
+per_layer.pdf Graphic file (type pdf)
+<use plots/2025_plots_goettingen/scifi_stability_TxRz/per_layer/stabi_test_Tx_p
+er_layer.pdf>
+Package luatex.def Info: plots/2025_plots_goettingen/scifi_stability_TxRz/per_l
+ayer/stabi_test_Tx_per_layer.pdf  used on input line 230.
+(luatex.def)             Requested size: 170.09827pt x 142.08667pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 241.
+Package luatex.def Info: logos/tu.pdf  used on input line 230.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 241.
+Package luatex.def Info: logos/blanco.png  used on input line 230.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 241.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 230.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 241.
+Package luatex.def Info: logos/blanco.png  used on input line 230.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 241
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 230
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 241.
+Package luatex.def Info: logos/blanco.png  used on input line 230.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 241.
+Package luatex.def Info: logos/bmbf.png  used on input line 230.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3246,54 +3269,55 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [4
 
-<./logos/kalman.png>]
-<plots/lhcb_upgrade.png, id=101, 528.47438pt x 325.96782pt>
-File: plots/lhcb_upgrade.png Graphic file (type png)
-<use plots/lhcb_upgrade.png>
-Package luatex.def Info: plots/lhcb_upgrade.png  used on input line 269.
-(luatex.def)             Requested size: 255.14903pt x 157.37796pt.
-<track.png, id=102, 432.61626pt x 304.13625pt>
-File: track.png Graphic file (type png)
-<use track.png>
-Package luatex.def Info: track.png  used on input line 269.
-(luatex.def)             Requested size: 163.2929pt x 114.79796pt.
-
-Overfull \hbox (4.0203pt too wide) detected at line 269
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (11.56181pt too high) detected at line 269
- []
-
+<./plots/2025_plots_goettingen/scifi_stability_TxRz/half/stabi_test_Tx_half_corr
+ect.pdf><./plots/2025_plots_goettingen/scifi_stability_TxRz/per_layer/stabi_test
+_Tx_per_layer.pdf>]
+<plots/2025_plots_precision/T1.png, id=165, 615.29875pt x 462.72874pt>
+File: plots/2025_plots_precision/T1.png Graphic file (type png)
+<use plots/2025_plots_precision/T1.png>
+Package luatex.def Info: plots/2025_plots_precision/T1.png  used on input line 
+248.
+(luatex.def)             Requested size: 140.33131pt x 105.52866pt.
+<plots/2025_plots_precision/T2.png, id=166, 593.21625pt x 460.72125pt>
+File: plots/2025_plots_precision/T2.png Graphic file (type png)
+<use plots/2025_plots_precision/T2.png>
+Package luatex.def Info: plots/2025_plots_precision/T2.png  used on input line 
+248.
+(luatex.def)             Requested size: 140.33131pt x 108.98657pt.
+<plots/2025_plots_precision/T3.png, id=167, 596.2275pt x 460.72125pt>
+File: plots/2025_plots_precision/T3.png Graphic file (type png)
+<use plots/2025_plots_precision/T3.png>
+Package luatex.def Info: plots/2025_plots_precision/T3.png  used on input line 
+248.
+(luatex.def)             Requested size: 140.33131pt x 108.43822pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 269.
+Package luatex.def Info: logos/tu.pdf  used on input line 248.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 269.
+Package luatex.def Info: logos/blanco.png  used on input line 248.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 269.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 248.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 269.
+Package luatex.def Info: logos/blanco.png  used on input line 248.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 269
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 248
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 269.
+Package luatex.def Info: logos/blanco.png  used on input line 248.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 269.
+Package luatex.def Info: logos/bmbf.png  used on input line 248.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3302,44 +3326,58 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [5
 
-<./plots/lhcb_upgrade.png><./track.png>]
-<logos/scifi.png, id=110, 464.4853pt x 417.81094pt>
-File: logos/scifi.png Graphic file (type png)
-<use logos/scifi.png>
-Package luatex.def Info: logos/scifi.png  used on input line 290.
-(luatex.def)             Requested size: 183.70256pt x 165.24709pt.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 7.33495pt on input line 290.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.9087pt on input line 290.
+<./plots/2025_plots_precision/T1.png><./plots/2025_plots_precision/T2.png><./plo
+ts/2025_plots_precision/T3.png>]
+<plots/2025_plots_precision/T1_Rz.png, id=176, 610.28pt x 438.63875pt>
+File: plots/2025_plots_precision/T1_Rz.png Graphic file (type png)
+<use plots/2025_plots_precision/T1_Rz.png>
+Package luatex.def Info: plots/2025_plots_precision/T1_Rz.png  used on input li
+ne 276.
+(luatex.def)             Requested size: 140.33131pt x 100.8647pt.
+<plots/2025_plots_precision/T2_Rz.png, id=177, 594.22pt x 438.63875pt>
+File: plots/2025_plots_precision/T2_Rz.png Graphic file (type png)
+<use plots/2025_plots_precision/T2_Rz.png>
+Package luatex.def Info: plots/2025_plots_precision/T2_Rz.png  used on input li
+ne 276.
+(luatex.def)             Requested size: 140.33131pt x 103.58879pt.
+<plots/2025_plots_precision/T3_Rz.png, id=178, 594.22pt x 438.63875pt>
+File: plots/2025_plots_precision/T3_Rz.png Graphic file (type png)
+<use plots/2025_plots_precision/T3_Rz.png>
+Package luatex.def Info: plots/2025_plots_precision/T3_Rz.png  used on input li
+ne 276.
+(luatex.def)             Requested size: 140.33131pt x 103.58879pt.
+
+Overfull \vbox (3.53842pt too high) detected at line 276
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 290.
+Package luatex.def Info: logos/tu.pdf  used on input line 276.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 290.
+Package luatex.def Info: logos/blanco.png  used on input line 276.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 290.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 276.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 290.
+Package luatex.def Info: logos/blanco.png  used on input line 276.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 290
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 276
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 290.
+Package luatex.def Info: logos/blanco.png  used on input line 276.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 290.
+Package luatex.def Info: logos/bmbf.png  used on input line 276.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3348,45 +3386,36 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [6
 
-<./logos/scifi.png>]
-<plots/velo_layers_all.png, id=117, 818.05624pt x 293.095pt>
-File: plots/velo_layers_all.png Graphic file (type png)
-<use plots/velo_layers_all.png>
-Package luatex.def Info: plots/velo_layers_all.png  used on input line 311.
-(luatex.def)             Requested size: 212.62204pt x 76.17606pt.
-<plots/velo_rotation.png, id=118, 1011.78pt x 254.9525pt>
-File: plots/velo_rotation.png Graphic file (type png)
-<use plots/velo_rotation.png>
-Package luatex.def Info: plots/velo_rotation.png  used on input line 311.
-(luatex.def)             Requested size: 425.24408pt x 107.1571pt.
+<./plots/2025_plots_precision/T1_Rz.png><./plots/2025_plots_precision/T2_Rz.png>
+<./plots/2025_plots_precision/T3_Rz.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 311.
+Package luatex.def Info: logos/tu.pdf  used on input line 304.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 311.
+Package luatex.def Info: logos/blanco.png  used on input line 304.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 311.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 304.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 311.
+Package luatex.def Info: logos/blanco.png  used on input line 304.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 311
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 304
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 311.
+Package luatex.def Info: logos/blanco.png  used on input line 304.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 311.
+Package luatex.def Info: logos/bmbf.png  used on input line 304.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3395,45 +3424,35 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [7
 
-<./plots/velo_layers_all.png><./plots/velo_rotation.png>]
-<plots/velo_halves.png, id=126, 815.29594pt x 478.78876pt>
-File: plots/velo_halves.png Graphic file (type png)
-<use plots/velo_halves.png>
-Package luatex.def Info: plots/velo_halves.png  used on input line 328.
-(luatex.def)             Requested size: 191.35854pt x 112.37656pt.
-<plots/scifi_modell.png, id=127, 285.31593pt x 210.03468pt>
-File: plots/scifi_modell.png Graphic file (type png)
-<use plots/scifi_modell.png>
-Package luatex.def Info: plots/scifi_modell.png  used on input line 328.
-(luatex.def)             Requested size: 191.35854pt x 140.86671pt.
+]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 328.
+Package luatex.def Info: logos/tu.pdf  used on input line 314.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 328.
+Package luatex.def Info: logos/blanco.png  used on input line 314.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
 <use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 328.
+Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 314.
 (luatex.def)             Requested size: 37.92323pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 328.
+Package luatex.def Info: logos/blanco.png  used on input line 314.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
 <use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 328
+Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 314
 .
 (luatex.def)             Requested size: 91.96935pt x 22.76271pt.
 File: logos/blanco.png Graphic file (type png)
 <use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 328.
+Package luatex.def Info: logos/blanco.png  used on input line 314.
 (luatex.def)             Requested size: 11.89085pt x 22.76271pt.
 File: logos/bmbf.png Graphic file (type png)
 <use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 328.
+Package luatex.def Info: logos/bmbf.png  used on input line 314.
 (luatex.def)             Requested size: 45.45313pt x 22.76271pt.
 
 Overfull \hbox (212.0751pt too wide) has occurred while \output is active
@@ -3442,354 +3461,7 @@ Overfull \hbox (212.0751pt too wide) has occurred while \output is active
 
 [8
 
-<./plots/velo_halves.png><./plots/scifi_modell.png>]
-<plots/velo_tracks_before_after.png, id=135, 425.33907pt x 129.48375pt>
-File: plots/velo_tracks_before_after.png Graphic file (type png)
-<use plots/velo_tracks_before_after.png>
-Package luatex.def Info: plots/velo_tracks_before_after.png  used on input line
- 348.
-(luatex.def)             Requested size: 148.83478pt x 45.30812pt.
-<plots/velo_deltax.png, id=136, 137.01187pt x 100.12407pt>
-File: plots/velo_deltax.png Graphic file (type png)
-<use plots/velo_deltax.png>
-Package luatex.def Info: plots/velo_deltax.png  used on input line 348.
-(luatex.def)             Requested size: 148.83478pt x 108.77249pt.
-<plots/PVx_velo.png, id=137, 277.035pt x 184.43906pt>
-File: plots/PVx_velo.png Graphic file (type png)
-<use plots/PVx_velo.png>
-Package luatex.def Info: plots/PVx_velo.png  used on input line 348.
-(luatex.def)             Requested size: 191.35854pt x 127.39816pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 348.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 348.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 348.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 348.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 348
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 348.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 348.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[9
-
-<./plots/velo_tracks_before_after.png><./plots/velo_deltax.png><./plots/PVx_velo
-.png>]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 365.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 365.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 365.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 365.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 365
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 365.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 365.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[10
-
 ]
-<plots/outfiles_vs_global/Layers_Tx_pattern.png, id=151, 570.13pt x 431.6125pt>
-
-File: plots/outfiles_vs_global/Layers_Tx_pattern.png Graphic file (type png)
-<use plots/outfiles_vs_global/Layers_Tx_pattern.png>
-Package luatex.def Info: plots/outfiles_vs_global/Layers_Tx_pattern.png  used o
-n input line 384.
-(luatex.def)             Requested size: 229.63257pt x 173.84056pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 384.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 384.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 384.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 384.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 384
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 384.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 384.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[11
-
-<./plots/outfiles_vs_global/Layers_Tx_pattern.png>]
-<plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf, id=159, 542.025p
-t x 361.35pt>
-File: plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf Graphic file
- (type pdf)
-<use plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf>
-Package luatex.def Info: plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_
-Rz.pdf  used on input line 412.
-(luatex.def)             Requested size: 204.11534pt x 136.07382pt.
-
-Overfull \vbox (3.41142pt too high) detected at line 412
- []
-
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 412.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 412.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 412.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 412.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 412
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 412.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 412.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[12
-
-<./plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rz.pdf>]
-<plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rx.pdf, id=224, 542.025p
-t x 361.35pt>
-File: plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rx.pdf Graphic file
- (type pdf)
-<use plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rx.pdf>
-Package luatex.def Info: plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_
-Rx.pdf  used on input line 429.
-(luatex.def)             Requested size: 204.11534pt x 136.07382pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 429.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 429.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 429.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 429.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 429
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 429.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 429.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[13
-
-<./plots/outfiles_vs_global/all_runs_fix_glob_z_vs_local_Rx.pdf>]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 442.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 442.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 442.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 442.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 442
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 442.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 442.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[14
-
-]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 10.07172pt on input line 454.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 454.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 454.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 454.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 454.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 454
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 454.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 454.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[15
-
-]
-<logos/survey.png, id=303, 328.97906pt x 197.98969pt>
-File: logos/survey.png Graphic file (type png)
-<use logos/survey.png>
-Package luatex.def Info: logos/survey.png  used on input line 479.
-(luatex.def)             Requested size: 204.11534pt x 122.84598pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 479.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 479.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/lhcb-logo-0121.pdf Graphic file (type pdf)
-<use logos/lhcb-logo-0121.pdf>
-Package luatex.def Info: logos/lhcb-logo-0121.pdf  used on input line 479.
-(luatex.def)             Requested size: 37.92323pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 479.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/FSP_LHCb_Lang_Farbig.png Graphic file (type png)
-<use logos/FSP_LHCb_Lang_Farbig.png>
-Package luatex.def Info: logos/FSP_LHCb_Lang_Farbig.png  used on input line 479
-.
-(luatex.def)             Requested size: 91.96935pt x 22.76271pt.
-File: logos/blanco.png Graphic file (type png)
-<use logos/blanco.png>
-Package luatex.def Info: logos/blanco.png  used on input line 479.
-(luatex.def)             Requested size: 11.89085pt x 22.76271pt.
-File: logos/bmbf.png Graphic file (type png)
-<use logos/bmbf.png>
-Package luatex.def Info: logos/bmbf.png  used on input line 479.
-(luatex.def)             Requested size: 45.45313pt x 22.76271pt.
-
-Overfull \hbox (212.0751pt too wide) has occurred while \output is active
- [][][][][][][][]  
- []
-
-[16
-
-<./logos/survey.png>]
 \tf@nav=\write6
 
 \openout6 = example.nav
@@ -3860,30 +3532,28 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 79364 strings out of 477785
+ 78874 strings out of 477785
  125016,3417909 words of node,token memory allocated
- 8090 words of node memory still in use:
-   121 hlist, 11 vlist, 24 rule, 23 disc, 12 local_par, 12 math, 149 glue, 123 k
-ern, 40 penalty, 2 margin_kern, 380 glyph, 244 attribute, 77 glue_spec, 244 attr
-ibute_list, 4 write, 48 pdf_literal, 44 pdf_colorstack, 8 pdf_setmatrix, 8 pdf_s
-ave, 8 pdf_restore nodes
-   avail lists: 1:9,2:1580,3:1385,4:225,5:420,6:44,7:2941,8:15,9:796,10:17,11:11
-8
- 96747 multiletter control sequences out of 65536+600000
- 120 fonts using 41272559 bytes
+ 10414 words of node memory still in use:
+   114 hlist, 9 vlist, 23 rule, 35 disc, 11 local_par, 12 math, 187 glue, 119 ke
+rn, 38 penalty, 4 margin_kern, 692 glyph, 220 attribute, 77 glue_spec, 220 attri
+bute_list, 4 write, 24 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_acti
+on, 48 pdf_colorstack, 7 pdf_setmatrix, 7 pdf_save, 7 pdf_restore nodes
+   avail lists: 1:9,2:536,3:235,4:219,5:601,6:38,7:2398,8:8,9:609,10:20,11:71
+ 96653 multiletter control sequences out of 65536+600000
+ 118 fonts using 39800247 bytes
  128i,18n,144p,1003b,2454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraMath-Regu
-lar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/firamath/FiraM
-ath-Regular.otf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnS
-ymbolA.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbol
-C.enc}</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Li
-ght.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-
-Medium.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSym
-bol12.pfb>
-Output written on example.pdf (16 pages, 2484267 bytes).
+lar.otf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.e
+nc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}</
+usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf>
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.o
+tf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pf
+b>
+Output written on example.pdf (8 pages, 621278 bytes).
 
-PDF statistics: 351 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 131072)
+PDF statistics: 233 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,0 +1,3 @@
+VPSystem: !<alignment>
+  position: [0 * mm, 0 * mm, 0 * mm]
+  rotation: [-0.0005157705398491993 * rad, 7.011816237252315e-05 * rad, -0.00042666842206765687 * rad]

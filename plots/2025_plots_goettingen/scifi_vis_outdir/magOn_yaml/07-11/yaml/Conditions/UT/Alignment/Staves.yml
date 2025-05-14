@@ -1,0 +1,612 @@
+UTAsideUTaUStave0: !<!alignment>
+  position: [0.28426373131313953 * mm, 4.0612405754926826e-05 * mm, -3.6264566464118147e-34 * mm]
+  rotation: [0 * rad, 1.3154295919989589e-39 * rad, -0.0013036687467423648 * rad]
+UTAsideUTaUStave0Face0: !<!alignment>
+  position: [-0.1055548408783685 * mm, -1.35200047444623e-34 * mm, 3.2526596611628755e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -6.842277657836021e-49 * rad]
+UTAsideUTaUStave0Face1: !<!alignment>
+  position: [0.11821243336474913 * mm, 1.5165396230918628e-34 * mm, -3.642701843456817e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -6.842277657836021e-49 * rad]
+UTAsideUTaUStave1: !<!alignment>
+  position: [-0.39536590893079665 * mm, 3.380465612379114e-05 * mm, 4.808300906083474e-34 * mm]
+  rotation: [0 * rad, 1.334244143278024e-47 * rad, -0.0011358481239494955 * rad]
+UTAsideUTaUStave1Face0: !<!alignment>
+  position: [-0.07578432460780127 * mm, -8.960376713386535e-35 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave1Face1: !<!alignment>
+  position: [0.06256234723978456 * mm, 7.436207008783152e-35 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave2: !<!alignment>
+  position: [-0.10109297990582145 * mm, 3.7611011709226134e-06 * mm, 1.4601063483110986e-34 * mm]
+  rotation: [0 * rad, 5.1317082433770156e-48 * rad, -0.0013051736832615226 * rad]
+UTAsideUTaUStave2Face0: !<!alignment>
+  position: [-0.03371484011553331 * mm, -4.020976986505347e-35 * mm, -5.194593611898689e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave2Face1: !<!alignment>
+  position: [0.024805845119959594 * mm, 2.9572738626296816e-35 * mm, 3.8219455929889734e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave3: !<!alignment>
+  position: [-0.3413312883688066 * mm, 1.8738506294016547e-05 * mm, 4.7694770535173235e-34 * mm]
+  rotation: [0 * rad, -8.920036192180526e-43 * rad, -0.0006135505243154631 * rad]
+UTAsideUTaUStave3Face0: !<!alignment>
+  position: [-0.032998867111319566 * mm, -7.889034000442418e-31 * mm, 0 * mm]
+  rotation: [0 * rad, -6.84227765783602e-49 * rad, -6.842277657836022e-49 * rad]
+UTAsideUTaUStave3Face1: !<!alignment>
+  position: [0.0268686589323932 * mm, -3.9439715550392027e-31 * mm, 0 * mm]
+  rotation: [0 * rad, -6.84227765783602e-49 * rad, -6.842277657836022e-49 * rad]
+UTAsideUTaUStave4: !<!alignment>
+  position: [0.21474546452373452 * mm, -1.714933060089116e-05 * mm, -3.187964701742973e-34 * mm]
+  rotation: [0 * rad, -1.8416385457472028e-42 * rad, -0.0013495787024990068 * rad]
+UTAsideUTaUStave4Face0: !<!alignment>
+  position: [-0.004729002638564222 * mm, -6.063598619175626e-36 * mm, 7.286182230957667e-36 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave4Face1: !<!alignment>
+  position: [-4.215269417049092e-05 * mm, -7.209957450283379e-38 * mm, 6.49465087516366e-38 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave5: !<!alignment>
+  position: [0.12831824030599737 * mm, -8.378457548719355e-06 * mm, -1.8410014924833146e-34 * mm]
+  rotation: [0 * rad, -1.3684555315672042e-48 * rad, -0.0010504445522413234 * rad]
+UTAsideUTaUStave5Face0: !<!alignment>
+  position: [0.01070632577442994 * mm, 1.4858011729887353e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave5Face1: !<!alignment>
+  position: [-0.011943197595815183 * mm, -1.6574516198131273e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave6: !<!alignment>
+  position: [0.26562396227402035 * mm, -1.751460849899064e-05 * mm, -4.076446407882452e-34 * mm]
+  rotation: [0 * rad, 2.326502484259724e-39 * rad, -0.000863036884020467 * rad]
+UTAsideUTaUStave6Face0: !<!alignment>
+  position: [-0.0019821580588305168 * mm, -2.2745815101349343e-36 * mm, 3.053998048008134e-36 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave6Face1: !<!alignment>
+  position: [-0.008119881174575927 * mm, -1.0469807209147224e-35 * mm, 1.251065783918558e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave7: !<!alignment>
+  position: [-0.15446263548366335 * mm, -4.2403687791132416e-07 * mm, 2.2374778777534484e-34 * mm]
+  rotation: [0 * rad, -6.872981556041672e-40 * rad, -0.0007850166914801739 * rad]
+UTAsideUTaUStave7Face0: !<!alignment>
+  position: [0.015152433618142263 * mm, 1.861684662148233e-35 * mm, 2.334602050841601e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaUStave7Face1: !<!alignment>
+  position: [-0.02674900928759426 * mm, -3.324604828983244e-35 * mm, -4.1213374375736057e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave0: !<!alignment>
+  position: [-0.3707944126114533 * mm, -5.074369958714039e-06 * mm, 1.469162431813569e-35 * mm]
+  rotation: [0 * rad, -1.1847945781650292e-41 * rad, -0.001384343992834189 * rad]
+UTAsideUTaXStave0Face0: !<!alignment>
+  position: [-0.09192636523046008 * mm, 1.9933352978315906e-20 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave0Face1: !<!alignment>
+  position: [0.08970469133733032 * mm, -1.945160424601557e-20 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave1: !<!alignment>
+  position: [0.0837641764829398 * mm, -1.0185056472535119e-05 * mm, -2.638009060504582e-38 * mm]
+  rotation: [0 * rad, 2.9128889706718245e-42 * rad, -0.0013117199827069961 * rad]
+UTAsideUTaXStave1Face0: !<!alignment>
+  position: [-0.12227541229293519 * mm, 2.6514253529910972e-20 * mm, 3.0143216383649146e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave1Face1: !<!alignment>
+  position: [0.10980607256642715 * mm, -2.381039648572423e-20 * mm, -2.706928681359869e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave2: !<!alignment>
+  position: [-0.13301045985179738 * mm, 5.812295157382907e-06 * mm, 1.8138102925592232e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0012505485929254643 * rad]
+UTAsideUTaXStave2Face0: !<!alignment>
+  position: [-0.004915896140626582 * mm, -8.976321362613492e-38 * mm, 1.2118619623334887e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave2Face1: !<!alignment>
+  position: [-0.00046738283836837355 * mm, -8.969451608853416e-39 * mm, 1.152187653000128e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave3: !<!alignment>
+  position: [0.09340721366350294 * mm, -6.988893726000343e-06 * mm, 3.336978311113062e-35 * mm]
+  rotation: [0 * rad, -4.452145751987895e-40 * rad, -0.0006387940780586288 * rad]
+UTAsideUTaXStave3Face0: !<!alignment>
+  position: [-0.08332822311886182 * mm, -7.69889760207653e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, -5.345529420184391e-51 * rad]
+UTAsideUTaXStave3Face1: !<!alignment>
+  position: [0.07480494575906575 * mm, 6.972040769559347e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, -5.345529420184391e-51 * rad]
+UTAsideUTaXStave4: !<!alignment>
+  position: [-0.0896867001015149 * mm, 5.604679750062919e-06 * mm, 5.536075941232523e-35 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0009033322081472481 * rad]
+UTAsideUTaXStave4Face0: !<!alignment>
+  position: [-0.06542139746579988 * mm, -8.8521744407924e-37 * mm, 1.612761963302953e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave4Face1: !<!alignment>
+  position: [0.06317039831790851 * mm, 8.325900714903865e-37 * mm, -1.557270550007412e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave5: !<!alignment>
+  position: [0.48040615117734986 * mm, -3.2181043828015614e-05 * mm, -1.3570823473222058e-36 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0005476971668685128 * rad]
+UTAsideUTaXStave5Face0: !<!alignment>
+  position: [-0.07221029232193467 * mm, -5.802338571780917e-37 * mm, 1.780121142729852e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave5Face1: !<!alignment>
+  position: [0.06360629683140527 * mm, 5.099681121462609e-37 * mm, -1.5680162780055855e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave6: !<!alignment>
+  position: [0.07294970670024709 * mm, -7.913909654229473e-06 * mm, -1.318664501656654e-36 * mm]
+  rotation: [0 * rad, 1.3534861655339634e-39 * rad, -0.0014240843462546727 * rad]
+UTAsideUTaXStave6Face0: !<!alignment>
+  position: [-0.015058834012702268 * mm, 3.265364110337118e-21 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave6Face1: !<!alignment>
+  position: [0.0015106701716168678 * mm, -3.275743763952113e-22 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave7: !<!alignment>
+  position: [-0.4637796884963881 * mm, 1.9683258811770563e-05 * mm, 1.2413846683862896e-36 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0011449868073726414 * rad]
+UTAsideUTaXStave7Face0: !<!alignment>
+  position: [0.017209057525496427 * mm, 2.9600200439026164e-37 * mm, -4.242360217988618e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTaXStave7Face1: !<!alignment>
+  position: [-0.029824027403232027 * mm, -5.1361508218667206e-37 * mm, 7.352190392078087e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave0: !<!alignment>
+  position: [0.022449671936816525 * mm, 8.394876389787006e-06 * mm, 1.626907056263092e-35 * mm]
+  rotation: [0 * rad, -5.644879067713866e-48 * rad, -0.0008554792938331262 * rad]
+UTAsideUTbVStave0Face0: !<!alignment>
+  position: [-0.050972709294911246 * mm, -7.0738844358411655e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave0Face1: !<!alignment>
+  position: [0.04423175932178759 * mm, 6.138389702340338e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave1: !<!alignment>
+  position: [-0.1155423678934825 * mm, 5.038528085948471e-07 * mm, -1.6146152146958069e-34 * mm]
+  rotation: [0 * rad, 3.250081887472109e-48 * rad, -0.0005886969450007844 * rad]
+UTAsideUTbVStave1Face0: !<!alignment>
+  position: [-0.03695532125486254 * mm, 4.7744873318358327e-35 * mm, 5.693868784735188e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave1Face1: !<!alignment>
+  position: [0.02369531507618415 * mm, -2.6767195356794463e-35 * mm, -3.65084134775307e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave2: !<!alignment>
+  position: [-0.053302886235342434 * mm, 7.708562574996331e-07 * mm, -8.814397491165863e-35 * mm]
+  rotation: [0 * rad, 8.506325703458637e-38 * rad, -0.0008276394157917977 * rad]
+UTAsideUTbVStave2Face0: !<!alignment>
+  position: [-0.10951920982205084 * mm, 3.9457435122303465e-31 * mm, 1.6874106054553326e-34 * mm]
+  rotation: [0 * rad, 6.84227765783602e-49 * rad, 6.842277657836022e-49 * rad]
+UTAsideUTbVStave2Face1: !<!alignment>
+  position: [0.09895382351009674 * mm, 1.1831682280760018e-30 * mm, -1.5246250544776412e-34 * mm]
+  rotation: [0 * rad, 6.84227765783602e-49 * rad, 6.842277657836022e-49 * rad]
+UTAsideUTbVStave3: !<!alignment>
+  position: [0.14081009586096374 * mm, -1.069401220364382e-05 * mm, 2.1708361386230025e-34 * mm]
+  rotation: [0 * rad, -1.2316099784104838e-47 * rad, -0.0008680747389377242 * rad]
+UTAsideUTbVStave3Face0: !<!alignment>
+  position: [-0.14543104927068023 * mm, -2.0182612424462227e-18 * mm, -2.2407201010724683e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave3Face1: !<!alignment>
+  position: [0.1383771498028588 * mm, 1.9203687224140892e-18 * mm, 2.1320375713942726e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave4: !<!alignment>
+  position: [-0.1818783042169666 * mm, 1.0798492176120989e-05 * mm, -2.565625972610973e-34 * mm]
+  rotation: [0 * rad, 1.3678053441261559e-42 * rad, -0.0010125134009874828 * rad]
+UTAsideUTbVStave4Face0: !<!alignment>
+  position: [-0.04400544690589038 * mm, 6.1069825454716195e-19 * mm, -1.3560225265951518e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave4Face1: !<!alignment>
+  position: [0.03258607945440995 * mm, -4.522226961568835e-19 * mm, 1.0041360990628773e-34 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave5: !<!alignment>
+  position: [0.08014938261390467 * mm, -3.943665782622008e-06 * mm, 1.2081687401952798e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0005484230610183808 * rad]
+UTAsideUTbVStave5Face0: !<!alignment>
+  position: [-0.04067261105398955 * mm, 5.173815671196674e-35 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave5Face1: !<!alignment>
+  position: [0.026291512551560037 * mm, -3.448044945771193e-35 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave6: !<!alignment>
+  position: [0.1385022557481957 * mm, -8.1969041954358e-06 * mm, 2.133660045034601e-34 * mm]
+  rotation: [0 * rad, -1.7105694144590035e-47 * rad, -0.0007593190066722111 * rad]
+UTAsideUTbVStave6Face0: !<!alignment>
+  position: [0.015498814076556951 * mm, 2.1508925303019447e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 6.84227765783602e-49 * rad, 0 * rad]
+UTAsideUTbVStave6Face1: !<!alignment>
+  position: [-0.027532045996264836 * mm, -3.820838922503582e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 6.84227765783602e-49 * rad, 0 * rad]
+UTAsideUTbVStave7: !<!alignment>
+  position: [-0.17657905278275215 * mm, 8.201532144215813e-06 * mm, -2.521615958059065e-34 * mm]
+  rotation: [0 * rad, 1.3007169827546226e-45 * rad, -0.0009032527693165852 * rad]
+UTAsideUTbVStave7Face0: !<!alignment>
+  position: [0.00634037628739497 * mm, -8.302506201882885e-36 * mm, -9.768896440461394e-36 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave7Face1: !<!alignment>
+  position: [-0.01597834165769581 * mm, 2.0996165874047815e-35 * mm, 2.4618533328165083e-35 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave8: !<!alignment>
+  position: [-0.213150581468417 * mm, 1.0961313612963746e-06 * mm, -3.2839451064919423e-34 * mm]
+  rotation: [0 * rad, -2.6727275967228948e-39 * rad, -0.0009839814836192663 * rad]
+UTAsideUTbVStave8Face0: !<!alignment>
+  position: [0.06542145899174567 * mm, -8.613934880904431e-35 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbVStave8Face1: !<!alignment>
+  position: [-0.0788087182144299 * mm, 1.0376613074806206e-34 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave0: !<!alignment>
+  position: [-0.3716098768333539 * mm, -2.7045836576648673e-06 * mm, 1.0446235836695532e-33 * mm]
+  rotation: [0 * rad, 0 * rad, -0.000996176834458142 * rad]
+UTAsideUTbXStave0Face0: !<!alignment>
+  position: [-0.10326496897366837 * mm, -1.542804415867971e-36 * mm, 2.5456780281933664e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave0Face1: !<!alignment>
+  position: [0.08568249547884008 * mm, 1.1170962254887419e-36 * mm, -2.1122365920322823e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave1: !<!alignment>
+  position: [-0.25861982059938626 * mm, 9.306060744063727e-06 * mm, 4.454445435932571e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0006069027883853809 * rad]
+UTAsideUTbXStave1Face0: !<!alignment>
+  position: [-0.12874932503109407 * mm, -1.0730871296396724e-36 * mm, 3.173915909081972e-33 * mm]
+  rotation: [0 * rad, 0 * rad, -5.345529420184391e-51 * rad]
+UTAsideUTbXStave1Face1: !<!alignment>
+  position: [0.0903918824987103 * mm, 8.221848034170093e-37 * mm, -2.228331945392623e-33 * mm]
+  rotation: [0 * rad, 0 * rad, -5.345529420184391e-51 * rad]
+UTAsideUTbXStave2: !<!alignment>
+  position: [0.03580899354868992 * mm, -2.7466454366035624e-06 * mm, 1.5652707771549486e-35 * mm]
+  rotation: [0 * rad, 0 * rad, -0.00036210687526687336 * rad]
+UTAsideUTbXStave2Face0: !<!alignment>
+  position: [-0.10587682819954149 * mm, -5.749887648048411e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave2Face1: !<!alignment>
+  position: [0.09792270845171368 * mm, 5.304777748954928e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave3: !<!alignment>
+  position: [0.28700990301531737 * mm, -1.9228826625671233e-05 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0006965654755362304 * rad]
+UTAsideUTbXStave3Face0: !<!alignment>
+  position: [-0.021377759421404633 * mm, -2.2332929433311335e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave3Face1: !<!alignment>
+  position: [0.015491069579367986 * mm, 1.5285313319983032e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave4: !<!alignment>
+  position: [0.004762559201860009 * mm, -9.58281000079445e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0007021046741977456 * rad]
+UTAsideUTbXStave4Face0: !<!alignment>
+  position: [-0.10497789748405922 * mm, -1.0664803529942413e-36 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave4Face1: !<!alignment>
+  position: [0.09733485060225767 * mm, 9.978140031477758e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave5: !<!alignment>
+  position: [0.09038504829726811 * mm, -4.065358740901747e-06 * mm, 9.17644593689394e-37 * mm]
+  rotation: [0 * rad, -5.625302447096494e-45 * rad, -2.9055318547249316e-06 * rad]
+UTAsideUTbXStave5Face0: !<!alignment>
+  position: [-0.09499799780382673 * mm, -4.1342869082312697e-39 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave5Face1: !<!alignment>
+  position: [0.10146972205545998 * mm, 4.3007180838701274e-39 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave6: !<!alignment>
+  position: [0.4607381263691442 * mm, -2.895780163349652e-05 * mm, -6.4563949195438194e-37 * mm]
+  rotation: [0 * rad, 0 * rad, -0.001193017308917599 * rad]
+UTAsideUTbXStave6Face0: !<!alignment>
+  position: [-0.06708200521498045 * mm, -1.2006956211757913e-36 * mm, -1.653699104935316e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave6Face1: !<!alignment>
+  position: [0.05825735061790762 * mm, 1.0419770014069995e-36 * mm, 1.4361545732568899e-33 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave7: !<!alignment>
+  position: [-0.16942687483196328 * mm, 1.0811845156423389e-05 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, -0.0012163228263729598 * rad]
+UTAsideUTbXStave7Face0: !<!alignment>
+  position: [0.02659056860871971 * mm, 4.850625622502216e-37 * mm, 6.5550812571925215e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -1.0691058840368785e-50 * rad]
+UTAsideUTbXStave7Face1: !<!alignment>
+  position: [-0.03390501484247987 * mm, -6.184919779125002e-37 * mm, -8.358231468803298e-34 * mm]
+  rotation: [0 * rad, 0 * rad, -1.0691058840368785e-50 * rad]
+UTAsideUTbXStave8: !<!alignment>
+  position: [-0.5450112189808713 * mm, 1.2088350857060792e-05 * mm, 4.6915342382213964e-34 * mm]
+  rotation: [0 * rad, 7.1713071279884875e-40 * rad, -0.001146876579953488 * rad]
+UTAsideUTbXStave8Face0: !<!alignment>
+  position: [-0.02364667967141709 * mm, -4.067318434581418e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTAsideUTbXStave8Face1: !<!alignment>
+  position: [0.024779468875351377 * mm, 4.2781956761915786e-37 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave0: !<!alignment>
+  position: [-0.01249167989943828 * mm, 2.3389013046452005e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.000292047501312671 * rad]
+UTCsideUTaUStave0Face0: !<!alignment>
+  position: [0.013935474507362959 * mm, 1.9721522630525293e-31 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave0Face1: !<!alignment>
+  position: [-0.015931989286535747 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave1: !<!alignment>
+  position: [-0.1467307025097071 * mm, 8.881883254057025e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0005347036549937913 * rad]
+UTCsideUTaUStave1Face0: !<!alignment>
+  position: [-0.08454096744153985 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave1Face1: !<!alignment>
+  position: [0.07473676749864548 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave2: !<!alignment>
+  position: [-0.12297794339706512 * mm, 4.417168294059501e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00027203104219594823 * rad]
+UTCsideUTaUStave2Face0: !<!alignment>
+  position: [-0.12643674131408228 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave2Face1: !<!alignment>
+  position: [0.1102018160360419 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave3: !<!alignment>
+  position: [-0.0018163529493769785 * mm, 2.572693012221711e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0006735556477273904 * rad]
+UTCsideUTaUStave3Face0: !<!alignment>
+  position: [-0.22890036611249837 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave3Face1: !<!alignment>
+  position: [0.22500709270267716 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave4: !<!alignment>
+  position: [-0.0870073562379581 * mm, 2.963876238324355e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0001161098886759965 * rad]
+UTCsideUTaUStave4Face0: !<!alignment>
+  position: [-0.15034308701135132 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave4Face1: !<!alignment>
+  position: [0.13013790632004316 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave5: !<!alignment>
+  position: [0.4934846150842983 * mm, -1.1939800277160253e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0006179674298089159 * rad]
+UTCsideUTaUStave5Face0: !<!alignment>
+  position: [-0.05457128914700805 * mm, 7.57328771180676e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave5Face1: !<!alignment>
+  position: [0.030556254309083656 * mm, -4.240532135037835e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave6: !<!alignment>
+  position: [0.5624354666584689 * mm, -2.2646811932057083e-05 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00030552088378817523 * rad]
+UTCsideUTaUStave6Face0: !<!alignment>
+  position: [-0.14950313135459017 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave6Face1: !<!alignment>
+  position: [0.10586745503185441 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave7: !<!alignment>
+  position: [-0.2627670932677607 * mm, 4.813970700059395e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.000746351988603969 * rad]
+UTCsideUTaUStave7Face0: !<!alignment>
+  position: [-0.11615316181910665 * mm, 1.6119489329325685e-18 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaUStave7Face1: !<!alignment>
+  position: [0.08191587595633666 * mm, -1.1368111446132903e-18 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave0: !<!alignment>
+  position: [0.05086295676424021 * mm, -9.87313971105329e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0004041889877432475 * rad]
+UTCsideUTaXStave0Face0: !<!alignment>
+  position: [0.043767206865270414 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave0Face1: !<!alignment>
+  position: [-0.04431067956570562 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave1: !<!alignment>
+  position: [0.005639084509254142 * mm, 3.180141764230519e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.001224859134702059 * rad]
+UTCsideUTaXStave1Face0: !<!alignment>
+  position: [-0.013457393042182604 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave1Face1: !<!alignment>
+  position: [0.006366994394215826 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave2: !<!alignment>
+  position: [-0.2139106101970423 * mm, 5.844740736071294e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0006687853419809519 * rad]
+UTCsideUTaXStave2Face0: !<!alignment>
+  position: [-0.13850972988358523 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave2Face1: !<!alignment>
+  position: [0.16117090570457465 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave3: !<!alignment>
+  position: [0.16061533887441423 * mm, 3.9603294069630466e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0005590701106301995 * rad]
+UTCsideUTaXStave3Face0: !<!alignment>
+  position: [-0.05534783272527943 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave3Face1: !<!alignment>
+  position: [0.04385167822581451 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave4: !<!alignment>
+  position: [0.12872342457517616 * mm, 1.3604888265711667e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0007475080228323973 * rad]
+UTCsideUTaXStave4Face0: !<!alignment>
+  position: [-0.18957844412022043 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave4Face1: !<!alignment>
+  position: [0.16782073641047177 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave5: !<!alignment>
+  position: [0.1345797818486286 * mm, 2.6858938588810574e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0009787351247366584 * rad]
+UTCsideUTaXStave5Face0: !<!alignment>
+  position: [-0.10338815949024689 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave5Face1: !<!alignment>
+  position: [0.07461544553444928 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave6: !<!alignment>
+  position: [-0.09373707911999948 * mm, 9.98053312197259e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0007483659276301029 * rad]
+UTCsideUTaXStave6Face0: !<!alignment>
+  position: [-0.20964906162637023 * mm, 2.2730196807493164e-20 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave6Face1: !<!alignment>
+  position: [0.1744719070924348 * mm, -1.8916282070731712e-20 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave7: !<!alignment>
+  position: [0.2792663133851249 * mm, -5.202124016649375e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.000766555744570047 * rad]
+UTCsideUTaXStave7Face0: !<!alignment>
+  position: [-0.09256842120946356 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTaXStave7Face1: !<!alignment>
+  position: [0.03667633732717209 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave0: !<!alignment>
+  position: [0.14795198420162453 * mm, 2.3034761187982208e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0009633565693135336 * rad]
+UTCsideUTbVStave0Face0: !<!alignment>
+  position: [-0.06016963540112877 * mm, 8.350214325704188e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave0Face1: !<!alignment>
+  position: [0.059573005738787 * mm, -8.267415327167957e-19 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave1: !<!alignment>
+  position: [0.058740980195159415 * mm, 1.667395234225917e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0011075484672472813 * rad]
+UTCsideUTbVStave1Face0: !<!alignment>
+  position: [-0.101099942965179 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave1Face1: !<!alignment>
+  position: [0.10259827019592437 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave2: !<!alignment>
+  position: [-0.4899878474526494 * mm, 1.4845163035013559e-05 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0003141769047644963 * rad]
+UTCsideUTbVStave2Face0: !<!alignment>
+  position: [-0.07331360994198229 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave2Face1: !<!alignment>
+  position: [0.06709931672301547 * mm, 3.9443045261050586e-31 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave3: !<!alignment>
+  position: [0.3843827022679061 * mm, 7.926705144773354e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0012489993277019459 * rad]
+UTCsideUTbVStave3Face0: !<!alignment>
+  position: [-0.14988495714619862 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave3Face1: !<!alignment>
+  position: [0.14730783975729497 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave4: !<!alignment>
+  position: [-0.41522144529717303 * mm, 4.531764987995718e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00039481108624112694 * rad]
+UTCsideUTbVStave4Face0: !<!alignment>
+  position: [-0.1452780067873183 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave4Face1: !<!alignment>
+  position: [0.13452744380424614 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave5: !<!alignment>
+  position: [-0.16458275297080122 * mm, -7.890260023738917e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0016885218143494636 * rad]
+UTCsideUTbVStave5Face0: !<!alignment>
+  position: [-0.1247173911790577 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave5Face1: !<!alignment>
+  position: [0.10511382771912113 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave6: !<!alignment>
+  position: [-0.3683575046556909 * mm, 5.7813046109291295e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0007320086486492471 * rad]
+UTCsideUTbVStave6Face0: !<!alignment>
+  position: [-0.1626863127443055 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave6Face1: !<!alignment>
+  position: [0.13784361994887284 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave7: !<!alignment>
+  position: [0.316025553466321 * mm, 8.752647760084766e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.001377002404815103 * rad]
+UTCsideUTbVStave7Face0: !<!alignment>
+  position: [-0.1655467544940067 * mm, 7.888609052210116e-31 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave7Face1: !<!alignment>
+  position: [0.1271781701166902 * mm, 7.888609052210117e-31 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave8: !<!alignment>
+  position: [0.16123095378037602 * mm, 9.605190907889707e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00115494513843768 * rad]
+UTCsideUTbVStave8Face0: !<!alignment>
+  position: [-0.17816350705144826 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbVStave8Face1: !<!alignment>
+  position: [0.1360773618758149 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave0: !<!alignment>
+  position: [0.024850727661567453 * mm, 1.9317807211687825e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0004903096939881528 * rad]
+UTCsideUTbXStave0Face0: !<!alignment>
+  position: [-0.05274037221141189 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave0Face1: !<!alignment>
+  position: [0.049245947726271395 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave1: !<!alignment>
+  position: [0.048449559639100394 * mm, -1.0975228334729152e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0005806510004554636 * rad]
+UTCsideUTbXStave1Face0: !<!alignment>
+  position: [-0.03929927914074591 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave1Face1: !<!alignment>
+  position: [0.030654158487810654 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave2: !<!alignment>
+  position: [0.05618167155994701 * mm, 1.409617939628883e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0011718530727687095 * rad]
+UTCsideUTbXStave2Face0: !<!alignment>
+  position: [-0.12228015137991811 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave2Face1: !<!alignment>
+  position: [0.1126180056953042 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave3: !<!alignment>
+  position: [0.2637907278904306 * mm, 4.010452874410062e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0007545740208294003 * rad]
+UTCsideUTbXStave3Face0: !<!alignment>
+  position: [-0.10474226491026566 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave3Face1: !<!alignment>
+  position: [0.10381814004880244 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave4: !<!alignment>
+  position: [0.4168656106148087 * mm, 2.0389774051394813e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0010453945344885151 * rad]
+UTCsideUTbXStave4Face0: !<!alignment>
+  position: [-0.08493897783451883 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave4Face1: !<!alignment>
+  position: [0.07383879660465617 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave5: !<!alignment>
+  position: [-0.15779015789740297 * mm, 1.2426665605671712e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0006708862935126211 * rad]
+UTCsideUTbXStave5Face0: !<!alignment>
+  position: [-0.22681435080383197 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave5Face1: !<!alignment>
+  position: [0.20372634867700587 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave6: !<!alignment>
+  position: [0.3911601376145474 * mm, 9.2903921486984e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0013378412722521897 * rad]
+UTCsideUTbXStave6Face0: !<!alignment>
+  position: [-0.14754540217818024 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave6Face1: !<!alignment>
+  position: [0.12762186489907884 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave7: !<!alignment>
+  position: [0.10104811159744224 * mm, -2.1176826457367557e-06 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0008952657702143398 * rad]
+UTCsideUTbXStave7Face0: !<!alignment>
+  position: [-0.13142218881051165 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave7Face1: !<!alignment>
+  position: [0.0876956012733458 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave8: !<!alignment>
+  position: [0.28878648889965375 * mm, 3.587054962295121e-07 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0009338175955674083 * rad]
+UTCsideUTbXStave8Face0: !<!alignment>
+  position: [-0.1527683439992853 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]
+UTCsideUTbXStave8Face1: !<!alignment>
+  position: [0.10656517255975011 * mm, 0 * mm, 0 * mm]
+  rotation: [0 * rad, 0 * rad, 0 * rad]

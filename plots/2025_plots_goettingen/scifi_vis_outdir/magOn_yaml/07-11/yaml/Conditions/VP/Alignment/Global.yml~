@@ -1,0 +1,9 @@
+VPLeft: !<!alignment>
+  position: [0.0 * mm, 0.0 * mm, 0.0 * mm]
+  rotation: [0.0 * rad, 0.0 * rad, 0.0 * rad]
+VPRight: !<!alignment>
+  position: [0.0050509326513499715 * mm, -0.38777740032665603 * mm, 0.5622566274681627 * mm]
+  rotation: [-0.00012068941347921462 * rad, 0.0001502930222033565 * rad, 0.0007811909186951655 * rad]
+VPSystem: !<!alignment>
+  position: [0 * mm, 0 * mm, 0 * mm]
+  rotation: [-0.0005371561020298206 * rad, 9.862224380363771e-05 * rad, -0.00047000692882159936 * rad]

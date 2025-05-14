@@ -1,0 +1,24 @@
+UTCsideUTaX: !<!alignment>
+  position: [0.3230984447642655 * mm, -5.281454597116206e-05 * mm, 3.9019399966076866 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0001333342713062225 * rad]
+UTCsideUTaU: !<!alignment>
+  position: [0.6863210785225566 * mm, 1.891683626056828e-05 * mm, 3.5197021646280677 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00020904308412835355 * rad]
+UTCsideUTbV: !<!alignment>
+  position: [0.03237944443622455 * mm, -8.086217534075429e-05 * mm, 1.249239104521341 * mm]
+  rotation: [0 * rad, 0 * rad, 7.342666065988879e-05 * rad]
+UTCsideUTbX: !<!alignment>
+  position: [0.14888843311091698 * mm, -8.917184418065077e-05 * mm, 2.3771605907829296 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0001416058965097221 * rad]
+UTAsideUTaX: !<!alignment>
+  position: [2.45648357398897 * mm, 0.00034668235444253675 * mm, 4.0702055359702785 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0001871748912895973 * rad]
+UTAsideUTaU: !<!alignment>
+  position: [2.647530559665137 * mm, 0.00032812863255226 * mm, 3.9064808848901653 * mm]
+  rotation: [0 * rad, 0 * rad, 0.0001619738763636139 * rad]
+UTAsideUTbV: !<!alignment>
+  position: [1.7297178442897132 * mm, 0.00024145914135189768 * mm, 1.0586489177518694 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00023309370462301906 * rad]
+UTAsideUTbX: !<!alignment>
+  position: [1.7708128012401274 * mm, 0.00023793997020363447 * mm, -0.17068657626434144 * mm]
+  rotation: [0 * rad, 0 * rad, 0.00022106259115484573 * rad]
