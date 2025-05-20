@@ -1,0 +1,28 @@
+# Timeline Nils Breer; Meeting Notes
+I talked about, what i worked on during my PhD. Topics i worked on are (not in order):
+
+* Setting up the Monitoring for the SciFi from scratch
+* Precision study on 2023 data
+* Getting the SciFi halfmodule alignment to run (joint constraint study)
+* Global alignment (VELO + SciFi, later +UT)
+* magnet off data alignment
+* Understanding the impact of different magnetic field maps
+* Test on Module5 inefficiency in SciFi station 3
+* Various improvements to the alignment version throughout the years 
+* Precision study on 2024 data
+
+We talked about the timeline and if it makes sense to start anything new.
+We agreed that it makes sense to not "open any new doors" and focus on finishing open tasks, write the internal note and document my alignment work as well as the monitoring part. 
+
+The plan is to have the written document handed in this year and defend next year. This way there is an ultimatum set for me which we agreed on is best for me.
+
+My work for LHCb was good but i failed to move to Dortmund as part of our oral agreement that it would be good for me and the collaboration if i lived closer to the University.
+
+We discussed the aspect of visibility in the collaboration and being an expert in a topic is not useful if people don't know me. 
+
+The shifts i do for LHCb (Alignment and SciFi piquet) can continue as normal.
+I did 3 Alignment piquet shifts and 2 SciFi piquet shifts so far.
+
+During my PhD i was tutoring the labcourse for the muon-lifetime experiment and also helped during the FPTHEXP lecture.
+
+I will write up a first draft of the table of contents for my thesis and circulate it with Biljana, Dirk and Johannes.
